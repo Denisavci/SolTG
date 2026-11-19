@@ -33,3 +33,10 @@ src/scripts/__pycache__/*
 
 # Deploy
 dist
+
+# Task 1 reproduction
+.venv/
+
+# keep everything under results/, even though "report", "test", "out" and "cache" are ignored above
+!results/
+!results/**

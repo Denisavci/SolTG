@@ -11,6 +11,9 @@ from solTg.SolParser import SolParser
 from solTg.TestWrapper import TestWrapper
 import solTg.Utils as Utils
 
+ENCODER_ATTEMPTS = 5
+EMULATION_CRASH = ("BasicBlock requested for unrecognized address", "Trace/breakpoint trap")
+
 """ Init SetUp 
 """
 
@@ -168,7 +171,22 @@ def run_solcmc(updated_file_name, contract_name):
     print("Running solcmc")
     command = ["./docker_solcmc_updated", "tmp", basename,
                 contract_name, str(10), SOLVER_TYPE]#, '>', smt_name]
-    smt2_list = command_executer_docker_solcmc(command, TIMEOUT, CORE+"log.txt")
+    # The encoder image is linux/amd64. On Apple Silicon, Docker's x86 emulation sometimes
+    # crashes the node process ("BasicBlock requested for unrecognized address",
+    # "Trace/breakpoint trap"). That says nothing about the contract, so retry it.
+    log = CORE + "log.txt"
+    for attempt in range(1, ENCODER_ATTEMPTS + 1):
+        before = os.path.getsize(log) if os.path.exists(log) else 0
+        smt2_list = command_executer_docker_solcmc(command, TIMEOUT, log)
+        if smt2_list or attempt == ENCODER_ATTEMPTS:
+            break
+        with open(log, encoding="utf-8", errors="replace") as lf:
+            lf.seek(before)
+            new_log = lf.read()
+        if not any(sig in new_log for sig in EMULATION_CRASH):
+            break
+        print("ENCODER_RETRY attempt={} reason=emulation_crash".format(attempt))
+        logger(log, "ENCODER_RETRY attempt={} reason=emulation_crash".format(attempt))
     print("Contract name:", basename)
     print("Output:", smt2_list)
     if not smt2_list:
@@ -294,7 +312,13 @@ def run_tg(file, signature):
     SANDBOX_DIR = os.path.abspath(SANDBOX_DIR)
     save = os.getcwd()
     os.chdir(SANDBOX_DIR)
+    # monotonic: the same clock subprocess uses for the -t limit, and it does not count time the
+    # machine was asleep. wall_seconds includes sleep, so wall - seconds > 0 flags a run that slept.
+    tg_start, wall_start = time.monotonic(), time.time()
     command_executer(command_tg, TG_TIMEOUT, log_file, log_file)
+    tg_elapsed, wall_elapsed = time.monotonic() - tg_start, time.time() - wall_start
+    logger(log_file, "TGNONLIN_TIME seconds={:.3f} limit={} hit_limit={} wall_seconds={:.3f}".format(
+        tg_elapsed, TG_TIMEOUT, tg_elapsed >= TG_TIMEOUT - 0.5, wall_elapsed))
     os.chdir(save)
 
 
@@ -324,7 +348,8 @@ def run_test(file, signature):
     #copy lcov file
     if os.path.isfile("lcov.info"):
         shutil.move("lcov.info", SANDBOX_DIR + "/lcov.info")
-        genhtml_report_command = ['genhtml', '--branch-coverage', '--output', '--ignore-errors category UNK', SANDBOX_DIR + '/generated-coverage', SANDBOX_DIR + "/lcov.info"]
+        genhtml_report_command = ['genhtml', '--branch-coverage', '--ignore-errors', 'category,inconsistent,source',
+                                  '--output-directory', SANDBOX_DIR + '/generated-coverage', SANDBOX_DIR + "/lcov.info"]
         command_executer(genhtml_report_command, 60, SANDBOX_DIR + "/log.txt", SANDBOX_DIR + "/log.txt")
     os.chdir(save)
     shutil.copy(local_path + "/test/" + os.path.splitext(basename)[0] + ".t.sol",

@@ -1,4 +1,5 @@
 import argparse
+import glob
 import os
 import re
 
@@ -171,6 +172,17 @@ class html_report:
             return 0
 
 
+    @staticmethod
+    def normalize_lcov_cells(cells):
+        """[label, hit, total, 'pct%'] from the 4 summary cells of a genhtml page.
+        lcov 1.x writes them as hit, total, pct; lcov 2.x as pct, total, hit."""
+        if len(cells) < 4:
+            return ['', '0', '0', '0%']
+        c = [x.replace('&nbsp;', '').strip() for x in cells[:4]]
+        if '%' in c[1]:
+            c = [c[0], c[3], c[2], c[1]]
+        return c
+
     @classmethod
     def read_lcov_html_report(cls, file_name):
         file = open(file_name, "r")
@@ -187,27 +199,28 @@ class html_report:
                 flag = True
             if i == 3:
                 break
+        brench_lines = html_report.normalize_lcov_cells(brench_lines)
         return '{}<br/>\nHit: {}<br/>\nTotal: {}<br/>\nCoverage: {}\n'.format(brench_lines[0], brench_lines[1],
                                                                               brench_lines[2], brench_lines[3])
 
 
 
     @classmethod
+    def find_gcov_html(cls, dir):
+        """genhtml page of this contract's own .sol, wherever genhtml put it under generated-coverage/."""
+        # match <parent>/<name>.sol: lcov.info lists every file in src/, and names repeat across folders
+        page = os.path.join(os.path.basename(os.path.dirname(dir)), os.path.basename(dir) + '.sol.gcov.html')
+        hits = glob.glob(os.path.join(dir, 'generated-coverage', '**', page), recursive=True)
+        return hits[0] if len(hits) == 1 else None
+
+    @classmethod
     def get_coverage_data(cls, dir):
-        print("Getting coverage data from: ", dir)
-        sub_dirs = [f.path for f in os.scandir(dir) if f.is_dir() and os.path.basename(f) in 'generated-coverage']
-        if len(sub_dirs) != 1:
+        file_name = html_report.find_gcov_html(dir)
+        if file_name is None:
             return "<font color=\"red\">{}</font>\n".format('no data')
-        else:
-            report_dir = [f.path for f in os.scandir(sub_dirs[0]) if f.is_dir()]
-            report_dir = [d for d in report_dir if os.path.basename(d)]
-            if len(report_dir) != 1:
-                return "<font color=\"red\">{}</font>\n".format('no report')
-            else:
-                file_name = report_dir[0] + '/' + os.path.basename(dir) +'.sol.gcov.html'
-                out = "<a href=\"{0}\">{1} </a>\n".format(file_name, "coverage_c_file_TG") + '<br/>\n'
-                out += html_report.read_lcov_html_report(file_name) + '<br/>'
-                return out
+        out = "<a href=\"{0}\">{1} </a>\n".format(file_name, "coverage_c_file_TG") + '<br/>\n'
+        out += html_report.read_lcov_html_report(file_name) + '<br/>'
+        return out
 
 
     @classmethod
@@ -226,24 +239,16 @@ class html_report:
                 flag = True
             if i == 3:
                 break
-        return brench_lines
+        return html_report.normalize_lcov_cells(brench_lines)
 
 
 
     @classmethod
     def get_coverage_data_plane_text(cls, dir):
-        sub_dirs = [f.path for f in os.scandir(dir) if f.is_dir() and os.path.basename(f) in 'generated-coverage']
-        if len(sub_dirs) != 1:
+        file_name = html_report.find_gcov_html(dir)
+        if file_name is None:
             return 'no data'
-        else:
-            report_dir = [f.path for f in os.scandir(sub_dirs[0]) if f.is_dir()]
-            report_dir = [d for d in report_dir if os.path.basename(d)]
-            if len(report_dir) != 1:
-                return 'no report'
-            else:
-                file_name = report_dir[0] + '/' + os.path.basename(dir) +'.sol.gcov.html'
-                out = html_report.read_lcov_html_report_plane_text(file_name)
-                return out
+        return html_report.read_lcov_html_report_plane_text(file_name)
 
 
     @classmethod
@@ -263,24 +268,15 @@ class html_report:
                 flag = True
             if i == 3:
                 break
-        return brench_lines
+        return html_report.normalize_lcov_cells(brench_lines)
 
 
     @classmethod
     def get_function_number_plane_text(cls, dir):
-        sub_dirs = [f.path for f in os.scandir(dir) if f.is_dir() and os.path.basename(f) in 'generated-coverage']
-        if len(sub_dirs) != 1:
+        file_name = html_report.find_gcov_html(dir)
+        if file_name is None:
             return 'no data'
-        else:
-            report_dir = [f.path for f in os.scandir(sub_dirs[0]) if f.is_dir()]
-            exclude = ['usr']
-            report_dir = [d for d in report_dir if os.path.basename(d) not in exclude]
-            if len(report_dir) != 1:
-                return 'no report'
-            else:
-                file_name = report_dir[0] + '/' + os.path.basename(dir) +'.sol.gcov.html'
-                out = html_report.read_lcov_html_report_plane_text_function_number(file_name)
-                return out
+        return html_report.read_lcov_html_report_plane_text_function_number(file_name)
 
 
 

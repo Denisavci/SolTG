@@ -4,6 +4,7 @@ from datetime import datetime
 import os
 import shutil
 import subprocess
+import traceback
 import solTg.SolidityTestGen as SolidityTestGen
 from solTg.ReportBuilder import html_report
 from solTg import __version__
@@ -68,6 +69,7 @@ def main_pipeline(files):
     if RERUN:
         clean_dir(OUTPUTDIR)
     print("number of files: {}".format(len(files)))
+    start_cwd = os.getcwd()
     for i, f in enumerate(sorted(files)):
         start_time = time.time()
         print("{:.2f}".format(100 * i / len(files)), "%", f)
@@ -81,14 +83,25 @@ def main_pipeline(files):
         dir_dirname = os.path.dirname(dirname)
         print("base_dirname: {}".format(base_dirname))
         print("dir_dirname: {}".format(dir_dirname))
-        # Step 1: run SolidityTestGen.py -i f
-        SolidityTestGen.main(f,  TIMEOUT, VERSION)
-        # Step 2: mkdir: OUTPUTDIR + "/" + base_dirname
         new_sub_dir = OUTPUTDIR + "/" + base_dirname
+        new_dir_path = OUTPUTDIR + "/" + base_dirname + "/" + os.path.splitext(basename)[0]
+        # Step 1: run SolidityTestGen.py -i f
+        # One contract that cannot be processed (e.g. a file with no contract in it, which makes
+        # solcx raise ContractsNotFound) must not abort the remaining files and the report.
+        try:
+            SolidityTestGen.main(f,  TIMEOUT, VERSION)
+        except Exception as e:
+            msg = 'CONTRACT_FAILED {}: {}: {}'.format(f, type(e).__name__, str(e).splitlines()[0] if str(e) else '')
+            print(msg)
+            os.chdir(start_cwd)
+            os.makedirs(new_dir_path, exist_ok=True)
+            logger(new_dir_path + '/log.txt', msg)
+            logger(new_dir_path + '/log.txt', traceback.format_exc())
+            continue
+        # Step 2: mkdir: OUTPUTDIR + "/" + base_dirname
         if not os.path.exists(new_sub_dir):
             os.mkdir(new_sub_dir)
         # Step 3. copy sanbox to new_dir_path
-        new_dir_path = OUTPUTDIR + "/" + base_dirname + "/" + os.path.splitext(basename)[0]
         copy_dir(SANDBOX_DIR, new_dir_path)
 
         to_print_var = 'total time: {} seconds'.format(time.time() - start_time)
