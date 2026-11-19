@@ -11,6 +11,8 @@ from solTg.SolParser import SolParser
 from solTg.TestWrapper import TestWrapper
 import solTg.Utils as Utils
 
+# per-query Z3 timeout in seconds (solTg -qt); None = do not pass it, tgnonlin keeps its default
+QUERY_TIMEOUT = None
 ENCODER_ATTEMPTS = 5
 EMULATION_CRASH = ("BasicBlock requested for unrecognized address", "Trace/breakpoint trap")
 
@@ -306,7 +308,11 @@ def run_tg(file, signature):
     logger(SANDBOX_DIR + '/log.txt', "run TG with".format(new_smt_file_name))
     signature_for_tg = convert_for_tg(signature)
     print("TG: ", signature_for_tg)
-    command_tg = [TG_PATH, "--keys", signature_for_tg, new_smt_file_name]
+    command_tg = [TG_PATH]
+    if QUERY_TIMEOUT is not None:
+        # per-query Z3 timeout, seconds (solTg -qt) -> milliseconds (tgnonlin --query-timeout)
+        command_tg += ["--query-timeout", str(max(1, int(round(float(QUERY_TIMEOUT) * 1000))))]
+    command_tg += ["--keys", signature_for_tg, new_smt_file_name]
     log_file = SANDBOX_DIR + "/log.txt"
     logger(log_file, ' '.join(command_tg))
     SANDBOX_DIR = os.path.abspath(SANDBOX_DIR)
@@ -365,12 +371,13 @@ def find_contract_name(signature):
 
 
 
-def main(filename, timeout, version):
+def main(filename, timeout, version, query_timeout=None):
     start_time = time.time()
     init()
-    global ADT_DIR, SOLCMC, CORE, ADT_DIR, TIMEOUT, SOLVER_TYPE, SANDBOX_DIR, TG_PATH, TG_TIMEOUT, FORGE_PATH, VERSION
+    global ADT_DIR, SOLCMC, CORE, ADT_DIR, TIMEOUT, SOLVER_TYPE, SANDBOX_DIR, TG_PATH, TG_TIMEOUT, FORGE_PATH, VERSION, QUERY_TIMEOUT
     TG_TIMEOUT = float(timeout)
     VERSION = version
+    QUERY_TIMEOUT = query_timeout
     if not filename:
         parser = argparse.ArgumentParser(description='python script for Solidity Test Generation')
         insourse = ['-i', '--input_source']

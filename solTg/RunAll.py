@@ -65,7 +65,7 @@ def logger(file, content):
     f.close()
 
 def main_pipeline(files):
-    global SOURCE_PATH, SANDBOX_DIR, OUTPUTDIR, RERUN, TIMEOUT, VERSION
+    global SOURCE_PATH, SANDBOX_DIR, OUTPUTDIR, RERUN, TIMEOUT, VERSION, QUERY_TIMEOUT
     if RERUN:
         clean_dir(OUTPUTDIR)
     print("number of files: {}".format(len(files)))
@@ -89,7 +89,7 @@ def main_pipeline(files):
         # One contract that cannot be processed (e.g. a file with no contract in it, which makes
         # solcx raise ContractsNotFound) must not abort the remaining files and the report.
         try:
-            SolidityTestGen.main(f,  TIMEOUT, VERSION)
+            SolidityTestGen.main(f,  TIMEOUT, VERSION, QUERY_TIMEOUT)
         except Exception as e:
             msg = 'CONTRACT_FAILED {}: {}: {}'.format(f, type(e).__name__, str(e).splitlines()[0] if str(e) else '')
             print(msg)
@@ -111,9 +111,10 @@ def main_pipeline(files):
 def main():
     start_time = time.time()
     init()
-    global SOURCE_PATH, SANDBOX_DIR, TIMEOUT, OUTPUTDIR, RERUN, VERSION
+    global SOURCE_PATH, SANDBOX_DIR, TIMEOUT, OUTPUTDIR, RERUN, VERSION, QUERY_TIMEOUT
     TIMEOUT = 120
     VERSION = '0.8.28'
+    QUERY_TIMEOUT = None  # None = flag not given: tgnonlin keeps its built-in default (10 s)
     parser = argparse.ArgumentParser(description='python script to run Sol Test Generation for all files in dir')
     insourse = ['-i', '--input_source']
     kwsourse = {'type': str, 'help': 'Input .sol-file. or directory with .sol-files'}
@@ -134,6 +135,9 @@ def main():
     parser.add_argument(*outdir, **kwoutdir)
     parser.add_argument(*timeout, **kwtimeout)
     parser.add_argument(*solidity, **kwsolidity)
+    parser.add_argument('-qt', '--query_timeout', type=float,
+                        help='Z3 timeout in seconds applied to every SMT query issued by tgnonlin '
+                             '(passed as --query-timeout <ms>). Default: not passed; tgnonlin uses 10 s.')
     parser.add_argument(*version, action='store_true')
     kwcov = {'type': bool, 'help': 'true - rerun / false - continue. Default: true.'}
     parser.add_argument('--rerun', **kwcov)
@@ -187,6 +191,13 @@ def main():
         
     if args.solidity is not None:
         VERSION = args.solidity
+
+    if args.query_timeout is not None:
+        if args.query_timeout <= 0:
+            print('invalid query_timeout: {} (must be > 0 seconds)'.format(args.query_timeout))
+            exit(1)
+        QUERY_TIMEOUT = args.query_timeout
+        print('per-query Z3 timeout set to {} s'.format(QUERY_TIMEOUT))
 
     for f in files:
         print(f)
