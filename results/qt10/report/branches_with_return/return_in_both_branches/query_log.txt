@@ -1,0 +1,10 @@
+1 unsat 0 timeout_ms=10000 reason=-
+2 unsat 0 timeout_ms=10000 reason=-
+3 unsat 0 timeout_ms=10000 reason=-
+4 unsat 0 timeout_ms=10000 reason=-
+5 unsat 0 timeout_ms=10000 reason=-
+6 unsat 0 timeout_ms=10000 reason=-
+7 unsat 0 timeout_ms=10000 reason=-
+8 unsat 0 timeout_ms=10000 reason=-
+9 unsat 0 timeout_ms=10000 reason=-
+10 unsat 0 timeout_ms=10000 reason=-

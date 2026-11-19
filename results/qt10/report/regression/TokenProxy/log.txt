@@ -1,0 +1,40 @@
+[07:29:06:906838]
+CONTRACT_FAILED src/regression/TokenProxy.sol: ContractsNotFound: No contracts found during compilation
+[07:29:06:908686]
+Traceback (most recent call last):
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solTg/RunAll.py", line 92, in main_pipeline
+    SolidityTestGen.main(f,  TIMEOUT, VERSION, QUERY_TIMEOUT)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solTg/SolidityTestGen.py", line 409, in main
+    signature = SolParser.get_signature(file, VERSION)
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solTg/SolParser.py", line 209, in get_signature
+    d = SolParser.read(file, version)
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solTg/SolParser.py", line 52, in read
+    out = solcx.compile_files(
+        ['tmp.sol'],
+        # output_values=["abi", "ast", "bin-runtime"],
+        solc_version=version
+    )
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solcx/main.py", line 199, in compile_files
+    return _compile_combined_json(
+        solc_binary=solc_binary,
+    ...<18 lines>...
+        **kwargs,
+    )
+  File "/Users/denisavci/SolTG/.venv/lib/python3.13/site-packages/solcx/main.py", line 295, in _compile_combined_json
+    raise ContractsNotFound(
+    ...<4 lines>...
+    )
+solcx.exceptions.ContractsNotFound: No contracts found during compilation
+> command: `/Users/denisavci/.solcx/solc-v0.8.28 tmp.sol --combined-json abi,asm,ast,bin,bin-runtime,devdoc,function-debug,function-debug-runtime,generated-sources,generated-sources-runtime,hashes,metadata,opcodes,srcmap,srcmap-runtime,storage-layout,transient-storage-layout,userdoc`
+> return code: `0`
+> stdout:
+{"sourceList":["tmp.sol"],"sources":{"tmp.sol":{"AST":{"absolutePath":"tmp.sol","exportedSymbols":{},"id":1,"nodeType":"SourceUnit","nodes":[],"src":"9949:0:0"},"id":0}},"version":"0.8.28+commit.7893614a.Darwin.appleclang"}
+
+> stderr:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> tmp.sol
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.28;"
+--> tmp.sol
+

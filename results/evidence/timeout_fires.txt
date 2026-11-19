@@ -1,0 +1,94 @@
+# new tgnonlin with --query-timeout 1 (ms), 30s cap: query_log.txt per contract
+== regression/bytes: 6 queries, 2 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unknown 2 timeout_ms=1 reason=timeout
+5 unsat 0 timeout_ms=1 reason=-
+6 unknown 1 timeout_ms=1 reason=timeout
+QUERY_UNKNOWN query=4 reason=timeout timeout_ms=1 cur_bnd=1 depth=2
+QUERY_UNKNOWN query=6 reason=timeout timeout_ms=1 cur_bnd=1 depth=1
+== regression/doubleF: 8 queries, 2 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 0 timeout_ms=1 reason=-
+5 unsat 1 timeout_ms=1 reason=-
+6 unknown 2 timeout_ms=1 reason=timeout
+7 unsat 0 timeout_ms=1 reason=-
+8 unknown 3 timeout_ms=1 reason=timeout
+QUERY_UNKNOWN query=6 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=8 reason=timeout timeout_ms=1 cur_bnd=1 depth=1
+== regression/exampl: 8 queries, 3 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 0 timeout_ms=1 reason=-
+5 unknown 1 timeout_ms=1 reason=timeout
+6 unknown 1 timeout_ms=1 reason=timeout
+7 unsat 0 timeout_ms=1 reason=-
+8 unknown 1 timeout_ms=1 reason=timeout
+QUERY_UNKNOWN query=5 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=6 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=8 reason=timeout timeout_ms=1 cur_bnd=1 depth=1
+== constructors/constructor_1: 48 queries, 8 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 0 timeout_ms=1 reason=-
+5 unsat 0 timeout_ms=1 reason=-
+6 unsat 0 timeout_ms=1 reason=-
+7 unsat 0 timeout_ms=1 reason=-
+8 unsat 0 timeout_ms=1 reason=-
+9 unsat 0 timeout_ms=1 reason=-
+10 unsat 0 timeout_ms=1 reason=-
+11 unsat 0 timeout_ms=1 reason=-
+12 unsat 0 timeout_ms=1 reason=-
+QUERY_UNKNOWN query=13 reason=timeout timeout_ms=1 cur_bnd=1 depth=4
+QUERY_UNKNOWN query=14 reason=timeout timeout_ms=1 cur_bnd=1 depth=4
+QUERY_UNKNOWN query=15 reason=timeout timeout_ms=1 cur_bnd=1 depth=4
+QUERY_UNKNOWN query=16 reason=timeout timeout_ms=1 cur_bnd=1 depth=4
+QUERY_UNKNOWN query=45 reason=timeout timeout_ms=1 cur_bnd=1 depth=4
+== sanity/simple_if: 6 queries, 2 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 0 timeout_ms=1 reason=-
+5 unknown 1 timeout_ms=1 reason=timeout
+6 unknown 1 timeout_ms=1 reason=timeout
+QUERY_UNKNOWN query=5 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=6 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+== loops/for_1_break: 28 queries, 4 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unsat 0 timeout_ms=1 reason=-
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 1 timeout_ms=1 reason=-
+5 unsat 0 timeout_ms=1 reason=-
+6 unsat 0 timeout_ms=1 reason=-
+7 unsat 0 timeout_ms=1 reason=-
+8 unknown 1 timeout_ms=1 reason=timeout
+9 unsat 0 timeout_ms=1 reason=-
+10 unsat 0 timeout_ms=1 reason=-
+11 unsat 0 timeout_ms=1 reason=-
+12 unknown 1 timeout_ms=1 reason=timeout
+QUERY_UNKNOWN query=8 reason=timeout timeout_ms=1 cur_bnd=1 depth=8
+QUERY_UNKNOWN query=12 reason=timeout timeout_ms=1 cur_bnd=1 depth=10
+QUERY_UNKNOWN query=20 reason=timeout timeout_ms=1 cur_bnd=1 depth=15
+== regression/Math: 22 queries, 6 hit the timeout, 0 lines without timeout_ms=1
+1 unsat 0 timeout_ms=1 reason=-
+2 unknown 1 timeout_ms=1 reason=timeout
+3 unsat 0 timeout_ms=1 reason=-
+4 unsat 0 timeout_ms=1 reason=-
+5 unsat 0 timeout_ms=1 reason=-
+6 unknown 1 timeout_ms=1 reason=timeout
+7 unsat 0 timeout_ms=1 reason=-
+8 unsat 0 timeout_ms=1 reason=-
+9 unsat 0 timeout_ms=1 reason=-
+10 unsat 0 timeout_ms=1 reason=-
+11 unsat 0 timeout_ms=1 reason=-
+12 unsat 0 timeout_ms=1 reason=-
+QUERY_UNKNOWN query=2 reason=timeout timeout_ms=1 cur_bnd=1 depth=1
+QUERY_UNKNOWN query=6 reason=timeout timeout_ms=1 cur_bnd=1 depth=2
+QUERY_UNKNOWN query=13 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=14 reason=timeout timeout_ms=1 cur_bnd=1 depth=3
+QUERY_UNKNOWN query=21 reason=timeout timeout_ms=1 cur_bnd=1 depth=3

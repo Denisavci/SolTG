@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_WETH9_69("address(this).balance=7719", 0, 0)
+transferFrom__68("address(this).balance=7719", 0, 0, 8365, 11797, 896)
+END TEST 2
+NEW TEST 3
+contract_WETH9_69("address(this).balance=7719", 0, 0)
+transferFrom__68("address(this).balance=7719", 0, 0, 8365, 11797, 896)
+END TEST 4

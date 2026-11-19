@@ -1,0 +1,50 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 324.49ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/triple_nested_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/triple_nested_if.t.sol
+
+
+Ran 1 test for test/triple_nested_if.t.sol:triple_nested_if_Test
+[PASS] test_triple_nested_if_0() (gas: 14727)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 6.45ms (1.26ms CPU time)
+
+Ran 1 test suite in 11.37ms (6.45ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 328.00ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/triple_nested_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/triple_nested_if.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/triple_nested_if.t.sol:triple_nested_if_Test
+[PASS] test_triple_nested_if_0() (gas: 14727)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 463.79µs (35.71µs CPU time)
+
+Ran 1 test suite in 4.01ms (463.79µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/triple_nested_if.t.sol:triple_nested_if_Test
+[PASS] test_triple_nested_if_0() (gas: 14727)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 304.12µs (37.50µs CPU time)
+
+Ran 1 test suite in 3.95ms (304.12µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+
+╭-----------------------------------------------------------------------+--------------+--------------+---------------+---------------╮
+| File                                                                  | % Lines      | % Statements | % Branches    | % Funcs       |
++=====================================================================================================================================+
+| src/regression/control_flow/branches_with_return/triple_nested_if.sol | 83.33% (5/6) | 80.00% (4/5) | 100.00% (3/3) | 100.00% (1/1) |
+|-----------------------------------------------------------------------+--------------+--------------+---------------+---------------|
+| Total                                                                 | 83.33% (5/6) | 80.00% (4/5) | 100.00% (3/3) | 100.00% (1/1) |
+╰-----------------------------------------------------------------------+--------------+--------------+---------------+---------------╯

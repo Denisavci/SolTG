@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Csi1_32("address(this).balance=8855", 0, 0)
+f__14("address(this).balance=8855", 0, 0, 1)
+END TEST 2

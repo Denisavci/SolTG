@@ -1,0 +1,95 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 320.35ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/Math.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/Math.t.sol
+
+
+Ran 6 tests for test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[PASS] test_Math_1() (gas: 10866)
+[PASS] test_Math_2() (gas: 9743)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+[PASS] test_Math_4() (gas: 9675)
+[PASS] test_Math_5() (gas: 9707)
+Suite result: FAILED. 4 passed; 2 failed; 0 skipped; finished in 595.33µs (1.06ms CPU time)
+
+Ran 1 test suite in 4.64ms (595.33µs CPU time): 4 tests passed, 2 failed, 0 skipped (6 total tests)
+
+Failing tests:
+Encountered 2 failing tests in test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+
+Encountered a total of 2 failing tests, 4 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.82ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/Math.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/Math.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 6 tests for test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[PASS] test_Math_1() (gas: 10866)
+[PASS] test_Math_2() (gas: 9743)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+[PASS] test_Math_4() (gas: 9675)
+[PASS] test_Math_5() (gas: 9707)
+Suite result: FAILED. 4 passed; 2 failed; 0 skipped; finished in 716.71µs (1.31ms CPU time)
+
+Ran 1 test suite in 4.24ms (716.71µs CPU time): 4 tests passed, 2 failed, 0 skipped (6 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 2 failing tests in test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+
+Encountered a total of 2 failing tests, 4 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 6 tests for test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[PASS] test_Math_1() (gas: 10866)
+[PASS] test_Math_2() (gas: 9743)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+[PASS] test_Math_4() (gas: 9675)
+[PASS] test_Math_5() (gas: 9707)
+Suite result: FAILED. 4 passed; 2 failed; 0 skipped; finished in 578.75µs (903.08µs CPU time)
+
+Ran 1 test suite in 4.07ms (578.75µs CPU time): 4 tests passed, 2 failed, 0 skipped (6 total tests)
+
+╭-------------------------+----------------+----------------+--------------+---------------╮
+| File                    | % Lines        | % Statements   | % Branches   | % Funcs       |
++==========================================================================================+
+| src/regression/Math.sol | 94.12% (16/17) | 88.24% (15/17) | 66.67% (4/6) | 100.00% (4/4) |
+|-------------------------+----------------+----------------+--------------+---------------|
+| Total                   | 94.12% (16/17) | 88.24% (15/17) | 66.67% (4/6) | 100.00% (4/4) |
+╰-------------------------+----------------+----------------+--------------+---------------╯
+
+Failing tests:
+Encountered 2 failing tests in test/Math.t.sol:Math_Test
+[FAIL: panic: division or modulo by zero (0x12)] test_Math_0() (gas: 9382)
+[FAIL: panic: assertion failed (0x01)] test_Math_3() (gas: 9231)
+
+Encountered a total of 2 failing tests, 4 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

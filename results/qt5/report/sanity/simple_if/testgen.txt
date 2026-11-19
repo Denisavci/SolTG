@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_Csi1_31("address(this).balance=7719", 0, 0)
+simple_if__30("address(this).balance=7719", 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_Csi1_31("address(this).balance=7719", 0, 0)
+simple_if__30("address(this).balance=7719", 0, 0, 5)
+END TEST 4

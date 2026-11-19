@@ -1,0 +1,31 @@
+NEW TEST 1
+contract_A7_37("address(this).balance=7719", 0, 0)
+f7__36("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_A7_37("address(this).balance=7719", 0, 0)
+f7__36("address(this).balance=7719", 0, 0)
+f7__36("address(this).balance=21238", 0, 0)
+END TEST 4
+NEW TEST 1
+contract_B7_105("address(this).balance=7719", 0, 0)
+g7__104("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_B7_105("address(this).balance=7719", 0, 0)
+f7__86("address(this).balance=7719", 0, 0, 0)
+END TEST 4
+NEW TEST 5
+contract_B7_105("address(this).balance=7719", 0, 0)
+f7__86("address(this).balance=7719", 0, 0, )
+END TEST 6
+NEW TEST 7
+contract_B7_105("address(this).balance=7719", 0, 0)
+g7__104("address(this).balance=7719", 0, 0)
+f7__86("address(this).balance=21238", 0, 0, 0)
+END TEST 8
+NEW TEST 9
+contract_B7_105("address(this).balance=7719", 0, 0)
+g7__104("address(this).balance=7719", 0, 0)
+f7__86("address(this).balance=21238", 0, 0, )
+END TEST 10

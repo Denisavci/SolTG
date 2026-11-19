@@ -1,0 +1,71 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 314.71ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/state_machine_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/state_machine_1.t.sol
+
+
+Ran 8 tests for test/state_machine_1.t.sol:state_machine_1_Test
+[PASS] test_state_machine_1_0() (gas: 10571)
+[PASS] test_state_machine_1_1() (gas: 31543)
+[PASS] test_state_machine_1_2() (gas: 31607)
+[PASS] test_state_machine_1_3() (gas: 31586)
+[PASS] test_state_machine_1_4() (gas: 51555)
+[PASS] test_state_machine_1_5() (gas: 78834)
+[PASS] test_state_machine_1_6() (gas: 75831)
+[PASS] test_state_machine_1_7() (gas: 101246)
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 559.67µs (600.92µs CPU time)
+
+Ran 1 test suite in 4.71ms (559.67µs CPU time): 8 tests passed, 0 failed, 0 skipped (8 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 318.87ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/state_machine_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/state_machine_1.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 8 tests for test/state_machine_1.t.sol:state_machine_1_Test
+[PASS] test_state_machine_1_0() (gas: 10571)
+[PASS] test_state_machine_1_1() (gas: 31543)
+[PASS] test_state_machine_1_2() (gas: 31607)
+[PASS] test_state_machine_1_3() (gas: 31586)
+[PASS] test_state_machine_1_4() (gas: 51555)
+[PASS] test_state_machine_1_5() (gas: 78834)
+[PASS] test_state_machine_1_6() (gas: 75831)
+[PASS] test_state_machine_1_7() (gas: 101246)
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 870.92µs (2.51ms CPU time)
+
+Ran 1 test suite in 4.45ms (870.92µs CPU time): 8 tests passed, 0 failed, 0 skipped (8 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 8 tests for test/state_machine_1.t.sol:state_machine_1_Test
+[PASS] test_state_machine_1_0() (gas: 10571)
+[PASS] test_state_machine_1_1() (gas: 31543)
+[PASS] test_state_machine_1_2() (gas: 31607)
+[PASS] test_state_machine_1_3() (gas: 31586)
+[PASS] test_state_machine_1_4() (gas: 51555)
+[PASS] test_state_machine_1_5() (gas: 78834)
+[PASS] test_state_machine_1_6() (gas: 75831)
+[PASS] test_state_machine_1_7() (gas: 101246)
+Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 836.04µs (2.33ms CPU time)
+
+Ran 1 test suite in 4.15ms (836.04µs CPU time): 8 tests passed, 0 failed, 0 skipped (8 total tests)
+
+╭-------------------------------------------+----------------+--------------+--------------+---------------╮
+| File                                      | % Lines        | % Statements | % Branches   | % Funcs       |
++==========================================================================================================+
+| src/regression/sanity/state_machine_1.sol | 92.86% (13/14) | 88.89% (8/9) | 75.00% (3/4) | 100.00% (5/5) |
+|-------------------------------------------+----------------+--------------+--------------+---------------|
+| Total                                     | 92.86% (13/14) | 88.89% (8/9) | 75.00% (3/4) | 100.00% (5/5) |
+╰-------------------------------------------+----------------+--------------+--------------+---------------╯

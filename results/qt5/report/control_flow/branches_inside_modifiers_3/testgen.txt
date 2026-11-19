@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Cb4_67("address(this).balance=8855", 0, 0)
+g__66("address(this).balance=8855", 0, 0)
+END TEST 2

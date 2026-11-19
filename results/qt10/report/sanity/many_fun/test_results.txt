@@ -1,0 +1,77 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 324.96ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/many_fun.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/many_fun.t.sol
+
+
+Ran 10 tests for test/many_fun.t.sol:many_fun_Test
+[PASS] test_many_fun_0() (gas: 9663)
+[PASS] test_many_fun_1() (gas: 9287)
+[PASS] test_many_fun_2() (gas: 9382)
+[PASS] test_many_fun_3() (gas: 9287)
+[PASS] test_many_fun_4() (gas: 9342)
+[PASS] test_many_fun_5() (gas: 9354)
+[PASS] test_many_fun_6() (gas: 9276)
+[PASS] test_many_fun_7() (gas: 9250)
+[PASS] test_many_fun_8() (gas: 9514)
+[PASS] test_many_fun_9() (gas: 9252)
+Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 816.33µs (2.61ms CPU time)
+
+Ran 1 test suite in 5.05ms (816.33µs CPU time): 10 tests passed, 0 failed, 0 skipped (10 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 324.82ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/many_fun.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/many_fun.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 10 tests for test/many_fun.t.sol:many_fun_Test
+[PASS] test_many_fun_0() (gas: 9663)
+[PASS] test_many_fun_1() (gas: 9287)
+[PASS] test_many_fun_2() (gas: 9382)
+[PASS] test_many_fun_3() (gas: 9287)
+[PASS] test_many_fun_4() (gas: 9342)
+[PASS] test_many_fun_5() (gas: 9354)
+[PASS] test_many_fun_6() (gas: 9276)
+[PASS] test_many_fun_7() (gas: 9250)
+[PASS] test_many_fun_8() (gas: 9514)
+[PASS] test_many_fun_9() (gas: 9252)
+Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 1.02ms (4.06ms CPU time)
+
+Ran 1 test suite in 4.52ms (1.02ms CPU time): 10 tests passed, 0 failed, 0 skipped (10 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 10 tests for test/many_fun.t.sol:many_fun_Test
+[PASS] test_many_fun_0() (gas: 9663)
+[PASS] test_many_fun_1() (gas: 9287)
+[PASS] test_many_fun_2() (gas: 9382)
+[PASS] test_many_fun_3() (gas: 9287)
+[PASS] test_many_fun_4() (gas: 9342)
+[PASS] test_many_fun_5() (gas: 9354)
+[PASS] test_many_fun_6() (gas: 9276)
+[PASS] test_many_fun_7() (gas: 9250)
+[PASS] test_many_fun_8() (gas: 9514)
+[PASS] test_many_fun_9() (gas: 9252)
+Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 833.25µs (2.49ms CPU time)
+
+Ran 1 test suite in 4.49ms (833.25µs CPU time): 10 tests passed, 0 failed, 0 skipped (10 total tests)
+
+╭------------------------------------+-----------------+-----------------+---------------+---------------╮
+| File                               | % Lines         | % Statements    | % Branches    | % Funcs       |
++========================================================================================================+
+| src/regression/sanity/many_fun.sol | 100.00% (23/23) | 100.00% (19/19) | 100.00% (7/7) | 100.00% (5/5) |
+|------------------------------------+-----------------+-----------------+---------------+---------------|
+| Total                              | 100.00% (23/23) | 100.00% (19/19) | 100.00% (7/7) | 100.00% (5/5) |
+╰------------------------------------+-----------------+-----------------+---------------+---------------╯

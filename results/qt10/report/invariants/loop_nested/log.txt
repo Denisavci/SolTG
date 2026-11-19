@@ -1,0 +1,314 @@
+[09:11:32:603215]
+[[['Simpleln', 'contract', 57, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender'], ['f', 56, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender']]]
+[09:11:37:547582]
+run TG with
+[09:11:37:547663]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Simpleln_57:state,msg.value,msg.sender^f__56:state,msg.value,msg.sender /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/loop_nested_updated.smt2
+[09:11:37:547752]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Simpleln_57:state,msg.value,msg.sender^f__56:state,msg.value,msg.sender /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/loop_nested_updated.smt2
+Chc: (((((((error_0=0)&&(error_0=_FH_0'))&&(this_0=_FH_1'))&&(abi_0=_FH_2'))&&(crypto_0=_FH_3'))&&(state_0=_FH_4'))&&(state_0=_FH_5')) => [fdecl    nondet_interface_1_Simpleln_57_0    INT    INT    abi_type    crypto_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((error_0=0)&&(error_0=_FH_0))&&(this_0=_FH_1))&&(abi_0=_FH_2))&&(crypto_0=_FH_3))&&(state_0=_FH_4))&&(state_1=_FH_5))&&(error_1=_FH_148))&&(this_0=_FH_149))&&(abi_0=_FH_150))&&(crypto_0=_FH_151))&&(tx_0=_FH_152))&&(state_1=_FH_153))&&(state_2=_FH_154))&&(error_1=_FH_0'))&&(this_0=_FH_1'))&&(abi_0=_FH_2'))&&(crypto_0=_FH_3'))&&(state_0=_FH_4'))&&(state_2=_FH_5')) => [fdecl    nondet_interface_1_Simpleln_57_0    INT    INT    abi_type    crypto_type    state_type    state_type    BOOL]
+Chc: (((((((((true&&(error_0=_FH_6'))&&(this_0=_FH_7'))&&(abi_0=_FH_8'))&&(crypto_0=_FH_9'))&&(tx_0=_FH_10'))&&(state_0=_FH_11'))&&(state_1=_FH_12'))&&(x_4_1=_FH_13'))&&(y_8_1=_FH_14')) => [fdecl    block_5_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((((((error_0=0)&&(state_1=state_0))&&(error_0=_FH_6))&&(this_0=_FH_7))&&(abi_0=_FH_8))&&(crypto_0=_FH_9))&&(tx_0=_FH_10))&&(state_0=_FH_11))&&(state_1=_FH_12))&&(x_4_1=_FH_13))&&(y_8_1=_FH_14))&&(error_0=_FH_15'))&&(this_0=_FH_16'))&&(abi_0=_FH_17'))&&(crypto_0=_FH_18'))&&(tx_0=_FH_19'))&&(state_0=_FH_20'))&&(state_1=_FH_21'))&&(x_4_1=_FH_22'))&&(y_8_1=_FH_23')) => [fdecl    block_6_f_55_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    x_4_2=expr_5_0    expr_5_0=10    y_8_1=0    x_4_1=0]&&(error_0=_FH_15))&&(this_0=_FH_16))&&(abi_0=_FH_17))&&(crypto_0=_FH_18))&&(tx_0=_FH_19))&&(state_0=_FH_20))&&(state_1=_FH_21))&&(x_4_1=_FH_22))&&(y_8_1=_FH_23))&&(error_0=_FH_24'))&&(this_0=_FH_25'))&&(abi_0=_FH_26'))&&(crypto_0=_FH_27'))&&(tx_0=_FH_28'))&&(state_0=_FH_29'))&&(state_1=_FH_30'))&&(x_4_2=_FH_31'))&&(y_8_1=_FH_32')) => [fdecl    block_8_while_header_f_48_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    expr_12_1    expr_12_1=(expr_10_0<expr_11_0)    true->((expr_11_0>=0)&&(expr_11_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_11_0=x_4_1    true->((expr_10_0>=0)&&(expr_10_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_10_0=y_8_1]&&(error_0=_FH_24))&&(this_0=_FH_25))&&(abi_0=_FH_26))&&(crypto_0=_FH_27))&&(tx_0=_FH_28))&&(state_0=_FH_29))&&(state_1=_FH_30))&&(x_4_1=_FH_31))&&(y_8_1=_FH_32))&&(error_0=_FH_33'))&&(this_0=_FH_34'))&&(abi_0=_FH_35'))&&(crypto_0=_FH_36'))&&(tx_0=_FH_37'))&&(state_0=_FH_38'))&&(state_1=_FH_39'))&&(x_4_1=_FH_40'))&&(y_8_1=_FH_41')) => [fdecl    block_9_while_body_f_47_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    expr_12_1=(expr_10_0<expr_11_0)    true->((expr_11_0>=0)&&(expr_11_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_11_0=x_4_1    true->((expr_10_0>=0)&&(expr_10_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_10_0=y_8_1    !expr_12_1]&&(error_0=_FH_24))&&(this_0=_FH_25))&&(abi_0=_FH_26))&&(crypto_0=_FH_27))&&(tx_0=_FH_28))&&(state_0=_FH_29))&&(state_1=_FH_30))&&(x_4_1=_FH_31))&&(y_8_1=_FH_32))&&(error_0=_FH_42'))&&(this_0=_FH_43'))&&(abi_0=_FH_44'))&&(crypto_0=_FH_45'))&&(tx_0=_FH_46'))&&(state_0=_FH_47'))&&(state_1=_FH_48'))&&(x_4_1=_FH_49'))&&(y_8_1=_FH_50')) => [fdecl    block_10_f_55_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    x_4_2=expr_18_1    true->((expr_18_1>=0)&&(expr_18_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_18_1=expr_17_0    true->((expr_16_0>=0)&&(expr_16_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_16_0=x_4_1    expr_17_0=0    y_8_2=(expr_13_0+1)    true->((expr_14_1>=0)&&(expr_14_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_14_1=(expr_13_0+1)    true->((expr_13_0>=0)&&(expr_13_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_13_0=y_8_1]&&(error_0=_FH_33))&&(this_0=_FH_34))&&(abi_0=_FH_35))&&(crypto_0=_FH_36))&&(tx_0=_FH_37))&&(state_0=_FH_38))&&(state_1=_FH_39))&&(x_4_1=_FH_40))&&(y_8_1=_FH_41))&&(error_0=_FH_51'))&&(this_0=_FH_52'))&&(abi_0=_FH_53'))&&(crypto_0=_FH_54'))&&(tx_0=_FH_55'))&&(state_0=_FH_56'))&&(state_1=_FH_57'))&&(x_4_2=_FH_58'))&&(y_8_2=_FH_59')) => [fdecl    block_11_while_header_f_40_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_22_1    expr_22_1=(expr_20_0<expr_21_0)    expr_21_0=10    true->((expr_20_0>=0)&&(expr_20_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_20_0=x_4_1]&&(error_0=_FH_51))&&(this_0=_FH_52))&&(abi_0=_FH_53))&&(crypto_0=_FH_54))&&(tx_0=_FH_55))&&(state_0=_FH_56))&&(state_1=_FH_57))&&(x_4_1=_FH_58))&&(y_8_1=_FH_59))&&(error_0=_FH_60'))&&(this_0=_FH_61'))&&(abi_0=_FH_62'))&&(crypto_0=_FH_63'))&&(tx_0=_FH_64'))&&(state_0=_FH_65'))&&(state_1=_FH_66'))&&(x_4_1=_FH_67'))&&(y_8_1=_FH_68')) => [fdecl    block_12_while_body_f_39_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_22_1=(expr_20_0<expr_21_0)    expr_21_0=10    true->((expr_20_0>=0)&&(expr_20_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_20_0=x_4_1    !expr_22_1]&&(error_0=_FH_51))&&(this_0=_FH_52))&&(abi_0=_FH_53))&&(crypto_0=_FH_54))&&(tx_0=_FH_55))&&(state_0=_FH_56))&&(state_1=_FH_57))&&(x_4_1=_FH_58))&&(y_8_1=_FH_59))&&(error_0=_FH_69'))&&(this_0=_FH_70'))&&(abi_0=_FH_71'))&&(crypto_0=_FH_72'))&&(tx_0=_FH_73'))&&(state_0=_FH_74'))&&(state_1=_FH_75'))&&(x_4_1=_FH_76'))&&(y_8_1=_FH_77')) => [fdecl    block_13_f_55_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((((true&&(error_0=_FH_60))&&(this_0=_FH_61))&&(abi_0=_FH_62))&&(crypto_0=_FH_63))&&(tx_0=_FH_64))&&(state_0=_FH_65))&&(state_1=_FH_66))&&(x_4_1=_FH_67))&&(y_8_1=_FH_68))&&(error_0=_FH_78'))&&(this_0=_FH_79'))&&(abi_0=_FH_80'))&&(crypto_0=_FH_81'))&&(tx_0=_FH_82'))&&(state_0=_FH_83'))&&(state_1=_FH_84'))&&(x_4_1=_FH_85'))&&(y_8_1=_FH_86')) => [fdecl    block_14_if_header_f_35_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_27_1    expr_27_1=(expr_25_1=expr_26_0)    expr_26_0=12    true->((expr_25_1>=0)&&(expr_25_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_25_1=(expr_23_0+expr_24_0)    true->((expr_24_0>=0)&&(expr_24_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_24_0=y_8_1    true->((expr_23_0>=0)&&(expr_23_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_23_0=x_4_1]&&(error_0=_FH_78))&&(this_0=_FH_79))&&(abi_0=_FH_80))&&(crypto_0=_FH_81))&&(tx_0=_FH_82))&&(state_0=_FH_83))&&(state_1=_FH_84))&&(x_4_1=_FH_85))&&(y_8_1=_FH_86))&&(error_0=_FH_87'))&&(this_0=_FH_88'))&&(abi_0=_FH_89'))&&(crypto_0=_FH_90'))&&(tx_0=_FH_91'))&&(state_0=_FH_92'))&&(state_1=_FH_93'))&&(x_4_1=_FH_94'))&&(y_8_1=_FH_95')) => [fdecl    block_15_if_true_f_34_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_27_1=(expr_25_1=expr_26_0)    expr_26_0=12    true->((expr_25_1>=0)&&(expr_25_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_25_1=(expr_23_0+expr_24_0)    true->((expr_24_0>=0)&&(expr_24_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_24_0=y_8_1    true->((expr_23_0>=0)&&(expr_23_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_23_0=x_4_1    !expr_27_1]&&(error_0=_FH_78))&&(this_0=_FH_79))&&(abi_0=_FH_80))&&(crypto_0=_FH_81))&&(tx_0=_FH_82))&&(state_0=_FH_83))&&(state_1=_FH_84))&&(x_4_1=_FH_85))&&(y_8_1=_FH_86))&&(error_0=_FH_96'))&&(this_0=_FH_97'))&&(abi_0=_FH_98'))&&(crypto_0=_FH_99'))&&(tx_0=_FH_100'))&&(state_0=_FH_101'))&&(state_1=_FH_102'))&&(x_4_1=_FH_103'))&&(y_8_1=_FH_104')) => [fdecl    block_16_f_55_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    y_8_2=expr_32_1    true->((expr_32_1>=0)&&(expr_32_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_32_1=expr_31_1    true->((expr_28_0>=0)&&(expr_28_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_28_0=y_8_1    true->((expr_31_1>=0)&&(expr_31_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_31_1=(expr_29_0+expr_30_0)    true->((expr_30_0>=0)&&(expr_30_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_30_0=x_4_1    true->((expr_29_0>=0)&&(expr_29_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_29_0=y_8_1]&&(error_0=_FH_87))&&(this_0=_FH_88))&&(abi_0=_FH_89))&&(crypto_0=_FH_90))&&(tx_0=_FH_91))&&(state_0=_FH_92))&&(state_1=_FH_93))&&(x_4_1=_FH_94))&&(y_8_1=_FH_95))&&(error_0=_FH_96'))&&(this_0=_FH_97'))&&(abi_0=_FH_98'))&&(crypto_0=_FH_99'))&&(tx_0=_FH_100'))&&(state_0=_FH_101'))&&(state_1=_FH_102'))&&(x_4_1=_FH_103'))&&(y_8_2=_FH_104')) => [fdecl    block_16_f_55_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    x_4_2=(expr_36_0+1)    true->((expr_37_1>=0)&&(expr_37_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_37_1=(expr_36_0+1)    true->((expr_36_0>=0)&&(expr_36_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_36_0=x_4_1]&&(error_0=_FH_96))&&(this_0=_FH_97))&&(abi_0=_FH_98))&&(crypto_0=_FH_99))&&(tx_0=_FH_100))&&(state_0=_FH_101))&&(state_1=_FH_102))&&(x_4_1=_FH_103))&&(y_8_1=_FH_104))&&(error_0=_FH_51'))&&(this_0=_FH_52'))&&(abi_0=_FH_53'))&&(crypto_0=_FH_54'))&&(tx_0=_FH_55'))&&(state_0=_FH_56'))&&(state_1=_FH_57'))&&(x_4_2=_FH_58'))&&(y_8_1=_FH_59')) => [fdecl    block_11_while_header_f_40_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_44_1=(expr_42_0=expr_43_0)    expr_43_0=10    true->((expr_42_0>=0)&&(expr_42_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_42_0=x_4_1    !expr_44_1    error_1=1]&&(error_0=_FH_69))&&(this_0=_FH_70))&&(abi_0=_FH_71))&&(crypto_0=_FH_72))&&(tx_0=_FH_73))&&(state_0=_FH_74))&&(state_1=_FH_75))&&(x_4_1=_FH_76))&&(y_8_1=_FH_77))&&(error_1=_FH_105'))&&(this_0=_FH_106'))&&(abi_0=_FH_107'))&&(crypto_0=_FH_108'))&&(tx_0=_FH_109'))&&(state_0=_FH_110'))&&(state_1=_FH_111'))&&(x_4_1=_FH_112'))&&(y_8_1=_FH_113')) => [fdecl    block_17_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((true&&(error_1=_FH_105))&&(this_0=_FH_106))&&(abi_0=_FH_107))&&(crypto_0=_FH_108))&&(tx_0=_FH_109))&&(state_0=_FH_110))&&(state_1=_FH_111))&&(x_4_1=_FH_112))&&(y_8_1=_FH_113))&&(error_1=_FH_114'))&&(this_0=_FH_115'))&&(abi_0=_FH_116'))&&(crypto_0=_FH_117'))&&(tx_0=_FH_118'))&&(state_0=_FH_119'))&&(state_1=_FH_120')) => [fdecl    summary_3_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_44_1=(expr_42_0=expr_43_0)    expr_43_0=10    true->((expr_42_0>=0)&&(expr_42_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_42_0=x_4_1    error_1=error_0]&&(error_0=_FH_69))&&(this_0=_FH_70))&&(abi_0=_FH_71))&&(crypto_0=_FH_72))&&(tx_0=_FH_73))&&(state_0=_FH_74))&&(state_1=_FH_75))&&(x_4_1=_FH_76))&&(y_8_1=_FH_77))&&(error_1=_FH_24'))&&(this_0=_FH_25'))&&(abi_0=_FH_26'))&&(crypto_0=_FH_27'))&&(tx_0=_FH_28'))&&(state_0=_FH_29'))&&(state_1=_FH_30'))&&(x_4_1=_FH_31'))&&(y_8_1=_FH_32')) => [fdecl    block_8_while_header_f_48_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: (((((((((((((((((([&&    expr_52_1=(expr_50_0=expr_51_0)    true->((expr_51_0>=0)&&(expr_51_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_51_0=x_4_1    true->((expr_50_0>=0)&&(expr_50_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_50_0=y_8_1    !expr_52_1    error_1=2]&&(error_0=_FH_42))&&(this_0=_FH_43))&&(abi_0=_FH_44))&&(crypto_0=_FH_45))&&(tx_0=_FH_46))&&(state_0=_FH_47))&&(state_1=_FH_48))&&(x_4_1=_FH_49))&&(y_8_1=_FH_50))&&(error_1=_FH_121'))&&(this_0=_FH_122'))&&(abi_0=_FH_123'))&&(crypto_0=_FH_124'))&&(tx_0=_FH_125'))&&(state_0=_FH_126'))&&(state_1=_FH_127'))&&(x_4_1=_FH_128'))&&(y_8_1=_FH_129')) => [fdecl    block_18_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((true&&(error_1=_FH_121))&&(this_0=_FH_122))&&(abi_0=_FH_123))&&(crypto_0=_FH_124))&&(tx_0=_FH_125))&&(state_0=_FH_126))&&(state_1=_FH_127))&&(x_4_1=_FH_128))&&(y_8_1=_FH_129))&&(error_1=_FH_114'))&&(this_0=_FH_115'))&&(abi_0=_FH_116'))&&(crypto_0=_FH_117'))&&(tx_0=_FH_118'))&&(state_0=_FH_119'))&&(state_1=_FH_120')) => [fdecl    summary_3_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: (((((((((((((((((([&&    error_1=error_0    expr_52_1=(expr_50_0=expr_51_0)    true->((expr_51_0>=0)&&(expr_51_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_51_0=x_4_1    true->((expr_50_0>=0)&&(expr_50_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_50_0=y_8_1]&&(error_0=_FH_42))&&(this_0=_FH_43))&&(abi_0=_FH_44))&&(crypto_0=_FH_45))&&(tx_0=_FH_46))&&(state_0=_FH_47))&&(state_1=_FH_48))&&(x_4_1=_FH_49))&&(y_8_1=_FH_50))&&(error_1=_FH_130'))&&(this_0=_FH_131'))&&(abi_0=_FH_132'))&&(crypto_0=_FH_133'))&&(tx_0=_FH_134'))&&(state_0=_FH_135'))&&(state_1=_FH_136'))&&(x_4_1=_FH_137'))&&(y_8_1=_FH_138')) => [fdecl    block_7_return_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((true&&(error_0=_FH_130))&&(this_0=_FH_131))&&(abi_0=_FH_132))&&(crypto_0=_FH_133))&&(tx_0=_FH_134))&&(state_0=_FH_135))&&(state_1=_FH_136))&&(x_4_1=_FH_137))&&(y_8_1=_FH_138))&&(error_0=_FH_114'))&&(this_0=_FH_115'))&&(abi_0=_FH_116'))&&(crypto_0=_FH_117'))&&(tx_0=_FH_118'))&&(state_0=_FH_119'))&&(state_1=_FH_120')) => [fdecl    summary_3_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: (((((((((true&&(error_0=_FH_139'))&&(this_0=_FH_140'))&&(abi_0=_FH_141'))&&(crypto_0=_FH_142'))&&(tx_0=_FH_143'))&&(state_0=_FH_144'))&&(state_1=_FH_145'))&&(x_4_1=_FH_146'))&&(y_8_1=_FH_147')) => [fdecl    block_19_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    INT    INT    BOOL]
+Chc: ((((((((((((((((((((((([&&    error_0=0    state_1=state_0    state_2=(state_type store((balances state_1), this_0, select((balances state_1), this_0)+funds_3_0))    (select((balances state_1), this_0)+funds_3_0)>=0    (select((balances state_1), this_0)+funds_3_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    funds_3_0>=(msg.value tx_0)    (block.basefee tx_0)>=0    (block.basefee tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.chainid tx_0)>=0    (block.chainid tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.coinbase tx_0)>=0    (block.coinbase tx_0)<=1461501637330902918203684832716283019655932542975    (block.difficulty tx_0)>=0    (block.difficulty tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.gaslimit tx_0)>=0    (block.gaslimit tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.number tx_0)>=0    (block.number tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.timestamp tx_0)>=0    (block.timestamp tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.sender tx_0)>=0    (msg.sender tx_0)<=1461501637330902918203684832716283019655932542975    (msg.value tx_0)>=0    (msg.value tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (tx.origin tx_0)>=0    (tx.origin tx_0)<=1461501637330902918203684832716283019655932542975    (tx.gasprice tx_0)>=0    (tx.gasprice tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.value tx_0)=0    (msg.sig tx_0)=638722032    select((bytes_tuple_accessor_array (msg.data tx_0)), 0)=38    select((bytes_tuple_accessor_array (msg.data tx_0)), 1)=18    select((bytes_tuple_accessor_array (msg.data tx_0)), 2)=31    select((bytes_tuple_accessor_array (msg.data tx_0)), 3)=240    (bytes_tuple_accessor_length (msg.data tx_0))>=4]&&(error_0=_FH_139))&&(this_0=_FH_140))&&(abi_0=_FH_141))&&(crypto_0=_FH_142))&&(tx_0=_FH_143))&&(state_0=_FH_144))&&(state_1=_FH_145))&&(x_4_1=_FH_146))&&(y_8_1=_FH_147))&&(error_1=_FH_114))&&(this_0=_FH_115))&&(abi_0=_FH_116))&&(crypto_0=_FH_117))&&(tx_0=_FH_118))&&(state_2=_FH_119))&&(state_3=_FH_120))&&(error_1=_FH_148'))&&(this_0=_FH_149'))&&(abi_0=_FH_150'))&&(crypto_0=_FH_151'))&&(tx_0=_FH_152'))&&(state_0=_FH_153'))&&(state_3=_FH_154')) => [fdecl    summary_4_function_f__56_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((error_0=0)&&(this_0=_FH_155))&&(abi_0=_FH_156))&&(crypto_0=_FH_157))&&(state_0=_FH_158))&&(error_0=_FH_148))&&(this_0=_FH_149))&&(abi_0=_FH_150))&&(crypto_0=_FH_151))&&(tx_0=_FH_152))&&(state_0=_FH_153))&&(state_1=_FH_154))&&(this_0=_FH_155'))&&(abi_0=_FH_156'))&&(crypto_0=_FH_157'))&&(state_1=_FH_158')) => [fdecl    interface_0_Simpleln_57_0    INT    abi_type    crypto_type    state_type    BOOL]
+Chc: (((((((((error_0=0)&&(state_1=state_0))&&(error_0=_FH_159'))&&(this_0=_FH_160'))&&(abi_0=_FH_161'))&&(crypto_0=_FH_162'))&&(tx_0=_FH_163'))&&(state_0=_FH_164'))&&(state_1=_FH_165')) => [fdecl    contract_initializer_entry_21_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((true&&(error_0=_FH_159))&&(this_0=_FH_160))&&(abi_0=_FH_161))&&(crypto_0=_FH_162))&&(tx_0=_FH_163))&&(state_0=_FH_164))&&(state_1=_FH_165))&&(error_0=_FH_166'))&&(this_0=_FH_167'))&&(abi_0=_FH_168'))&&(crypto_0=_FH_169'))&&(tx_0=_FH_170'))&&(state_0=_FH_171'))&&(state_1=_FH_172')) => [fdecl    contract_initializer_after_init_22_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((true&&(error_0=_FH_166))&&(this_0=_FH_167))&&(abi_0=_FH_168))&&(crypto_0=_FH_169))&&(tx_0=_FH_170))&&(state_0=_FH_171))&&(state_1=_FH_172))&&(error_0=_FH_173'))&&(this_0=_FH_174'))&&(abi_0=_FH_175'))&&(crypto_0=_FH_176'))&&(tx_0=_FH_177'))&&(state_0=_FH_178'))&&(state_1=_FH_179')) => [fdecl    contract_initializer_20_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((([&&    error_0=0    state_1=state_0    select((balances state_1), this_0)>=(msg.value tx_0)]&&(error_0=_FH_180'))&&(this_0=_FH_181'))&&(abi_0=_FH_182'))&&(crypto_0=_FH_183'))&&(tx_0=_FH_184'))&&(state_0=_FH_185'))&&(state_1=_FH_186')) => [fdecl    implicit_constructor_entry_23_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((((error_1>0)&&(error_0=_FH_180))&&(this_0=_FH_181))&&(abi_0=_FH_182))&&(crypto_0=_FH_183))&&(tx_0=_FH_184))&&(state_0=_FH_185))&&(state_1=_FH_186))&&(error_1=_FH_173))&&(this_0=_FH_174))&&(abi_0=_FH_175))&&(crypto_0=_FH_176))&&(tx_0=_FH_177))&&(state_1=_FH_178))&&(state_2=_FH_179))&&(error_1=_FH_187'))&&(this_0=_FH_188'))&&(abi_0=_FH_189'))&&(crypto_0=_FH_190'))&&(tx_0=_FH_191'))&&(state_0=_FH_192'))&&(state_2=_FH_193')) => [fdecl    summary_constructor_2_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((((error_1=0)&&(error_0=_FH_180))&&(this_0=_FH_181))&&(abi_0=_FH_182))&&(crypto_0=_FH_183))&&(tx_0=_FH_184))&&(state_0=_FH_185))&&(state_1=_FH_186))&&(error_1=_FH_173))&&(this_0=_FH_174))&&(abi_0=_FH_175))&&(crypto_0=_FH_176))&&(tx_0=_FH_177))&&(state_1=_FH_178))&&(state_2=_FH_179))&&(error_1=_FH_187'))&&(this_0=_FH_188'))&&(abi_0=_FH_189'))&&(crypto_0=_FH_190'))&&(tx_0=_FH_191'))&&(state_0=_FH_192'))&&(state_2=_FH_193')) => [fdecl    summary_constructor_2_Simpleln_57_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((([&&    error_0=0    (block.basefee tx_0)>=0    (block.basefee tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.chainid tx_0)>=0    (block.chainid tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.coinbase tx_0)>=0    (block.coinbase tx_0)<=1461501637330902918203684832716283019655932542975    (block.difficulty tx_0)>=0    (block.difficulty tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.gaslimit tx_0)>=0    (block.gaslimit tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.number tx_0)>=0    (block.number tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.timestamp tx_0)>=0    (block.timestamp tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.sender tx_0)>=0    (msg.sender tx_0)<=1461501637330902918203684832716283019655932542975    (msg.value tx_0)>=0    (msg.value tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (tx.origin tx_0)>=0    (tx.origin tx_0)<=1461501637330902918203684832716283019655932542975    (tx.gasprice tx_0)>=0    (tx.gasprice tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.value tx_0)=0]&&(error_0=_FH_187))&&(this_0=_FH_188))&&(abi_0=_FH_189))&&(crypto_0=_FH_190))&&(tx_0=_FH_191))&&(state_0=_FH_192))&&(state_1=_FH_193))&&(this_0=_FH_155'))&&(abi_0=_FH_156'))&&(crypto_0=_FH_157'))&&(state_1=_FH_158')) => [fdecl    interface_0_Simpleln_57_0    INT    abi_type    crypto_type    state_type    BOOL]
+cycle found (#24):
+    interface_0_Simpleln_57_0 /\ summary_4_function_f__56_57_0 /\   [arity 2] -> interface_0_Simpleln_57_0
+fact found (#31):
+    summary_constructor_2_Simpleln_57_0 /\   [arity 1] -> interface_0_Simpleln_57_0
+CHCs:
+  INIT:
+      [arity 0] -> nondet_interface_1_Simpleln_57_0
+    nondet_interface_1_Simpleln_57_0 /\ summary_4_function_f__56_57_0 /\   [arity 2] -> nondet_interface_1_Simpleln_57_0
+  INIT:
+      [arity 0] -> block_5_function_f__56_57_0
+    block_5_function_f__56_57_0 /\   [arity 1] -> block_6_f_55_57_0
+    block_6_f_55_57_0 /\   [arity 1] -> block_8_while_header_f_48_57_0
+    block_8_while_header_f_48_57_0 /\   [arity 1] -> block_9_while_body_f_47_57_0
+    block_8_while_header_f_48_57_0 /\   [arity 1] -> block_10_f_55_57_0
+    block_9_while_body_f_47_57_0 /\   [arity 1] -> block_11_while_header_f_40_57_0
+    block_11_while_header_f_40_57_0 /\   [arity 1] -> block_12_while_body_f_39_57_0
+    block_11_while_header_f_40_57_0 /\   [arity 1] -> block_13_f_55_57_0
+    block_12_while_body_f_39_57_0 /\   [arity 1] -> block_14_if_header_f_35_57_0
+    block_14_if_header_f_35_57_0 /\   [arity 1] -> block_15_if_true_f_34_57_0
+    block_14_if_header_f_35_57_0 /\   [arity 1] -> block_16_f_55_57_0
+    block_15_if_true_f_34_57_0 /\   [arity 1] -> block_16_f_55_57_0
+    block_16_f_55_57_0 /\   [arity 1] -> block_11_while_header_f_40_57_0
+    block_13_f_55_57_0 /\   [arity 1] -> block_17_function_f__56_57_0
+    block_17_function_f__56_57_0 /\   [arity 1] -> summary_3_function_f__56_57_0
+    block_13_f_55_57_0 /\   [arity 1] -> block_8_while_header_f_48_57_0
+    block_10_f_55_57_0 /\   [arity 1] -> block_18_function_f__56_57_0
+    block_18_function_f__56_57_0 /\   [arity 1] -> summary_3_function_f__56_57_0
+    block_10_f_55_57_0 /\   [arity 1] -> block_7_return_function_f__56_57_0
+    block_7_return_function_f__56_57_0 /\   [arity 1] -> summary_3_function_f__56_57_0
+  INIT:
+      [arity 0] -> block_19_function_f__56_57_0
+    block_19_function_f__56_57_0 /\ summary_3_function_f__56_57_0 /\   [arity 2] -> summary_4_function_f__56_57_0
+    interface_0_Simpleln_57_0 /\ summary_4_function_f__56_57_0 /\   [arity 2] -> interface_0_Simpleln_57_0
+  INIT:
+      [arity 0] -> contract_initializer_entry_21_Simpleln_57_0
+    contract_initializer_entry_21_Simpleln_57_0 /\   [arity 1] -> contract_initializer_after_init_22_Simpleln_57_0
+    contract_initializer_after_init_22_Simpleln_57_0 /\   [arity 1] -> contract_initializer_20_Simpleln_57_0
+  INIT:
+      [arity 0] -> implicit_constructor_entry_23_Simpleln_57_0
+    implicit_constructor_entry_23_Simpleln_57_0 /\ contract_initializer_20_Simpleln_57_0 /\   [arity 2] -> summary_constructor_2_Simpleln_57_0
+    implicit_constructor_entry_23_Simpleln_57_0 /\ contract_initializer_20_Simpleln_57_0 /\   [arity 2] -> summary_constructor_2_Simpleln_57_0
+    summary_constructor_2_Simpleln_57_0 /\   [arity 1] -> interface_0_Simpleln_57_0
+query timeout (ms): 10000
+TODOs : 
+2 : block_5_function_f__56_57_0
+3 : block_6_f_55_57_0
+4 : block_8_while_header_f_48_57_0
+5 : block_9_while_body_f_47_57_0
+6 : block_10_f_55_57_0
+7 : block_11_while_header_f_40_57_0
+8 : block_12_while_body_f_39_57_0
+9 : block_13_f_55_57_0
+10 : block_14_if_header_f_35_57_0
+11 : block_15_if_true_f_34_57_0
+12 : block_16_f_55_57_0
+13 : block_16_f_55_57_0
+14 : block_11_while_header_f_40_57_0
+15 : block_17_function_f__56_57_0
+16 : summary_3_function_f__56_57_0
+17 : block_8_while_header_f_48_57_0
+18 : block_18_function_f__56_57_0
+19 : summary_3_function_f__56_57_0
+20 : block_7_return_function_f__56_57_0
+21 : summary_3_function_f__56_57_0
+22 : block_19_function_f__56_57_0
+29 : summary_constructor_2_Simpleln_57_0
+30 : summary_constructor_2_Simpleln_57_0
+new iter with cur_bnd = 1
+  ***************   pop back the query ************
+mkNewQuery: 0; chcs 32
+  cur_batch empt: 1
+   >>> new query:   summary_constructor_2_Simpleln_57_0, summary_4_function_f__56_57_0
+chcs 
+0 srs:  dst: 34 : nondet_interface_1_Simpleln_57_0 isQuery : 0
+1 srs:  34 61 dst: 34 : nondet_interface_1_Simpleln_57_0 isQuery : 0
+2 srs:  dst: 88 : block_5_function_f__56_57_0 isQuery : 0
+3 srs:  88 dst: 100 : block_6_f_55_57_0 isQuery : 0
+4 srs:  100 dst: 130 : block_8_while_header_f_48_57_0 isQuery : 0
+5 srs:  130 dst: 170 : block_9_while_body_f_47_57_0 isQuery : 0
+6 srs:  130 dst: 177 : block_10_f_55_57_0 isQuery : 0
+7 srs:  170 dst: 242 : block_11_while_header_f_40_57_0 isQuery : 0
+8 srs:  242 dst: 271 : block_12_while_body_f_39_57_0 isQuery : 0
+9 srs:  242 dst: 278 : block_13_f_55_57_0 isQuery : 0
+10 srs:  271 dst: 285 : block_14_if_header_f_35_57_0 isQuery : 0
+11 srs:  285 dst: 326 : block_15_if_true_f_34_57_0 isQuery : 0
+12 srs:  285 dst: 332 : block_16_f_55_57_0 isQuery : 0
+13 srs:  326 dst: 332 : block_16_f_55_57_0 isQuery : 0
+14 srs:  332 dst: 242 : block_11_while_header_f_40_57_0 isQuery : 0
+15 srs:  278 dst: 416 : block_17_function_f__56_57_0 isQuery : 0
+16 srs:  416 dst: 421 : summary_3_function_f__56_57_0 isQuery : 0
+17 srs:  278 dst: 130 : block_8_while_header_f_48_57_0 isQuery : 0
+18 srs:  177 dst: 458 : block_18_function_f__56_57_0 isQuery : 0
+19 srs:  458 dst: 421 : summary_3_function_f__56_57_0 isQuery : 0
+20 srs:  177 dst: 470 : block_7_return_function_f__56_57_0 isQuery : 0
+21 srs:  470 dst: 421 : summary_3_function_f__56_57_0 isQuery : 0
+22 srs:  dst: 481 : block_19_function_f__56_57_0 isQuery : 0
+23 srs:  481 421 dst: 61 : summary_4_function_f__56_57_0 isQuery : 0
+24 srs:  644 61 dst: 644 : interface_0_Simpleln_57_0 isQuery : 0
+25 srs:  dst: 654 : contract_initializer_entry_21_Simpleln_57_0 isQuery : 0
+26 srs:  654 dst: 661 : contract_initializer_after_init_22_Simpleln_57_0 isQuery : 0
+27 srs:  661 dst: 668 : contract_initializer_20_Simpleln_57_0 isQuery : 0
+28 srs:  dst: 675 : implicit_constructor_entry_23_Simpleln_57_0 isQuery : 0
+29 srs:  675 668 dst: 685 : summary_constructor_2_Simpleln_57_0 isQuery : 0
+30 srs:  675 668 dst: 685 : summary_constructor_2_Simpleln_57_0 isQuery : 0
+31 srs:  685 dst: 644 : interface_0_Simpleln_57_0 isQuery : 0
+32 srs:  685 61 dst: 706 : error_target_4_0 isQuery : 1
+index_cycle_chc : 24
+decls 
+0 left: 34 right: 10
+1 left: 61 right: 10
+2 left: 88 right: 10
+3 left: 100 right: 10
+4 left: 130 right: 10
+5 left: 170 right: 10
+6 left: 177 right: 10
+7 left: 242 right: 10
+8 left: 271 right: 10
+9 left: 278 right: 10
+10 left: 285 right: 10
+11 left: 326 right: 10
+12 left: 332 right: 10
+13 left: 416 right: 10
+14 left: 421 right: 10
+15 left: 458 right: 10
+16 left: 470 right: 10
+17 left: 481 right: 10
+18 left: 644 right: 10
+19 left: 654 right: 10
+20 left: 661 right: 10
+21 left: 668 right: 10
+22 left: 675 right: 10
+23 left: 685 right: 10
+expr_id 
+0 first: 34 second: 1
+1 first: 61 second: 23
+2 first: 88 second: 2
+3 first: 100 second: 3
+4 first: 130 second: 17
+5 first: 170 second: 5
+6 first: 177 second: 6
+7 first: 242 second: 14
+8 first: 271 second: 8
+9 first: 278 second: 9
+10 first: 285 second: 10
+11 first: 326 second: 11
+12 first: 332 second: 13
+13 first: 416 second: 15
+14 first: 421 second: 21
+15 first: 458 second: 18
+16 first: 470 second: 20
+17 first: 481 second: 22
+18 first: 644 second: 31
+19 first: 654 second: 25
+20 first: 661 second: 26
+21 first: 668 second: 27
+22 first: 675 second: 28
+23 first: 685 second: 30
+depth: 1; trees size : 0
+depth: 2; trees size : 0
+depth: 3; trees size : 0
+depth: 4; trees size : 0
+depth: 5; trees size : 4
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+depth: 6; trees size : 0
+depth: 7; trees size : 2
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+depth: 8; trees size : 0
+depth: 9; trees size : 4
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+depth: 10; trees size : 0
+depth: 11; trees size : 4
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:37 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+depth: 12; trees size : 2
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+depth: 13; trees size : 8
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:38 2026
+
+unrolling unsat
+depth: 14; trees size : 4
+rq_t : Thu Nov 19 09:11:39 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:39 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:39 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:39 2026
+
+unrolling unsat
+depth: 15; trees size : 8
+rq_t : Thu Nov 19 09:11:41 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:11:41 2026
+
+unrolling unsat
+rq_t : Thu Nov[09:13:38:050947]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Simpleln_57:state,msg.value,msg.sender^f__56:state,msg.value,msg.sender /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/loop_nested_updated.smt2
+-9
+None
+b''
+
+[09:13:38:051196]
+TGNONLIN_TIME seconds=120.503 limit=120.0 hit_limit=True wall_seconds=120.503
+[09:13:38:051304]
+# TESTS: NO TESTS
+[09:13:38:051353]
+total time: 125.51527070999146 seconds

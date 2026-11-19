@@ -1,0 +1,16 @@
+NEW TEST 1
+contract_A8_29("address(this).balance=7719", 0, 0)
+set8__28("address(this).balance=7719", 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_A8_29("address(this).balance=7719", 0, 0)
+get8__18("address(this).balance=7719", 0, 0)
+END TEST 4
+NEW TEST 1
+contract_B8_90("address(this).balance=7719", 0, 0)
+f8__89("address(this).balance=21238", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_B8_90("address(this).balance=7719", 0, 0)
+f8__89("address(this).balance=21238", 0, 0)
+END TEST 4

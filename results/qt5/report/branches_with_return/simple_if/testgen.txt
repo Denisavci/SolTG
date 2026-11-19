@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_Csi_28("address(this).balance=7719", 0, 0)
+f__27("address(this).balance=7719", 0, 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_Csi_28("address(this).balance=0", 0, 0)
+f__27("address(this).balance=0", 0, 0, 1, 0)
+END TEST 4

@@ -1,0 +1,50 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 313.62ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/few_calls.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/few_calls.t.sol
+
+
+Ran 1 test for test/few_calls.t.sol:few_calls_Test
+[PASS] test_few_calls_0() (gas: 35792)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 243.96µs (31.21µs CPU time)
+
+Ran 1 test suite in 4.22ms (243.96µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 318.57ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/few_calls.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/few_calls.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/few_calls.t.sol:few_calls_Test
+[PASS] test_few_calls_0() (gas: 35792)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 308.62µs (42.67µs CPU time)
+
+Ran 1 test suite in 3.89ms (308.62µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/few_calls.t.sol:few_calls_Test
+[PASS] test_few_calls_0() (gas: 35792)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 307.21µs (39.12µs CPU time)
+
+Ran 1 test suite in 3.98ms (307.21µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+
+╭-------------------------------------+--------------+--------------+--------------+---------------╮
+| File                                | % Lines      | % Statements | % Branches   | % Funcs       |
++==================================================================================================+
+| src/regression/sanity/few_calls.sol | 55.56% (5/9) | 50.00% (4/8) | 60.00% (3/5) | 100.00% (1/1) |
+|-------------------------------------+--------------+--------------+--------------+---------------|
+| Total                               | 55.56% (5/9) | 50.00% (4/8) | 60.00% (3/5) | 100.00% (1/1) |
+╰-------------------------------------+--------------+--------------+--------------+---------------╯

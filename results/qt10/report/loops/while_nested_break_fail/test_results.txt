@@ -1,0 +1,89 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 319.81ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_break_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_break_fail.t.sol
+
+
+Ran 3 tests for test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+Suite result: FAILED. 0 passed; 3 failed; 0 skipped; finished in 6.07ms (3.42ms CPU time)
+
+Ran 1 test suite in 10.26ms (6.07ms CPU time): 0 tests passed, 3 failed, 0 skipped (3 total tests)
+
+Failing tests:
+Encountered 3 failing tests in test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+
+Encountered a total of 3 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 3 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 321.53ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_break_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_break_fail.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+Suite result: FAILED. 0 passed; 3 failed; 0 skipped; finished in 681.00µs (273.29µs CPU time)
+
+Ran 1 test suite in 4.10ms (681.00µs CPU time): 0 tests passed, 3 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 3 failing tests in test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+
+Encountered a total of 3 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 3 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+Suite result: FAILED. 0 passed; 3 failed; 0 skipped; finished in 439.38µs (211.21µs CPU time)
+
+Ran 1 test suite in 4.03ms (439.38µs CPU time): 0 tests passed, 3 failed, 0 skipped (3 total tests)
+
+╭--------------------------------------------------+-----------------+-----------------+--------------+---------------╮
+| File                                             | % Lines         | % Statements    | % Branches   | % Funcs       |
++=====================================================================================================================+
+| src/regression/loops/while_nested_break_fail.sol | 100.00% (17/17) | 100.00% (14/14) | 77.78% (7/9) | 100.00% (1/1) |
+|--------------------------------------------------+-----------------+-----------------+--------------+---------------|
+| Total                                            | 100.00% (17/17) | 100.00% (14/14) | 77.78% (7/9) | 100.00% (1/1) |
+╰--------------------------------------------------+-----------------+-----------------+--------------+---------------╯
+
+Failing tests:
+Encountered 3 failing tests in test/while_nested_break_fail.t.sol:while_nested_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_0() (gas: 10230)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_1() (gas: 10099)
+[FAIL: panic: assertion failed (0x01)] test_while_nested_break_fail_2() (gas: 10171)
+
+Encountered a total of 3 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 3 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

@@ -1,0 +1,62 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 318.04ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/seq_calls.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/seq_calls.t.sol
+
+
+Ran 5 tests for test/seq_calls.t.sol:seq_calls_Test
+[PASS] test_seq_calls_0() (gas: 52011)
+[PASS] test_seq_calls_1() (gas: 52060)
+[PASS] test_seq_calls_2() (gas: 76527)
+[PASS] test_seq_calls_3() (gas: 79821)
+[PASS] test_seq_calls_4() (gas: 107429)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 470.50µs (517.67µs CPU time)
+
+Ran 1 test suite in 4.38ms (470.50µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 325.55ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/seq_calls.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/seq_calls.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/seq_calls.t.sol:seq_calls_Test
+[PASS] test_seq_calls_0() (gas: 52011)
+[PASS] test_seq_calls_1() (gas: 52060)
+[PASS] test_seq_calls_2() (gas: 76527)
+[PASS] test_seq_calls_3() (gas: 79821)
+[PASS] test_seq_calls_4() (gas: 107429)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 657.75µs (893.38µs CPU time)
+
+Ran 1 test suite in 4.14ms (657.75µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/seq_calls.t.sol:seq_calls_Test
+[PASS] test_seq_calls_0() (gas: 52011)
+[PASS] test_seq_calls_1() (gas: 52060)
+[PASS] test_seq_calls_2() (gas: 76527)
+[PASS] test_seq_calls_3() (gas: 79821)
+[PASS] test_seq_calls_4() (gas: 107429)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 533.79µs (686.79µs CPU time)
+
+Ran 1 test suite in 3.90ms (533.79µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+
+╭-------------------------------------+-----------------+---------------+---------------+---------------╮
+| File                                | % Lines         | % Statements  | % Branches    | % Funcs       |
++=======================================================================================================+
+| src/regression/sanity/seq_calls.sol | 100.00% (11/11) | 100.00% (9/9) | 100.00% (4/4) | 100.00% (2/2) |
+|-------------------------------------+-----------------+---------------+---------------+---------------|
+| Total                               | 100.00% (11/11) | 100.00% (9/9) | 100.00% (4/4) | 100.00% (2/2) |
+╰-------------------------------------+-----------------+---------------+---------------+---------------╯

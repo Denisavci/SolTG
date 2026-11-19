@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 315.31ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/do_while_1_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/do_while_1_fail.t.sol
+
+
+Ran 2 tests for test/do_while_1_fail.t.sol:do_while_1_fail_Test
+[PASS] test_do_while_1_fail_0() (gas: 9134)
+[PASS] test_do_while_1_fail_1() (gas: 9365)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 6.85ms (2.00ms CPU time)
+
+Ran 1 test suite in 11.62ms (6.85ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.63ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/do_while_1_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/do_while_1_fail.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/do_while_1_fail.t.sol:do_while_1_fail_Test
+[PASS] test_do_while_1_fail_0() (gas: 9134)
+[PASS] test_do_while_1_fail_1() (gas: 9365)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 561.88µs (196.50µs CPU time)
+
+Ran 1 test suite in 4.10ms (561.88µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/do_while_1_fail.t.sol:do_while_1_fail_Test
+[PASS] test_do_while_1_fail_0() (gas: 9134)
+[PASS] test_do_while_1_fail_1() (gas: 9365)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 363.75µs (129.88µs CPU time)
+
+Ran 1 test suite in 4.03ms (363.75µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭------------------------------------------+---------------+---------------+--------------+---------------╮
+| File                                     | % Lines       | % Statements  | % Branches   | % Funcs       |
++=========================================================================================================+
+| src/regression/loops/do_while_1_fail.sol | 100.00% (5/5) | 100.00% (4/4) | 50.00% (1/2) | 100.00% (1/1) |
+|------------------------------------------+---------------+---------------+--------------+---------------|
+| Total                                    | 100.00% (5/5) | 100.00% (4/4) | 50.00% (1/2) | 100.00% (1/1) |
+╰------------------------------------------+---------------+---------------+--------------+---------------╯

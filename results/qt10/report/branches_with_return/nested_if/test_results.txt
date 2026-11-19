@@ -1,0 +1,50 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.55ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/nested_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/nested_if.t.sol
+
+
+Ran 1 test for test/nested_if.t.sol:nested_if_Test
+[PASS] test_nested_if_0() (gas: 9627)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 5.61ms (818.38µs CPU time)
+
+Ran 1 test suite in 10.50ms (5.61ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.51ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/nested_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/nested_if.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/nested_if.t.sol:nested_if_Test
+[PASS] test_nested_if_0() (gas: 9627)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 485.33µs (45.00µs CPU time)
+
+Ran 1 test suite in 4.12ms (485.33µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/nested_if.t.sol:nested_if_Test
+[PASS] test_nested_if_0() (gas: 9627)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 318.29µs (43.75µs CPU time)
+
+Ran 1 test suite in 3.99ms (318.29µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+
+╭----------------------------------------------------------------+---------------+---------------+--------------+---------------╮
+| File                                                           | % Lines       | % Statements  | % Branches   | % Funcs       |
++===============================================================================================================================+
+| src/regression/control_flow/branches_with_return/nested_if.sol | 80.00% (8/10) | 70.00% (7/10) | 50.00% (2/4) | 100.00% (2/2) |
+|----------------------------------------------------------------+---------------+---------------+--------------+---------------|
+| Total                                                          | 80.00% (8/10) | 70.00% (7/10) | 50.00% (2/4) | 100.00% (2/2) |
+╰----------------------------------------------------------------+---------------+---------------+--------------+---------------╯

@@ -1,0 +1,1 @@
+genhtml --branch-coverage --ignore-errors category,inconsistent,source --output-directory /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/generated-coverage /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/lcov.info

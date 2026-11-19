@@ -1,0 +1,47 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 325.48ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/bytes.t.sol
+
+
+Ran 2 tests for test/bytes.t.sol:bytes_Test
+[PASS] test_bytes_0() (gas: 10083)
+[PASS] test_bytes_1() (gas: 9991)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 362.83µs (182.38µs CPU time)
+
+Ran 1 test suite in 4.52ms (362.83µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 333.08ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/bytes.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/bytes.t.sol:bytes_Test
+[PASS] test_bytes_0() (gas: 10083)
+[PASS] test_bytes_1() (gas: 9991)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 413.92µs (187.50µs CPU time)
+
+Ran 1 test suite in 4.20ms (413.92µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/bytes.t.sol:bytes_Test
+[PASS] test_bytes_0() (gas: 10083)
+[PASS] test_bytes_1() (gas: 9991)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 375.79µs (172.12µs CPU time)
+
+Ran 1 test suite in 4.18ms (375.79µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭--------------------------+---------------+---------------+------------+---------------╮
+| File                     | % Lines       | % Statements  | % Branches | % Funcs       |
++=======================================================================================+
+| src/regression/bytes.sol | 100.00% (5/5) | 100.00% (6/6) | N/A (0/0)  | 100.00% (2/2) |
+|--------------------------+---------------+---------------+------------+---------------|
+| Total                    | 100.00% (5/5) | 100.00% (6/6) | N/A (0/0)  | 100.00% (2/2) |
+╰--------------------------+---------------+---------------+------------+---------------╯

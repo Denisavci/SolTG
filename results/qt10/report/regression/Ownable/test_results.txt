@@ -1,0 +1,56 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 327.27ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/Ownable.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/Ownable.sol:55:9:
+   |
+55 |         address oldOwner = _owner;
+   |         ^^^^^^^^^^^^^^^^
+
+
+Ran 1 test for test/Ownable.t.sol:Ownable_Test
+[PASS] test_Ownable_0() (gas: 10982)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 5.65ms (941.67µs CPU time)
+
+Ran 1 test suite in 9.89ms (5.65ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 328.62ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/Ownable.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/Ownable.sol:55:9:
+   |
+55 |         address oldOwner = _owner;
+   |         ^^^^^^^^^^^^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/Ownable.t.sol:Ownable_Test
+[PASS] test_Ownable_0() (gas: 10982)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 498.29µs (41.38µs CPU time)
+
+Ran 1 test suite in 4.08ms (498.29µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/Ownable.t.sol:Ownable_Test
+[PASS] test_Ownable_0() (gas: 10982)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 322.71µs (36.67µs CPU time)
+
+Ran 1 test suite in 4.01ms (322.71µs CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+
+╭----------------------------+---------------+--------------+-------------+--------------╮
+| File                       | % Lines       | % Statements | % Branches  | % Funcs      |
++========================================================================================+
+| src/regression/Ownable.sol | 75.00% (9/12) | 75.00% (6/8) | 0.00% (0/1) | 75.00% (3/4) |
+|----------------------------+---------------+--------------+-------------+--------------|
+| Total                      | 75.00% (9/12) | 75.00% (6/8) | 0.00% (0/1) | 75.00% (3/4) |
+╰----------------------------+---------------+--------------+-------------+--------------╯

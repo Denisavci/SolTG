@@ -1,0 +1,12 @@
+run: qt10
+date: 2026-11-19T06:24:49Z
+machine: Darwin 27.2.0 arm64; 27.2
+soltg_commit: cf9d72d+dirty
+tgnonlin: /Users/denisavci/SolTG/.venv/deps/tgnonlin
+tgnonlin_sha256: c8f9dc37c5193e32dc46ea98eb68d86a87225a6488421ee776aa1a9c14722807
+docker_image: sha256:3f4d7e6831df2ac426af010564d2962fc2f5aa0764d22d9bfbeaba6b4494447e
+forge: forge Version: 1.9.0
+flags: -t 120 -s 0.8.28 -qt 10
+isolate: 1
+contracts: 94
+wall_time_s: 10726

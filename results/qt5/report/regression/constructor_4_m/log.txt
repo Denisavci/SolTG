@@ -1,0 +1,2 @@
+[10:30:38:747502]
+[[['C4', 'contract', 83, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender'], ['f', 82, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender', 'uint', 'a']]]

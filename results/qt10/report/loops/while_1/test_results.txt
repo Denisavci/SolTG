@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 319.61ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1.t.sol
+
+
+Ran 2 tests for test/while_1.t.sol:while_1_Test
+[PASS] test_while_1_0() (gas: 9270)
+[PASS] test_while_1_1() (gas: 9438)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 5.77ms (1.45ms CPU time)
+
+Ran 1 test suite in 10.67ms (5.77ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 320.35ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1.t.sol:while_1_Test
+[PASS] test_while_1_0() (gas: 9270)
+[PASS] test_while_1_1() (gas: 9438)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 568.04µs (189.54µs CPU time)
+
+Ran 1 test suite in 4.20ms (568.04µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1.t.sol:while_1_Test
+[PASS] test_while_1_0() (gas: 9270)
+[PASS] test_while_1_1() (gas: 9438)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 395.12µs (167.46µs CPU time)
+
+Ran 1 test suite in 4.15ms (395.12µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭----------------------------------+--------------+--------------+--------------+---------------╮
+| File                             | % Lines      | % Statements | % Branches   | % Funcs       |
++===============================================================================================+
+| src/regression/loops/while_1.sol | 85.71% (6/7) | 80.00% (4/5) | 50.00% (2/4) | 100.00% (1/1) |
+|----------------------------------+--------------+--------------+--------------+---------------|
+| Total                            | 85.71% (6/7) | 80.00% (4/5) | 50.00% (2/4) | 100.00% (1/1) |
+╰----------------------------------+--------------+--------------+--------------+---------------╯

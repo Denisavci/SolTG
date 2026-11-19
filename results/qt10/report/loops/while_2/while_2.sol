@@ -1,0 +1,17 @@
+// src/regression/loops/while_2.sol
+contract Cwb7 {
+	function f(uint x) public pure {
+		x = 2;
+		while (x > 1) {
+			if (x > 10)
+				x = 2;
+			else
+				--x;
+		}
+		assert(x < 2);
+	}
+}
+// ====
+// SMTEngine: all
+// SMTSolvers: z3
+// ----

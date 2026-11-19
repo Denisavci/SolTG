@@ -1,0 +1,17 @@
+TN:
+SF:src/regression/control_flow/branches_with_return/simple_if.sol
+DA:2,2
+FN:2,Csi.f
+FNDA:2,Csi.f
+DA:3,2
+BRDA:3,0,0,1
+DA:4,1
+DA:6,1
+DA:7,1
+FNF:1
+FNH:1
+LF:5
+LH:5
+BRF:1
+BRH:1
+end_of_record

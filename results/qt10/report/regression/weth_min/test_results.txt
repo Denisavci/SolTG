@@ -1,0 +1,83 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 318.35ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/weth_min.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/weth_min.sol:36:9:
+   |
+36 |         uint256 MAX_INT = 115792089237316195423570985008687907853269984665640564039457584007913129639935;
+   |         ^^^^^^^^^^^^^^^
+
+
+Ran 1 test for test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 292.96µs (64.54µs CPU time)
+
+Ran 1 test suite in 3.96ms (292.96µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 330.43ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/weth_min.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/weth_min.sol:36:9:
+   |
+36 |         uint256 MAX_INT = 115792089237316195423570985008687907853269984665640564039457584007913129639935;
+   |         ^^^^^^^^^^^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 342.42µs (55.67µs CPU time)
+
+Ran 1 test suite in 4.09ms (342.42µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 336.08µs (53.12µs CPU time)
+
+Ran 1 test suite in 4.10ms (336.08µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+╭-----------------------------+--------------+--------------+--------------+---------------╮
+| File                        | % Lines      | % Statements | % Branches   | % Funcs       |
++==========================================================================================+
+| src/regression/weth_min.sol | 55.56% (5/9) | 50.00% (4/8) | 50.00% (1/2) | 100.00% (1/1) |
+|-----------------------------+--------------+--------------+--------------+---------------|
+| Total                       | 55.56% (5/9) | 50.00% (4/8) | 50.00% (1/2) | 100.00% (1/1) |
+╰-----------------------------+--------------+--------------+--------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/weth_min.t.sol:weth_min_Test
+[FAIL: panic: arithmetic underflow or overflow (0x11)] test_weth_min_0() (gas: 54078)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

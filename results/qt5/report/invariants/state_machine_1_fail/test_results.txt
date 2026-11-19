@@ -1,0 +1,74 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 319.39ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/invariants/state_machine_1_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/state_machine_1_fail.t.sol
+
+
+Ran 9 tests for test/state_machine_1_fail.t.sol:state_machine_1_fail_Test
+[PASS] test_state_machine_1_fail_0() (gas: 10615)
+[PASS] test_state_machine_1_fail_1() (gas: 51602)
+[PASS] test_state_machine_1_fail_2() (gas: 31542)
+[PASS] test_state_machine_1_fail_3() (gas: 31543)
+[PASS] test_state_machine_1_fail_4() (gas: 51531)
+[PASS] test_state_machine_1_fail_5() (gas: 75906)
+[PASS] test_state_machine_1_fail_6() (gas: 75881)
+[PASS] test_state_machine_1_fail_7() (gas: 78855)
+[PASS] test_state_machine_1_fail_8() (gas: 101225)
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 6.17ms (9.32ms CPU time)
+
+Ran 1 test suite in 10.77ms (6.17ms CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 319.11ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/invariants/state_machine_1_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/state_machine_1_fail.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 9 tests for test/state_machine_1_fail.t.sol:state_machine_1_fail_Test
+[PASS] test_state_machine_1_fail_0() (gas: 10615)
+[PASS] test_state_machine_1_fail_1() (gas: 51602)
+[PASS] test_state_machine_1_fail_2() (gas: 31542)
+[PASS] test_state_machine_1_fail_3() (gas: 31543)
+[PASS] test_state_machine_1_fail_4() (gas: 51531)
+[PASS] test_state_machine_1_fail_5() (gas: 75906)
+[PASS] test_state_machine_1_fail_6() (gas: 75881)
+[PASS] test_state_machine_1_fail_7() (gas: 78855)
+[PASS] test_state_machine_1_fail_8() (gas: 101225)
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 1.21ms (3.06ms CPU time)
+
+Ran 1 test suite in 4.43ms (1.21ms CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 9 tests for test/state_machine_1_fail.t.sol:state_machine_1_fail_Test
+[PASS] test_state_machine_1_fail_0() (gas: 10615)
+[PASS] test_state_machine_1_fail_1() (gas: 51602)
+[PASS] test_state_machine_1_fail_2() (gas: 31542)
+[PASS] test_state_machine_1_fail_3() (gas: 31543)
+[PASS] test_state_machine_1_fail_4() (gas: 51531)
+[PASS] test_state_machine_1_fail_5() (gas: 75906)
+[PASS] test_state_machine_1_fail_6() (gas: 75881)
+[PASS] test_state_machine_1_fail_7() (gas: 78855)
+[PASS] test_state_machine_1_fail_8() (gas: 101225)
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 802.71µs (2.17ms CPU time)
+
+Ran 1 test suite in 4.09ms (802.71µs CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
+
+╭----------------------------------------------------+-----------------+---------------+---------------+---------------╮
+| File                                               | % Lines         | % Statements  | % Branches    | % Funcs       |
++======================================================================================================================+
+| src/regression/invariants/state_machine_1_fail.sol | 100.00% (14/14) | 100.00% (9/9) | 100.00% (4/4) | 100.00% (5/5) |
+|----------------------------------------------------+-----------------+---------------+---------------+---------------|
+| Total                                              | 100.00% (14/14) | 100.00% (9/9) | 100.00% (4/4) | 100.00% (5/5) |
+╰----------------------------------------------------+-----------------+---------------+---------------+---------------╯

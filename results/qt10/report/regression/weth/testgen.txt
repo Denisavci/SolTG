@@ -1,0 +1,32 @@
+NEW TEST 1
+contract_WETH9_260("address(this).balance=2437", 0, 0)
+transferFrom__259("address(this).balance=2437", 0, 11798, 11797, 8365, 0)
+END TEST 2
+NEW TEST 3
+contract_WETH9_260("address(this).balance=2437", 0, 0)
+transferFrom__259("address(this).balance=2437", 0, 11798, 11797, 8365, 0)
+END TEST 4
+NEW TEST 5
+contract_WETH9_260("address(this).balance=5853", 0, 0)
+transfer__172("address(this).balance=5853", 0, 0, 0, 0)
+END TEST 6
+NEW TEST 7
+contract_WETH9_260("address(this).balance=7719", 0, 0)
+approve__155("address(this).balance=7719", 0, 2437, 21238, 0)
+END TEST 8
+NEW TEST 9
+contract_WETH9_260("address(this).balance=7719", 0, 0)
+totalSupply__127("address(this).balance=7719", 0, 0)
+END TEST 10
+NEW TEST 11
+contract_WETH9_260("address(this).balance=7719", 0, 0)
+withdraw__115("address(this).balance=7719", 0, 21238, 0)
+END TEST 12
+NEW TEST 13
+contract_WETH9_260("address(this).balance=7719", 0, 0)
+deposit__78("address(this).balance=7719", 0, 0)
+END TEST 14
+NEW TEST 15
+contract_WETH9_260("address(this).balance=7719", 0, 0)
+deposit__78("address(this).balance=7719", 1000000000000000001, 2437)
+END TEST 16

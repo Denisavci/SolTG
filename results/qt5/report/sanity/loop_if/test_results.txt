@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 316.84ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/loop_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/loop_if.t.sol
+
+
+Ran 2 tests for test/loop_if.t.sol:loop_if_Test
+[PASS] test_loop_if_0() (gas: 9937)
+[PASS] test_loop_if_1() (gas: 9932)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 6.06ms (1.77ms CPU time)
+
+Ran 1 test suite in 10.46ms (6.06ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 317.04ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/loop_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/loop_if.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/loop_if.t.sol:loop_if_Test
+[PASS] test_loop_if_0() (gas: 9937)
+[PASS] test_loop_if_1() (gas: 9932)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 700.58µs (207.42µs CPU time)
+
+Ran 1 test suite in 4.19ms (700.58µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/loop_if.t.sol:loop_if_Test
+[PASS] test_loop_if_0() (gas: 9937)
+[PASS] test_loop_if_1() (gas: 9932)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 391.04µs (169.58µs CPU time)
+
+Ran 1 test suite in 3.96ms (391.04µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭-----------------------------------+---------------+---------------+--------------+---------------╮
+| File                              | % Lines       | % Statements  | % Branches   | % Funcs       |
++==================================================================================================+
+| src/regression/sanity/loop_if.sol | 81.82% (9/11) | 80.00% (8/10) | 66.67% (2/3) | 100.00% (1/1) |
+|-----------------------------------+---------------+---------------+--------------+---------------|
+| Total                             | 81.82% (9/11) | 80.00% (8/10) | 66.67% (2/3) | 100.00% (1/1) |
+╰-----------------------------------+---------------+---------------+--------------+---------------╯

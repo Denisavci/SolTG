@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.68ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_branch.t.sol
+
+
+Ran 2 tests for test/function_call_inside_branch.t.sol:function_call_inside_branch_Test
+[PASS] test_function_call_inside_branch_0() (gas: 8843)
+[PASS] test_function_call_inside_branch_1() (gas: 8443)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 5.96ms (2.10ms CPU time)
+
+Ran 1 test suite in 10.20ms (5.96ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.49ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_branch.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/function_call_inside_branch.t.sol:function_call_inside_branch_Test
+[PASS] test_function_call_inside_branch_0() (gas: 8843)
+[PASS] test_function_call_inside_branch_1() (gas: 8443)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 619.75µs (145.21µs CPU time)
+
+Ran 1 test suite in 4.08ms (619.75µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/function_call_inside_branch.t.sol:function_call_inside_branch_Test
+[PASS] test_function_call_inside_branch_0() (gas: 8843)
+[PASS] test_function_call_inside_branch_1() (gas: 8443)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 385.92µs (152.54µs CPU time)
+
+Ran 1 test suite in 3.97ms (385.92µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭-------------------------------------------------------------+---------------+---------------+---------------+---------------╮
+| File                                                        | % Lines       | % Statements  | % Branches    | % Funcs       |
++=============================================================================================================================+
+| src/regression/control_flow/function_call_inside_branch.sol | 100.00% (8/8) | 100.00% (6/6) | 100.00% (1/1) | 100.00% (2/2) |
+|-------------------------------------------------------------+---------------+---------------+---------------+---------------|
+| Total                                                       | 100.00% (8/8) | 100.00% (6/6) | 100.00% (1/1) | 100.00% (2/2) |
+╰-------------------------------------------------------------+---------------+---------------+---------------+---------------╯

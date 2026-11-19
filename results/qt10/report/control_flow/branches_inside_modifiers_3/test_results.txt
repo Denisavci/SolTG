@@ -1,0 +1,77 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.19ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_inside_modifiers_3.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/branches_inside_modifiers_3.t.sol
+
+
+Ran 1 test for test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 5.76ms (1.08ms CPU time)
+
+Ran 1 test suite in 10.77ms (5.76ms CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.99ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_inside_modifiers_3.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/branches_inside_modifiers_3.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 674.58µs (47.33µs CPU time)
+
+Ran 1 test suite in 4.26ms (674.58µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 311.54µs (52.50µs CPU time)
+
+Ran 1 test suite in 4.11ms (311.54µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+╭-------------------------------------------------------------+----------------+---------------+-------------+---------------╮
+| File                                                        | % Lines        | % Statements  | % Branches  | % Funcs       |
++============================================================================================================================+
+| src/regression/control_flow/branches_inside_modifiers_3.sol | 84.62% (11/13) | 80.00% (8/10) | 0.00% (0/2) | 100.00% (3/3) |
+|-------------------------------------------------------------+----------------+---------------+-------------+---------------|
+| Total                                                       | 84.62% (11/13) | 80.00% (8/10) | 0.00% (0/2) | 100.00% (3/3) |
+╰-------------------------------------------------------------+----------------+---------------+-------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/branches_inside_modifiers_3.t.sol:branches_inside_modifiers_3_Test
+[FAIL: panic: assertion failed (0x01)] test_branches_inside_modifiers_3_0() (gas: 52033)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

@@ -1,0 +1,62 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.36ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_2_fun_overloading.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_2_fun_overloading.t.sol
+
+
+Ran 5 tests for test/constructor_2_fun_overloading.t.sol:constructor_2_fun_overloading_Test
+[PASS] test_constructor_2_fun_overloading_0() (gas: 35177)
+[PASS] test_constructor_2_fun_overloading_1() (gas: 30334)
+[PASS] test_constructor_2_fun_overloading_2() (gas: 35125)
+[PASS] test_constructor_2_fun_overloading_3() (gas: 30311)
+[PASS] test_constructor_2_fun_overloading_4() (gas: 30363)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 6.26ms (4.73ms CPU time)
+
+Ran 1 test suite in 11.12ms (6.26ms CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 330.94ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_2_fun_overloading.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_2_fun_overloading.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/constructor_2_fun_overloading.t.sol:constructor_2_fun_overloading_Test
+[PASS] test_constructor_2_fun_overloading_0() (gas: 35177)
+[PASS] test_constructor_2_fun_overloading_1() (gas: 30334)
+[PASS] test_constructor_2_fun_overloading_2() (gas: 35125)
+[PASS] test_constructor_2_fun_overloading_3() (gas: 30311)
+[PASS] test_constructor_2_fun_overloading_4() (gas: 30363)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 884.88µs (620.96µs CPU time)
+
+Ran 1 test suite in 4.24ms (884.88µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/constructor_2_fun_overloading.t.sol:constructor_2_fun_overloading_Test
+[PASS] test_constructor_2_fun_overloading_0() (gas: 35177)
+[PASS] test_constructor_2_fun_overloading_1() (gas: 30334)
+[PASS] test_constructor_2_fun_overloading_2() (gas: 35125)
+[PASS] test_constructor_2_fun_overloading_3() (gas: 30311)
+[PASS] test_constructor_2_fun_overloading_4() (gas: 30363)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 641.75µs (951.50µs CPU time)
+
+Ran 1 test suite in 4.29ms (641.75µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+
+╭---------------------------------------------------------------+----------------+---------------+--------------+--------------╮
+| File                                                          | % Lines        | % Statements  | % Branches   | % Funcs      |
++==============================================================================================================================+
+| src/regression/constructors/constructor_2_fun_overloading.sol | 55.56% (10/18) | 53.33% (8/15) | 33.33% (2/6) | 66.67% (2/3) |
+|---------------------------------------------------------------+----------------+---------------+--------------+--------------|
+| Total                                                         | 55.56% (10/18) | 53.33% (8/15) | 33.33% (2/6) | 66.67% (2/3) |
+╰---------------------------------------------------------------+----------------+---------------+--------------+--------------╯

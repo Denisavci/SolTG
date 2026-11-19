@@ -1,0 +1,17 @@
+NEW TEST 1
+contract_C4_91("address(this).balance=7719", 0, 0)
+f__90("address(this).balance=7719", 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_C4_91("address(this).balance=7719", 0, 0)
+f__90("address(this).balance=7719", 0, 0, 6)
+END TEST 4
+NEW TEST 5
+contract_C4_91("address(this).balance=7719", 0, 0)
+f__90("address(this).balance=7719", 0, 0, 991)
+END TEST 6
+NEW TEST 7
+contract_C4_91("address(this).balance=7719", 0, 0)
+f__90("address(this).balance=7719", 0, 0, 0)
+f__90("address(this).balance=21238", 0, 0, 0)
+END TEST 8

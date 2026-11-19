@@ -1,0 +1,71 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 324.26ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_1.t.sol
+
+Warning (5740): Unreachable code.
+  --> src/regression/constructors/constructor_1.sol:12:3:
+   |
+12 | 		x = 3;
+   | 		^^^^^
+
+
+Ran 4 tests for test/constructor_1.t.sol:constructor_1_Test
+[PASS] test_constructor_1_0() (gas: 32874)
+[PASS] test_constructor_1_1() (gas: 30801)
+[PASS] test_constructor_1_2() (gas: 30356)
+[PASS] test_constructor_1_3() (gas: 58747)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 526.58µs (432.62µs CPU time)
+
+Ran 1 test suite in 4.49ms (526.58µs CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.04ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_1.t.sol
+
+Warning (5740): Unreachable code.
+  --> src/regression/constructors/constructor_1.sol:12:3:
+   |
+12 | 		x = 3;
+   | 		^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 4 tests for test/constructor_1.t.sol:constructor_1_Test
+[PASS] test_constructor_1_0() (gas: 32874)
+[PASS] test_constructor_1_1() (gas: 30801)
+[PASS] test_constructor_1_2() (gas: 30356)
+[PASS] test_constructor_1_3() (gas: 58747)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 579.96µs (410.92µs CPU time)
+
+Ran 1 test suite in 4.10ms (579.96µs CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 4 tests for test/constructor_1.t.sol:constructor_1_Test
+[PASS] test_constructor_1_0() (gas: 32874)
+[PASS] test_constructor_1_1() (gas: 30801)
+[PASS] test_constructor_1_2() (gas: 30356)
+[PASS] test_constructor_1_3() (gas: 58747)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 524.62µs (545.25µs CPU time)
+
+Ran 1 test suite in 4.00ms (524.62µs CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+
+╭-----------------------------------------------+----------------+----------------+--------------+---------------╮
+| File                                          | % Lines        | % Statements   | % Branches   | % Funcs       |
++================================================================================================================+
+| src/regression/constructors/constructor_1.sol | 82.35% (14/17) | 78.57% (11/14) | 80.00% (4/5) | 100.00% (3/3) |
+|-----------------------------------------------+----------------+----------------+--------------+---------------|
+| Total                                         | 82.35% (14/17) | 78.57% (11/14) | 80.00% (4/5) | 100.00% (3/3) |
+╰-----------------------------------------------+----------------+----------------+--------------+---------------╯

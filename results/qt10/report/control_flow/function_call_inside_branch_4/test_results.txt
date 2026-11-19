@@ -1,0 +1,56 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 322.78ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_branch_4.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_branch_4.t.sol
+
+
+Ran 3 tests for test/function_call_inside_branch_4.t.sol:function_call_inside_branch_4_Test
+[PASS] test_function_call_inside_branch_4_0() (gas: 8856)
+[PASS] test_function_call_inside_branch_4_1() (gas: 8813)
+[PASS] test_function_call_inside_branch_4_2() (gas: 8525)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 6.83ms (2.30ms CPU time)
+
+Ran 1 test suite in 12.25ms (6.83ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 315.42ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_branch_4.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_branch_4.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/function_call_inside_branch_4.t.sol:function_call_inside_branch_4_Test
+[PASS] test_function_call_inside_branch_4_0() (gas: 8856)
+[PASS] test_function_call_inside_branch_4_1() (gas: 8813)
+[PASS] test_function_call_inside_branch_4_2() (gas: 8525)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 641.46µs (270.96µs CPU time)
+
+Ran 1 test suite in 4.08ms (641.46µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/function_call_inside_branch_4.t.sol:function_call_inside_branch_4_Test
+[PASS] test_function_call_inside_branch_4_0() (gas: 8856)
+[PASS] test_function_call_inside_branch_4_1() (gas: 8813)
+[PASS] test_function_call_inside_branch_4_2() (gas: 8525)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 444.71µs (276.04µs CPU time)
+
+Ran 1 test suite in 4.31ms (444.71µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭---------------------------------------------------------------+-----------------+-----------------+---------------+---------------╮
+| File                                                          | % Lines         | % Statements    | % Branches    | % Funcs       |
++===================================================================================================================================+
+| src/regression/control_flow/function_call_inside_branch_4.sol | 100.00% (14/14) | 100.00% (11/11) | 100.00% (2/2) | 100.00% (3/3) |
+|---------------------------------------------------------------+-----------------+-----------------+---------------+---------------|
+| Total                                                         | 100.00% (14/14) | 100.00% (11/11) | 100.00% (2/2) | 100.00% (3/3) |
+╰---------------------------------------------------------------+-----------------+-----------------+---------------+---------------╯

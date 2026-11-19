@@ -1,0 +1,2609 @@
+[09:17:51:448449]
+[[['Cdw1', 'contract', 30, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender'], ['f', 29, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender', 'uint', 'x']]]
+[09:17:55:966554]
+run TG with
+[09:17:55:966658]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Cdw1_30:state,msg.value,msg.sender^f__29:state,msg.value,msg.sender,x /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/do_while_1_fail_updated.smt2
+[09:17:55:966751]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Cdw1_30:state,msg.value,msg.sender^f__29:state,msg.value,msg.sender,x /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/do_while_1_fail_updated.smt2
+Chc: (((((((error_0=0)&&(error_0=_FH_0'))&&(this_0=_FH_1'))&&(abi_0=_FH_2'))&&(crypto_0=_FH_3'))&&(state_0=_FH_4'))&&(state_0=_FH_5')) => [fdecl    nondet_interface_1_Cdw1_30_0    INT    INT    abi_type    crypto_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((((error_0=0)&&(error_0=_FH_0))&&(this_0=_FH_1))&&(abi_0=_FH_2))&&(crypto_0=_FH_3))&&(state_0=_FH_4))&&(state_1=_FH_5))&&(error_1=_FH_87))&&(this_0=_FH_88))&&(abi_0=_FH_89))&&(crypto_0=_FH_90))&&(tx_0=_FH_91))&&(state_1=_FH_92))&&(x_2_0=_FH_93))&&(state_2=_FH_94))&&(x_2_1=_FH_95))&&(error_1=_FH_0'))&&(this_0=_FH_1'))&&(abi_0=_FH_2'))&&(crypto_0=_FH_3'))&&(state_0=_FH_4'))&&(state_2=_FH_5')) => [fdecl    nondet_interface_1_Cdw1_30_0    INT    INT    abi_type    crypto_type    state_type    state_type    BOOL]
+Chc: (((((((((true&&(error_0=_FH_6'))&&(this_0=_FH_7'))&&(abi_0=_FH_8'))&&(crypto_0=_FH_9'))&&(tx_0=_FH_10'))&&(state_0=_FH_11'))&&(x_2_0=_FH_12'))&&(state_1=_FH_13'))&&(x_2_1=_FH_14')) => [fdecl    block_5_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    error_0=0    state_1=state_0    x_2_1=x_2_0]&&(error_0=_FH_6))&&(this_0=_FH_7))&&(abi_0=_FH_8))&&(crypto_0=_FH_9))&&(tx_0=_FH_10))&&(state_0=_FH_11))&&(x_2_0=_FH_12))&&(state_1=_FH_13))&&(x_2_1=_FH_14))&&(error_0=_FH_15'))&&(this_0=_FH_16'))&&(abi_0=_FH_17'))&&(crypto_0=_FH_18'))&&(tx_0=_FH_19'))&&(state_0=_FH_20'))&&(x_2_0=_FH_21'))&&(state_1=_FH_22'))&&(x_2_1=_FH_23')) => [fdecl    block_6_f_28_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    x_2_2=expr_15_1    true->((expr_15_1>=0)&&(expr_15_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_15_1=expr_14_1    true->((expr_11_0>=0)&&(expr_11_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_11_0=x_2_1    true->((expr_14_1>=0)&&(expr_14_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_14_1=(expr_12_0+expr_13_0)    expr_13_0=1    true->((expr_12_0>=0)&&(expr_12_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_12_0=x_2_1    true->expr_8_1    expr_8_1=(expr_6_0<expr_7_0)    expr_7_0=100    true->((expr_6_0>=0)&&(expr_6_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_6_0=x_2_1    x_2_1>=0    x_2_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935]&&(error_0=_FH_15))&&(this_0=_FH_16))&&(abi_0=_FH_17))&&(crypto_0=_FH_18))&&(tx_0=_FH_19))&&(state_0=_FH_20))&&(x_2_0=_FH_21))&&(state_1=_FH_22))&&(x_2_1=_FH_23))&&(error_0=_FH_24'))&&(this_0=_FH_25'))&&(abi_0=_FH_26'))&&(crypto_0=_FH_27'))&&(tx_0=_FH_28'))&&(state_0=_FH_29'))&&(x_2_0=_FH_30'))&&(state_1=_FH_31'))&&(x_2_2=_FH_32')) => [fdecl    block_8_do_while_header_f_21_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_20_1    expr_20_1=(expr_18_0<expr_19_0)    expr_19_0=10    true->((expr_18_0>=0)&&(expr_18_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_18_0=x_2_1]&&(error_0=_FH_24))&&(this_0=_FH_25))&&(abi_0=_FH_26))&&(crypto_0=_FH_27))&&(tx_0=_FH_28))&&(state_0=_FH_29))&&(x_2_0=_FH_30))&&(state_1=_FH_31))&&(x_2_1=_FH_32))&&(error_0=_FH_33'))&&(this_0=_FH_34'))&&(abi_0=_FH_35'))&&(crypto_0=_FH_36'))&&(tx_0=_FH_37'))&&(state_0=_FH_38'))&&(x_2_0=_FH_39'))&&(state_1=_FH_40'))&&(x_2_1=_FH_41')) => [fdecl    block_9_do_while_body_f_17_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_20_1=(expr_18_0<expr_19_0)    expr_19_0=10    true->((expr_18_0>=0)&&(expr_18_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_18_0=x_2_1    !expr_20_1]&&(error_0=_FH_24))&&(this_0=_FH_25))&&(abi_0=_FH_26))&&(crypto_0=_FH_27))&&(tx_0=_FH_28))&&(state_0=_FH_29))&&(x_2_0=_FH_30))&&(state_1=_FH_31))&&(x_2_1=_FH_32))&&(error_0=_FH_42'))&&(this_0=_FH_43'))&&(abi_0=_FH_44'))&&(crypto_0=_FH_45'))&&(tx_0=_FH_46'))&&(state_0=_FH_47'))&&(x_2_0=_FH_48'))&&(state_1=_FH_49'))&&(x_2_1=_FH_50')) => [fdecl    block_10_f_28_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    x_2_2=expr_15_3    true->((expr_15_3>=0)&&(expr_15_3<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_15_3=expr_14_3    true->((expr_11_1>=0)&&(expr_11_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_11_1=x_2_1    true->((expr_14_3>=0)&&(expr_14_3<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_14_3=(expr_12_1+expr_13_1)    expr_13_1=1    true->((expr_12_1>=0)&&(expr_12_1<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_12_1=x_2_1]&&(error_0=_FH_33))&&(this_0=_FH_34))&&(abi_0=_FH_35))&&(crypto_0=_FH_36))&&(tx_0=_FH_37))&&(state_0=_FH_38))&&(x_2_0=_FH_39))&&(state_1=_FH_40))&&(x_2_1=_FH_41))&&(error_0=_FH_24'))&&(this_0=_FH_25'))&&(abi_0=_FH_26'))&&(crypto_0=_FH_27'))&&(tx_0=_FH_28'))&&(state_0=_FH_29'))&&(x_2_0=_FH_30'))&&(state_1=_FH_31'))&&(x_2_2=_FH_32')) => [fdecl    block_8_do_while_header_f_21_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_25_1=(expr_23_0<expr_24_0)    expr_24_0=14    true->((expr_23_0>=0)&&(expr_23_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_23_0=x_2_1    !expr_25_1    error_1=1]&&(error_0=_FH_42))&&(this_0=_FH_43))&&(abi_0=_FH_44))&&(crypto_0=_FH_45))&&(tx_0=_FH_46))&&(state_0=_FH_47))&&(x_2_0=_FH_48))&&(state_1=_FH_49))&&(x_2_1=_FH_50))&&(error_1=_FH_51'))&&(this_0=_FH_52'))&&(abi_0=_FH_53'))&&(crypto_0=_FH_54'))&&(tx_0=_FH_55'))&&(state_0=_FH_56'))&&(x_2_0=_FH_57'))&&(state_1=_FH_58'))&&(x_2_1=_FH_59')) => [fdecl    block_11_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: ((((((((((((((((((true&&(error_1=_FH_51))&&(this_0=_FH_52))&&(abi_0=_FH_53))&&(crypto_0=_FH_54))&&(tx_0=_FH_55))&&(state_0=_FH_56))&&(x_2_0=_FH_57))&&(state_1=_FH_58))&&(x_2_1=_FH_59))&&(error_1=_FH_60'))&&(this_0=_FH_61'))&&(abi_0=_FH_62'))&&(crypto_0=_FH_63'))&&(tx_0=_FH_64'))&&(state_0=_FH_65'))&&(x_2_0=_FH_66'))&&(state_1=_FH_67'))&&(x_2_1=_FH_68')) => [fdecl    summary_3_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((((((((((([&&    true->true    expr_25_1=(expr_23_0<expr_24_0)    expr_24_0=14    true->((expr_23_0>=0)&&(expr_23_0<=115792089237316195423570985008687907853269984665640564039457584007913129639935))    expr_23_0=x_2_1    error_1=error_0]&&(error_0=_FH_42))&&(this_0=_FH_43))&&(abi_0=_FH_44))&&(crypto_0=_FH_45))&&(tx_0=_FH_46))&&(state_0=_FH_47))&&(x_2_0=_FH_48))&&(state_1=_FH_49))&&(x_2_1=_FH_50))&&(error_1=_FH_69'))&&(this_0=_FH_70'))&&(abi_0=_FH_71'))&&(crypto_0=_FH_72'))&&(tx_0=_FH_73'))&&(state_0=_FH_74'))&&(x_2_0=_FH_75'))&&(state_1=_FH_76'))&&(x_2_1=_FH_77')) => [fdecl    block_7_return_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: ((((((((((((((((((true&&(error_0=_FH_69))&&(this_0=_FH_70))&&(abi_0=_FH_71))&&(crypto_0=_FH_72))&&(tx_0=_FH_73))&&(state_0=_FH_74))&&(x_2_0=_FH_75))&&(state_1=_FH_76))&&(x_2_1=_FH_77))&&(error_0=_FH_60'))&&(this_0=_FH_61'))&&(abi_0=_FH_62'))&&(crypto_0=_FH_63'))&&(tx_0=_FH_64'))&&(state_0=_FH_65'))&&(x_2_0=_FH_66'))&&(state_1=_FH_67'))&&(x_2_1=_FH_68')) => [fdecl    summary_3_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: (((((((((true&&(error_0=_FH_78'))&&(this_0=_FH_79'))&&(abi_0=_FH_80'))&&(crypto_0=_FH_81'))&&(tx_0=_FH_82'))&&(state_0=_FH_83'))&&(x_2_0=_FH_84'))&&(state_1=_FH_85'))&&(x_2_1=_FH_86')) => [fdecl    block_12_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: ((((((((((((((((((((((((((([&&    error_0=0    state_1=state_0    x_2_1=x_2_0    state_2=(state_type store((balances state_1), this_0, select((balances state_1), this_0)+funds_2_0))    (select((balances state_1), this_0)+funds_2_0)>=0    (select((balances state_1), this_0)+funds_2_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    funds_2_0>=(msg.value tx_0)    (block.basefee tx_0)>=0    (block.basefee tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.chainid tx_0)>=0    (block.chainid tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.coinbase tx_0)>=0    (block.coinbase tx_0)<=1461501637330902918203684832716283019655932542975    (block.difficulty tx_0)>=0    (block.difficulty tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.gaslimit tx_0)>=0    (block.gaslimit tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.number tx_0)>=0    (block.number tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.timestamp tx_0)>=0    (block.timestamp tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.sender tx_0)>=0    (msg.sender tx_0)<=1461501637330902918203684832716283019655932542975    (msg.value tx_0)>=0    (msg.value tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (tx.origin tx_0)>=0    (tx.origin tx_0)<=1461501637330902918203684832716283019655932542975    (tx.gasprice tx_0)>=0    (tx.gasprice tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.value tx_0)=0    (msg.sig tx_0)=3017696395    select((bytes_tuple_accessor_array (msg.data tx_0)), 0)=179    select((bytes_tuple_accessor_array (msg.data tx_0)), 1)=222    select((bytes_tuple_accessor_array (msg.data tx_0)), 2)=100    select((bytes_tuple_accessor_array (msg.data tx_0)), 3)=139    (bytes_tuple_accessor_length (msg.data tx_0))>=4]&&(error_0=_FH_78))&&(this_0=_FH_79))&&(abi_0=_FH_80))&&(crypto_0=_FH_81))&&(tx_0=_FH_82))&&(state_0=_FH_83))&&(x_2_0=_FH_84))&&(state_1=_FH_85))&&(x_2_1=_FH_86))&&(error_1=_FH_60))&&(this_0=_FH_61))&&(abi_0=_FH_62))&&(crypto_0=_FH_63))&&(tx_0=_FH_64))&&(state_2=_FH_65))&&(x_2_1=_FH_66))&&(state_3=_FH_67))&&(x_2_2=_FH_68))&&(error_1=_FH_87'))&&(this_0=_FH_88'))&&(abi_0=_FH_89'))&&(crypto_0=_FH_90'))&&(tx_0=_FH_91'))&&(state_0=_FH_92'))&&(x_2_0=_FH_93'))&&(state_3=_FH_94'))&&(x_2_2=_FH_95')) => [fdecl    summary_4_function_f__29_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    INT    state_type    INT    BOOL]
+Chc: ((((((((((((((((((error_0=0)&&(this_0=_FH_96))&&(abi_0=_FH_97))&&(crypto_0=_FH_98))&&(state_0=_FH_99))&&(error_0=_FH_87))&&(this_0=_FH_88))&&(abi_0=_FH_89))&&(crypto_0=_FH_90))&&(tx_0=_FH_91))&&(state_0=_FH_92))&&(x_2_0=_FH_93))&&(state_1=_FH_94))&&(x_2_1=_FH_95))&&(this_0=_FH_96'))&&(abi_0=_FH_97'))&&(crypto_0=_FH_98'))&&(state_1=_FH_99')) => [fdecl    interface_0_Cdw1_30_0    INT    abi_type    crypto_type    state_type    BOOL]
+Chc: (((((((((error_0=0)&&(state_1=state_0))&&(error_0=_FH_100'))&&(this_0=_FH_101'))&&(abi_0=_FH_102'))&&(crypto_0=_FH_103'))&&(tx_0=_FH_104'))&&(state_0=_FH_105'))&&(state_1=_FH_106')) => [fdecl    contract_initializer_entry_14_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((true&&(error_0=_FH_100))&&(this_0=_FH_101))&&(abi_0=_FH_102))&&(crypto_0=_FH_103))&&(tx_0=_FH_104))&&(state_0=_FH_105))&&(state_1=_FH_106))&&(error_0=_FH_107'))&&(this_0=_FH_108'))&&(abi_0=_FH_109'))&&(crypto_0=_FH_110'))&&(tx_0=_FH_111'))&&(state_0=_FH_112'))&&(state_1=_FH_113')) => [fdecl    contract_initializer_after_init_15_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((true&&(error_0=_FH_107))&&(this_0=_FH_108))&&(abi_0=_FH_109))&&(crypto_0=_FH_110))&&(tx_0=_FH_111))&&(state_0=_FH_112))&&(state_1=_FH_113))&&(error_0=_FH_114'))&&(this_0=_FH_115'))&&(abi_0=_FH_116'))&&(crypto_0=_FH_117'))&&(tx_0=_FH_118'))&&(state_0=_FH_119'))&&(state_1=_FH_120')) => [fdecl    contract_initializer_13_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((([&&    error_0=0    state_1=state_0    select((balances state_1), this_0)>=(msg.value tx_0)]&&(error_0=_FH_121'))&&(this_0=_FH_122'))&&(abi_0=_FH_123'))&&(crypto_0=_FH_124'))&&(tx_0=_FH_125'))&&(state_0=_FH_126'))&&(state_1=_FH_127')) => [fdecl    implicit_constructor_entry_16_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((((error_1>0)&&(error_0=_FH_121))&&(this_0=_FH_122))&&(abi_0=_FH_123))&&(crypto_0=_FH_124))&&(tx_0=_FH_125))&&(state_0=_FH_126))&&(state_1=_FH_127))&&(error_1=_FH_114))&&(this_0=_FH_115))&&(abi_0=_FH_116))&&(crypto_0=_FH_117))&&(tx_0=_FH_118))&&(state_1=_FH_119))&&(state_2=_FH_120))&&(error_1=_FH_128'))&&(this_0=_FH_129'))&&(abi_0=_FH_130'))&&(crypto_0=_FH_131'))&&(tx_0=_FH_132'))&&(state_0=_FH_133'))&&(state_2=_FH_134')) => [fdecl    summary_constructor_2_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((((((((((((((error_1=0)&&(error_0=_FH_121))&&(this_0=_FH_122))&&(abi_0=_FH_123))&&(crypto_0=_FH_124))&&(tx_0=_FH_125))&&(state_0=_FH_126))&&(state_1=_FH_127))&&(error_1=_FH_114))&&(this_0=_FH_115))&&(abi_0=_FH_116))&&(crypto_0=_FH_117))&&(tx_0=_FH_118))&&(state_1=_FH_119))&&(state_2=_FH_120))&&(error_1=_FH_128'))&&(this_0=_FH_129'))&&(abi_0=_FH_130'))&&(crypto_0=_FH_131'))&&(tx_0=_FH_132'))&&(state_0=_FH_133'))&&(state_2=_FH_134')) => [fdecl    summary_constructor_2_Cdw1_30_0    INT    INT    abi_type    crypto_type    tx_type    state_type    state_type    BOOL]
+Chc: ((((((((((([&&    error_0=0    (block.basefee tx_0)>=0    (block.basefee tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.chainid tx_0)>=0    (block.chainid tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.coinbase tx_0)>=0    (block.coinbase tx_0)<=1461501637330902918203684832716283019655932542975    (block.difficulty tx_0)>=0    (block.difficulty tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.gaslimit tx_0)>=0    (block.gaslimit tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.number tx_0)>=0    (block.number tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (block.timestamp tx_0)>=0    (block.timestamp tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.sender tx_0)>=0    (msg.sender tx_0)<=1461501637330902918203684832716283019655932542975    (msg.value tx_0)>=0    (msg.value tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (tx.origin tx_0)>=0    (tx.origin tx_0)<=1461501637330902918203684832716283019655932542975    (tx.gasprice tx_0)>=0    (tx.gasprice tx_0)<=115792089237316195423570985008687907853269984665640564039457584007913129639935    (msg.value tx_0)=0]&&(error_0=_FH_128))&&(this_0=_FH_129))&&(abi_0=_FH_130))&&(crypto_0=_FH_131))&&(tx_0=_FH_132))&&(state_0=_FH_133))&&(state_1=_FH_134))&&(this_0=_FH_96'))&&(abi_0=_FH_97'))&&(crypto_0=_FH_98'))&&(state_1=_FH_99')) => [fdecl    interface_0_Cdw1_30_0    INT    abi_type    crypto_type    state_type    BOOL]
+cycle found (#14):
+    interface_0_Cdw1_30_0 /\ summary_4_function_f__29_30_0 /\   [arity 2] -> interface_0_Cdw1_30_0
+fact found (#21):
+    summary_constructor_2_Cdw1_30_0 /\   [arity 1] -> interface_0_Cdw1_30_0
+CHCs:
+  INIT:
+      [arity 0] -> nondet_interface_1_Cdw1_30_0
+    nondet_interface_1_Cdw1_30_0 /\ summary_4_function_f__29_30_0 /\   [arity 2] -> nondet_interface_1_Cdw1_30_0
+  INIT:
+      [arity 0] -> block_5_function_f__29_30_0
+    block_5_function_f__29_30_0 /\   [arity 1] -> block_6_f_28_30_0
+    block_6_f_28_30_0 /\   [arity 1] -> block_8_do_while_header_f_21_30_0
+    block_8_do_while_header_f_21_30_0 /\   [arity 1] -> block_9_do_while_body_f_17_30_0
+    block_8_do_while_header_f_21_30_0 /\   [arity 1] -> block_10_f_28_30_0
+    block_9_do_while_body_f_17_30_0 /\   [arity 1] -> block_8_do_while_header_f_21_30_0
+    block_10_f_28_30_0 /\   [arity 1] -> block_11_function_f__29_30_0
+    block_11_function_f__29_30_0 /\   [arity 1] -> summary_3_function_f__29_30_0
+    block_10_f_28_30_0 /\   [arity 1] -> block_7_return_function_f__29_30_0
+    block_7_return_function_f__29_30_0 /\   [arity 1] -> summary_3_function_f__29_30_0
+  INIT:
+      [arity 0] -> block_12_function_f__29_30_0
+    block_12_function_f__29_30_0 /\ summary_3_function_f__29_30_0 /\   [arity 2] -> summary_4_function_f__29_30_0
+    interface_0_Cdw1_30_0 /\ summary_4_function_f__29_30_0 /\   [arity 2] -> interface_0_Cdw1_30_0
+  INIT:
+      [arity 0] -> contract_initializer_entry_14_Cdw1_30_0
+    contract_initializer_entry_14_Cdw1_30_0 /\   [arity 1] -> contract_initializer_after_init_15_Cdw1_30_0
+    contract_initializer_after_init_15_Cdw1_30_0 /\   [arity 1] -> contract_initializer_13_Cdw1_30_0
+  INIT:
+      [arity 0] -> implicit_constructor_entry_16_Cdw1_30_0
+    implicit_constructor_entry_16_Cdw1_30_0 /\ contract_initializer_13_Cdw1_30_0 /\   [arity 2] -> summary_constructor_2_Cdw1_30_0
+    implicit_constructor_entry_16_Cdw1_30_0 /\ contract_initializer_13_Cdw1_30_0 /\   [arity 2] -> summary_constructor_2_Cdw1_30_0
+    summary_constructor_2_Cdw1_30_0 /\   [arity 1] -> interface_0_Cdw1_30_0
+query timeout (ms): 10000
+TODOs : 
+2 : block_5_function_f__29_30_0
+3 : block_6_f_28_30_0
+4 : block_8_do_while_header_f_21_30_0
+5 : block_9_do_while_body_f_17_30_0
+6 : block_10_f_28_30_0
+7 : block_8_do_while_header_f_21_30_0
+8 : block_11_function_f__29_30_0
+9 : summary_3_function_f__29_30_0
+10 : block_7_return_function_f__29_30_0
+11 : summary_3_function_f__29_30_0
+12 : block_12_function_f__29_30_0
+19 : summary_constructor_2_Cdw1_30_0
+20 : summary_constructor_2_Cdw1_30_0
+new iter with cur_bnd = 1
+  ***************   pop back the query ************
+mkNewQuery: 0; chcs 22
+  cur_batch empt: 1
+   >>> new query:   summary_constructor_2_Cdw1_30_0, summary_4_function_f__29_30_0
+chcs 
+0 srs:  dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+1 srs:  34 69 dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+2 srs:  dst: 77 : block_5_function_f__29_30_0 isQuery : 0
+3 srs:  77 dst: 90 : block_6_f_28_30_0 isQuery : 0
+4 srs:  90 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+5 srs:  196 dst: 231 : block_9_do_while_body_f_17_30_0 isQuery : 0
+6 srs:  196 dst: 238 : block_10_f_28_30_0 isQuery : 0
+7 srs:  231 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+8 srs:  238 dst: 325 : block_11_function_f__29_30_0 isQuery : 0
+9 srs:  325 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+10 srs:  238 dst: 339 : block_7_return_function_f__29_30_0 isQuery : 0
+11 srs:  339 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+12 srs:  dst: 350 : block_12_function_f__29_30_0 isQuery : 0
+13 srs:  350 330 dst: 69 : summary_4_function_f__29_30_0 isQuery : 0
+14 srs:  515 69 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+15 srs:  dst: 525 : contract_initializer_entry_14_Cdw1_30_0 isQuery : 0
+16 srs:  525 dst: 532 : contract_initializer_after_init_15_Cdw1_30_0 isQuery : 0
+17 srs:  532 dst: 539 : contract_initializer_13_Cdw1_30_0 isQuery : 0
+18 srs:  dst: 547 : implicit_constructor_entry_16_Cdw1_30_0 isQuery : 0
+19 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+20 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+21 srs:  557 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+22 srs:  557 69 dst: 578 : error_target_3_0 isQuery : 1
+index_cycle_chc : 14
+decls 
+0 left: 34 right: 10
+1 left: 69 right: 10
+2 left: 77 right: 10
+3 left: 90 right: 10
+4 left: 196 right: 10
+5 left: 231 right: 10
+6 left: 238 right: 10
+7 left: 325 right: 10
+8 left: 330 right: 10
+9 left: 339 right: 10
+10 left: 350 right: 10
+11 left: 515 right: 10
+12 left: 525 right: 10
+13 left: 532 right: 10
+14 left: 539 right: 10
+15 left: 547 right: 10
+16 left: 557 right: 10
+expr_id 
+0 first: 34 second: 1
+1 first: 69 second: 13
+2 first: 77 second: 2
+3 first: 90 second: 3
+4 first: 196 second: 7
+5 first: 231 second: 5
+6 first: 238 second: 6
+7 first: 325 second: 8
+8 first: 330 second: 11
+9 first: 339 second: 10
+10 first: 350 second: 12
+11 first: 515 second: 21
+12 first: 525 second: 15
+13 first: 532 second: 16
+14 first: 539 second: 17
+15 first: 547 second: 18
+16 first: 557 second: 20
+depth: 1; trees size : 0
+depth: 2; trees size : 0
+depth: 3; trees size : 0
+depth: 4; trees size : 0
+depth: 5; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling sat
+-1 2 3 4 6 10 11 12 13 22 
+FOUND: 2 # number_of_found_branches: 0
+FOUND: 3 # number_of_found_branches: 0
+FOUND: 4 # number_of_found_branches: 0
+FOUND: 6 # number_of_found_branches: 0
+FOUND: 10 # number_of_found_branches: 0
+FOUND: 11 # number_of_found_branches: 0
+FOUND: 12 # number_of_found_branches: 0
+ToDos: 5 7 8 9 19 20 
+MODEL : 
+[
+  (_loc6=0)
+  (_loc_2=0)
+  ((msg.value _loc_6)=0)
+  (_loc_32=0)
+  (_loc_74=0)
+  (_loc_90=0)
+  ((msg.value _loc_98)=0)
+  ((msg.sig _loc_98)=3017696395)
+  (_loc_152=14)
+  (_loc_173=10)
+  (_loc_195=1)
+  (_loc_199=100)
+  (_loc_219=0)
+  (_loc_17=0)
+  (_FH_96'=5)
+  (_FH_97'=abi_type)
+  (_FH_98'=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_bnd0=5)
+  (_bnd1=abi_type)
+  (_bnd2=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc4=abi_type)
+  (_loc5=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc9=5)
+  (_loc11=9)
+  (_loc12=10)
+  (_loc_0=abi_type)
+  (_loc_1=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_5=5)
+  ((block.basefee _loc_6)=0)
+  ((block.chainid _loc_6)=0)
+  ((block.coinbase _loc_6)=0)
+  ((block.difficulty _loc_6)=0)
+  ((block.gaslimit _loc_6)=0)
+  ((block.number _loc_6)=0)
+  ((block.timestamp _loc_6)=0)
+  ((msg.sender _loc_6)=0)
+  ((tx.origin _loc_6)=0)
+  ((tx.gasprice _loc_6)=0)
+  (_tg_7=0)
+  (_tg_8=5)
+  (_tg_9=abi_type)
+  (_tg_10=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_14=abi_type)
+  (_loc_15=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_16=0)
+  (_loc_21=5)
+  (_tg_23=0)
+  (_tg_24=5)
+  (_tg_25=abi_type)
+  (_tg_26=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_30=abi_type)
+  (_loc_31=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_35=5)
+  ((balances _loc_34)=const-array(INT, 7719))
+  ((msg.value _loc_36)=0)
+  (_tg_37=0)
+  (_tg_38=5)
+  (_tg_39=abi_type)
+  (_tg_40=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_44=abi_type)
+  (_loc_45=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_46=0)
+  (_loc_49=5)
+  (_tg_51=0)
+  (_tg_52=5)
+  (_tg_53=abi_type)
+  (_tg_54=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_58=abi_type)
+  (_loc_59=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_60=0)
+  (_loc_63=5)
+  (_tg_65=0)
+  (_tg_66=5)
+  (_tg_67=abi_type)
+  (_tg_68=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_72=abi_type)
+  (_loc_73=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_77=5)
+  (_tg_79=0)
+  (_tg_80=5)
+  (_tg_81=abi_type)
+  (_tg_82=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_85=9)
+  (_tg_87=10)
+  (_loc_88=abi_type)
+  (_loc_89=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_91=0)
+  (_loc_92=0)
+  (_loc_97=5)
+  (_loc_99=9)
+  (_loc_100=9)
+  (_loc_101=10)
+  ((balances _loc_94)=const-array(INT, 7719))
+  ((block.basefee _loc_98)=0)
+  ((block.chainid _loc_98)=0)
+  ((block.coinbase _loc_98)=0)
+  ((block.difficulty _loc_98)=0)
+  ((block.gaslimit _loc_98)=0)
+  ((block.number _loc_98)=0)
+  ((block.timestamp _loc_98)=0)
+  ((msg.sender _loc_98)=0)
+  ((tx.origin _loc_98)=0)
+  ((tx.gasprice _loc_98)=0)
+  (bytes_tuple_accessor_array (msg.data _loc_98)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_98))=4)
+  (_tg_102=0)
+  (_tg_103=5)
+  (_tg_104=abi_type)
+  (_tg_105=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_108=9)
+  (_tg_110=9)
+  (_loc_111=abi_type)
+  (_loc_112=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_113=0)
+  (_loc_116=5)
+  (_loc_118=9)
+  (_loc_119=9)
+  (_tg_120=0)
+  (_tg_121=5)
+  (_tg_122=abi_type)
+  (_tg_123=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_126=9)
+  (_tg_128=10)
+  (_loc_129=abi_type)
+  (_loc_130=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_131=0)
+  (_loc_134=5)
+  (_loc_136=9)
+  (_loc_137=10)
+  (_tg_138=0)
+  (_tg_139=5)
+  (_tg_140=abi_type)
+  (_tg_141=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_144=9)
+  (_tg_146=10)
+  (_loc_147=abi_type)
+  (_loc_148=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_149=0)
+  (_loc_150=0)
+  (_loc_151=10)
+  (_loc_153=true)
+  (_loc_156=5)
+  (_loc_158=9)
+  (_loc_159=10)
+  (_tg_160=0)
+  (_tg_161=5)
+  (_tg_162=abi_type)
+  (_tg_163=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_166=9)
+  (_tg_168=10)
+  (_loc_169=abi_type)
+  (_loc_170=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_171=0)
+  (_loc_172=10)
+  (_loc_174=false)
+  (_loc_177=5)
+  (_loc_179=9)
+  (_loc_180=10)
+  (_tg_181=0)
+  (_tg_182=5)
+  (_tg_183=abi_type)
+  (_tg_184=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_187=9)
+  (_tg_189=10)
+  (_loc_190=abi_type)
+  (_loc_191=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_192=0)
+  (_loc_193=9)
+  (_loc_194=9)
+  (_loc_196=10)
+  (_loc_197=10)
+  (_loc_198=9)
+  (_loc_200=true)
+  (_loc_203=5)
+  (_loc_205=9)
+  (_loc_206=9)
+  (_loc_207=10)
+  (_tg_208=0)
+  (_tg_209=5)
+  (_tg_210=abi_type)
+  (_tg_211=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_214=9)
+  (_tg_216=9)
+  (_loc_217=abi_type)
+  (_loc_218=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_222=5)
+  (_loc_224=9)
+  (_loc_225=9)
+  (_tg_226=0)
+  (_tg_227=5)
+  (_tg_228=abi_type)
+  (_tg_229=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_232=9)
+  (_tg_234=9)
+  (_loc_235=abi_type)
+  (_loc_236=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_237=0)
+  (_loc_240=5)
+  (_loc_242=9)
+  (_loc_243=9)
+  ((balances _FH_99')=const-array(INT, 7719))
+  ((balances _bnd3)=const-array(INT, 7719))
+  ((balances _loc7)=const-array(INT, 7719))
+  ((balances _loc8)=const-array(INT, 7719))
+  ((msg.value _loc10)=0)
+  ((block.basefee _loc10)=0)
+  ((block.chainid _loc10)=0)
+  ((block.coinbase _loc10)=0)
+  ((block.difficulty _loc10)=0)
+  ((block.gaslimit _loc10)=0)
+  ((block.number _loc10)=0)
+  ((block.timestamp _loc10)=0)
+  ((msg.sender _loc10)=0)
+  ((tx.origin _loc10)=0)
+  ((tx.gasprice _loc10)=0)
+  ((msg.sig _loc10)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc10)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc10))=4)
+  ((balances _loc_3)=const-array(INT, 7719))
+  ((balances _loc_4)=const-array(INT, 7719))
+  ((msg.sig _loc_6)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_6)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_6))=4)
+  ((msg.value _tg_11)=0)
+  ((block.basefee _tg_11)=0)
+  ((block.chainid _tg_11)=0)
+  ((block.coinbase _tg_11)=0)
+  ((block.difficulty _tg_11)=0)
+  ((block.gaslimit _tg_11)=0)
+  ((block.number _tg_11)=0)
+  ((block.timestamp _tg_11)=0)
+  ((msg.sender _tg_11)=0)
+  ((tx.origin _tg_11)=0)
+  ((tx.gasprice _tg_11)=0)
+  ((msg.sig _tg_11)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_11)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_11))=4)
+  ((balances _tg_12)=const-array(INT, 7719))
+  ((balances _tg_13)=const-array(INT, 7719))
+  ((balances _loc_18)=const-array(INT, 7719))
+  ((balances _loc_19)=const-array(INT, 7719))
+  ((balances _loc_20)=const-array(INT, 7719))
+  ((msg.value _loc_22)=0)
+  ((block.basefee _loc_22)=0)
+  ((block.chainid _loc_22)=0)
+  ((block.coinbase _loc_22)=0)
+  ((block.difficulty _loc_22)=0)
+  ((block.gaslimit _loc_22)=0)
+  ((block.number _loc_22)=0)
+  ((block.timestamp _loc_22)=0)
+  ((msg.sender _loc_22)=0)
+  ((tx.origin _loc_22)=0)
+  ((tx.gasprice _loc_22)=0)
+  ((msg.sig _loc_22)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_22)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_22))=4)
+  ((msg.value _tg_27)=0)
+  ((block.basefee _tg_27)=0)
+  ((block.chainid _tg_27)=0)
+  ((block.coinbase _tg_27)=0)
+  ((block.difficulty _tg_27)=0)
+  ((block.gaslimit _tg_27)=0)
+  ((block.number _tg_27)=0)
+  ((block.timestamp _tg_27)=0)
+  ((msg.sender _tg_27)=0)
+  ((tx.origin _tg_27)=0)
+  ((tx.gasprice _tg_27)=0)
+  ((msg.sig _tg_27)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_27)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_27))=4)
+  ((balances _tg_28)=const-array(INT, 7719))
+  ((balances _tg_29)=const-array(INT, 7719))
+  ((balances _loc_33)=const-array(INT, 7719))
+  ((block.basefee _loc_36)=0)
+  ((block.chainid _loc_36)=0)
+  ((block.coinbase _loc_36)=0)
+  ((block.difficulty _loc_36)=0)
+  ((block.gaslimit _loc_36)=0)
+  ((block.number _loc_36)=0)
+  ((block.timestamp _loc_36)=0)
+  ((msg.sender _loc_36)=0)
+  ((tx.origin _loc_36)=0)
+  ((tx.gasprice _loc_36)=0)
+  ((msg.sig _loc_36)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_36)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_36))=4)
+  ((msg.value _tg_41)=0)
+  ((block.basefee _tg_41)=0)
+  ((block.chainid _tg_41)=0)
+  ((block.coinbase _tg_41)=0)
+  ((block.difficulty _tg_41)=0)
+  ((block.gaslimit _tg_41)=0)
+  ((block.number _tg_41)=0)
+  ((block.timestamp _tg_41)=0)
+  ((msg.sender _tg_41)=0)
+  ((tx.origin _tg_41)=0)
+  ((tx.gasprice _tg_41)=0)
+  ((msg.sig _tg_41)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_41)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_41))=4)
+  ((balances _tg_42)=const-array(INT, 7719))
+  ((balances _tg_43)=const-array(INT, 7719))
+  ((balances _loc_47)=const-array(INT, 7719))
+  ((balances _loc_48)=const-array(INT, 7719))
+  ((msg.value _loc_50)=0)
+  ((block.basefee _loc_50)=0)
+  ((block.chainid _loc_50)=0)
+  ((block.coinbase _loc_50)=0)
+  ((block.difficulty _loc_50)=0)
+  ((block.gaslimit _loc_50)=0)
+  ((block.number _loc_50)=0)
+  ((block.timestamp _loc_50)=0)
+  ((msg.sender _loc_50)=0)
+  ((tx.origin _loc_50)=0)
+  ((tx.gasprice _loc_50)=0)
+  ((msg.sig _loc_50)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_50)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_50))=4)
+  ((msg.value _tg_55)=0)
+  ((block.basefee _tg_55)=0)
+  ((block.chainid _tg_55)=0)
+  ((block.coinbase _tg_55)=0)
+  ((block.difficulty _tg_55)=0)
+  ((block.gaslimit _tg_55)=0)
+  ((block.number _tg_55)=0)
+  ((block.timestamp _tg_55)=0)
+  ((msg.sender _tg_55)=0)
+  ((tx.origin _tg_55)=0)
+  ((tx.gasprice _tg_55)=0)
+  ((msg.sig _tg_55)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_55)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_55))=4)
+  ((balances _tg_56)=const-array(INT, 7719))
+  ((balances _tg_57)=const-array(INT, 7719))
+  ((balances _loc_61)=const-array(INT, 7719))
+  ((balances _loc_62)=const-array(INT, 7719))
+  ((msg.value _loc_64)=0)
+  ((block.basefee _loc_64)=0)
+  ((block.chainid _loc_64)=0)
+  ((block.coinbase _loc_64)=0)
+  ((block.difficulty _loc_64)=0)
+  ((block.gaslimit _loc_64)=0)
+  ((block.number _loc_64)=0)
+  ((block.timestamp _loc_64)=0)
+  ((msg.sender _loc_64)=0)
+  ((tx.origin _loc_64)=0)
+  ((tx.gasprice _loc_64)=0)
+  ((msg.sig _loc_64)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_64)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_64))=4)
+  ((msg.value _tg_69)=0)
+  ((block.basefee _tg_69)=0)
+  ((block.chainid _tg_69)=0)
+  ((block.coinbase _tg_69)=0)
+  ((block.difficulty _tg_69)=0)
+  ((block.gaslimit _tg_69)=0)
+  ((block.number _tg_69)=0)
+  ((block.timestamp _tg_69)=0)
+  ((msg.sender _tg_69)=0)
+  ((tx.origin _tg_69)=0)
+  ((tx.gasprice _tg_69)=0)
+  ((msg.sig _tg_69)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_69)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_69))=4)
+  ((balances _tg_70)=const-array(INT, 7719))
+  ((balances _tg_71)=const-array(INT, 7719))
+  ((balances _loc_75)=const-array(INT, 7719))
+  ((balances _loc_76)=const-array(INT, 7719))
+  ((msg.value _loc_78)=0)
+  ((block.basefee _loc_78)=0)
+  ((block.chainid _loc_78)=0)
+  ((block.coinbase _loc_78)=0)
+  ((block.difficulty _loc_78)=0)
+  ((block.gaslimit _loc_78)=0)
+  ((block.number _loc_78)=0)
+  ((block.timestamp _loc_78)=0)
+  ((msg.sender _loc_78)=0)
+  ((tx.origin _loc_78)=0)
+  ((tx.gasprice _loc_78)=0)
+  ((msg.sig _loc_78)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_78)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_78))=4)
+  ((msg.value _tg_83)=0)
+  ((block.basefee _tg_83)=0)
+  ((block.chainid _tg_83)=0)
+  ((block.coinbase _tg_83)=0)
+  ((block.difficulty _tg_83)=0)
+  ((block.gaslimit _tg_83)=0)
+  ((block.number _tg_83)=0)
+  ((block.timestamp _tg_83)=0)
+  ((msg.sender _tg_83)=0)
+  ((tx.origin _tg_83)=0)
+  ((tx.gasprice _tg_83)=0)
+  ((msg.sig _tg_83)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_83)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_83))=4)
+  ((balances _tg_84)=const-array(INT, 7719))
+  ((balances _tg_86)=const-array(INT, 7719))
+  ((balances _loc_93)=const-array(INT, 7719))
+  ((balances _loc_95)=const-array(INT, 7719))
+  ((balances _loc_96)=const-array(INT, 7719))
+  ((msg.value _tg_106)=0)
+  ((block.basefee _tg_106)=0)
+  ((block.chainid _tg_106)=0)
+  ((block.coinbase _tg_106)=0)
+  ((block.difficulty _tg_106)=0)
+  ((block.gaslimit _tg_106)=0)
+  ((block.number _tg_106)=0)
+  ((block.timestamp _tg_106)=0)
+  ((msg.sender _tg_106)=0)
+  ((tx.origin _tg_106)=0)
+  ((tx.gasprice _tg_106)=0)
+  ((msg.sig _tg_106)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_106)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_106))=4)
+  ((balances _tg_107)=const-array(INT, 7719))
+  ((balances _tg_109)=const-array(INT, 7719))
+  ((balances _loc_114)=const-array(INT, 7719))
+  ((balances _loc_115)=const-array(INT, 7719))
+  ((msg.value _loc_117)=0)
+  ((block.basefee _loc_117)=0)
+  ((block.chainid _loc_117)=0)
+  ((block.coinbase _loc_117)=0)
+  ((block.difficulty _loc_117)=0)
+  ((block.gaslimit _loc_117)=0)
+  ((block.number _loc_117)=0)
+  ((block.timestamp _loc_117)=0)
+  ((msg.sender _loc_117)=0)
+  ((tx.origin _loc_117)=0)
+  ((tx.gasprice _loc_117)=0)
+  ((msg.sig _loc_117)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_117)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_117))=4)
+  ((msg.value _tg_124)=0)
+  ((block.basefee _tg_124)=0)
+  ((block.chainid _tg_124)=0)
+  ((block.coinbase _tg_124)=0)
+  ((block.difficulty _tg_124)=0)
+  ((block.gaslimit _tg_124)=0)
+  ((block.number _tg_124)=0)
+  ((block.timestamp _tg_124)=0)
+  ((msg.sender _tg_124)=0)
+  ((tx.origin _tg_124)=0)
+  ((tx.gasprice _tg_124)=0)
+  ((msg.sig _tg_124)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_124)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_124))=4)
+  ((balances _tg_125)=const-array(INT, 7719))
+  ((balances _tg_127)=const-array(INT, 7719))
+  ((balances _loc_132)=const-array(INT, 7719))
+  ((balances _loc_133)=const-array(INT, 7719))
+  ((msg.value _loc_135)=0)
+  ((block.basefee _loc_135)=0)
+  ((block.chainid _loc_135)=0)
+  ((block.coinbase _loc_135)=0)
+  ((block.difficulty _loc_135)=0)
+  ((block.gaslimit _loc_135)=0)
+  ((block.number _loc_135)=0)
+  ((block.timestamp _loc_135)=0)
+  ((msg.sender _loc_135)=0)
+  ((tx.origin _loc_135)=0)
+  ((tx.gasprice _loc_135)=0)
+  ((msg.sig _loc_135)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_135)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_135))=4)
+  ((msg.value _tg_142)=0)
+  ((block.basefee _tg_142)=0)
+  ((block.chainid _tg_142)=0)
+  ((block.coinbase _tg_142)=0)
+  ((block.difficulty _tg_142)=0)
+  ((block.gaslimit _tg_142)=0)
+  ((block.number _tg_142)=0)
+  ((block.timestamp _tg_142)=0)
+  ((msg.sender _tg_142)=0)
+  ((tx.origin _tg_142)=0)
+  ((tx.gasprice _tg_142)=0)
+  ((msg.sig _tg_142)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_142)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_142))=4)
+  ((balances _tg_143)=const-array(INT, 7719))
+  ((balances _tg_145)=const-array(INT, 7719))
+  ((balances _loc_154)=const-array(INT, 7719))
+  ((balances _loc_155)=const-array(INT, 7719))
+  ((msg.value _loc_157)=0)
+  ((block.basefee _loc_157)=0)
+  ((block.chainid _loc_157)=0)
+  ((block.coinbase _loc_157)=0)
+  ((block.difficulty _loc_157)=0)
+  ((block.gaslimit _loc_157)=0)
+  ((block.number _loc_157)=0)
+  ((block.timestamp _loc_157)=0)
+  ((msg.sender _loc_157)=0)
+  ((tx.origin _loc_157)=0)
+  ((tx.gasprice _loc_157)=0)
+  ((msg.sig _loc_157)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_157)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_157))=4)
+  ((msg.value _tg_164)=0)
+  ((block.basefee _tg_164)=0)
+  ((block.chainid _tg_164)=0)
+  ((block.coinbase _tg_164)=0)
+  ((block.difficulty _tg_164)=0)
+  ((block.gaslimit _tg_164)=0)
+  ((block.number _tg_164)=0)
+  ((block.timestamp _tg_164)=0)
+  ((msg.sender _tg_164)=0)
+  ((tx.origin _tg_164)=0)
+  ((tx.gasprice _tg_164)=0)
+  ((msg.sig _tg_164)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_164)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_164))=4)
+  ((balances _tg_165)=const-array(INT, 7719))
+  ((balances _tg_167)=const-array(INT, 7719))
+  ((balances _loc_175)=const-array(INT, 7719))
+  ((balances _loc_176)=const-array(INT, 7719))
+  ((msg.value _loc_178)=0)
+  ((block.basefee _loc_178)=0)
+  ((block.chainid _loc_178)=0)
+  ((block.coinbase _loc_178)=0)
+  ((block.difficulty _loc_178)=0)
+  ((block.gaslimit _loc_178)=0)
+  ((block.number _loc_178)=0)
+  ((block.timestamp _loc_178)=0)
+  ((msg.sender _loc_178)=0)
+  ((tx.origin _loc_178)=0)
+  ((tx.gasprice _loc_178)=0)
+  ((msg.sig _loc_178)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_178)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_178))=4)
+  ((msg.value _tg_185)=0)
+  ((block.basefee _tg_185)=0)
+  ((block.chainid _tg_185)=0)
+  ((block.coinbase _tg_185)=0)
+  ((block.difficulty _tg_185)=0)
+  ((block.gaslimit _tg_185)=0)
+  ((block.number _tg_185)=0)
+  ((block.timestamp _tg_185)=0)
+  ((msg.sender _tg_185)=0)
+  ((tx.origin _tg_185)=0)
+  ((tx.gasprice _tg_185)=0)
+  ((msg.sig _tg_185)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_185)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_185))=4)
+  ((balances _tg_186)=const-array(INT, 7719))
+  ((balances _tg_188)=const-array(INT, 7719))
+  ((balances _loc_201)=const-array(INT, 7719))
+  ((balances _loc_202)=const-array(INT, 7719))
+  ((msg.value _loc_204)=0)
+  ((block.basefee _loc_204)=0)
+  ((block.chainid _loc_204)=0)
+  ((block.coinbase _loc_204)=0)
+  ((block.difficulty _loc_204)=0)
+  ((block.gaslimit _loc_204)=0)
+  ((block.number _loc_204)=0)
+  ((block.timestamp _loc_204)=0)
+  ((msg.sender _loc_204)=0)
+  ((tx.origin _loc_204)=0)
+  ((tx.gasprice _loc_204)=0)
+  ((msg.sig _loc_204)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_204)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_204))=4)
+  ((msg.value _tg_212)=0)
+  ((block.basefee _tg_212)=0)
+  ((block.chainid _tg_212)=0)
+  ((block.coinbase _tg_212)=0)
+  ((block.difficulty _tg_212)=0)
+  ((block.gaslimit _tg_212)=0)
+  ((block.number _tg_212)=0)
+  ((block.timestamp _tg_212)=0)
+  ((msg.sender _tg_212)=0)
+  ((tx.origin _tg_212)=0)
+  ((tx.gasprice _tg_212)=0)
+  ((msg.sig _tg_212)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_212)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_212))=4)
+  ((balances _tg_213)=const-array(INT, 7719))
+  ((balances _tg_215)=const-array(INT, 7719))
+  ((balances _loc_220)=const-array(INT, 7719))
+  ((balances _loc_221)=const-array(INT, 7719))
+  ((msg.value _loc_223)=0)
+  ((block.basefee _loc_223)=0)
+  ((block.chainid _loc_223)=0)
+  ((block.coinbase _loc_223)=0)
+  ((block.difficulty _loc_223)=0)
+  ((block.gaslimit _loc_223)=0)
+  ((block.number _loc_223)=0)
+  ((block.timestamp _loc_223)=0)
+  ((msg.sender _loc_223)=0)
+  ((tx.origin _loc_223)=0)
+  ((tx.gasprice _loc_223)=0)
+  ((msg.sig _loc_223)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_223)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_223))=4)
+  ((msg.value _tg_230)=0)
+  ((block.basefee _tg_230)=0)
+  ((block.chainid _tg_230)=0)
+  ((block.coinbase _tg_230)=0)
+  ((block.difficulty _tg_230)=0)
+  ((block.gaslimit _tg_230)=0)
+  ((block.number _tg_230)=0)
+  ((block.timestamp _tg_230)=0)
+  ((msg.sender _tg_230)=0)
+  ((tx.origin _tg_230)=0)
+  ((tx.gasprice _tg_230)=0)
+  ((msg.sig _tg_230)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_230)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_230))=4)
+  ((balances _tg_231)=const-array(INT, 7719))
+  ((balances _tg_233)=const-array(INT, 7719))
+  ((balances _loc_238)=const-array(INT, 7719))
+  ((balances _loc_239)=const-array(INT, 7719))
+  ((msg.value _loc_241)=0)
+  ((block.basefee _loc_241)=0)
+  ((block.chainid _loc_241)=0)
+  ((block.coinbase _loc_241)=0)
+  ((block.difficulty _loc_241)=0)
+  ((block.gaslimit _loc_241)=0)
+  ((block.number _loc_241)=0)
+  ((block.timestamp _loc_241)=0)
+  ((msg.sender _loc_241)=0)
+  ((tx.origin _loc_241)=0)
+  ((tx.gasprice _loc_241)=0)
+  ((msg.sig _loc_241)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_241)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_241))=4)
+
+]
+chcs 
+0 srs:  dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+1 srs:  34 69 dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+2 srs:  dst: 77 : block_5_function_f__29_30_0 isQuery : 0
+3 srs:  77 dst: 90 : block_6_f_28_30_0 isQuery : 0
+4 srs:  90 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+5 srs:  196 dst: 231 : block_9_do_while_body_f_17_30_0 isQuery : 0
+6 srs:  196 dst: 238 : block_10_f_28_30_0 isQuery : 0
+7 srs:  231 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+8 srs:  238 dst: 325 : block_11_function_f__29_30_0 isQuery : 0
+9 srs:  325 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+10 srs:  238 dst: 339 : block_7_return_function_f__29_30_0 isQuery : 0
+11 srs:  339 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+12 srs:  dst: 350 : block_12_function_f__29_30_0 isQuery : 0
+13 srs:  350 330 dst: 69 : summary_4_function_f__29_30_0 isQuery : 0
+14 srs:  515 69 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+15 srs:  dst: 525 : contract_initializer_entry_14_Cdw1_30_0 isQuery : 0
+16 srs:  525 dst: 532 : contract_initializer_after_init_15_Cdw1_30_0 isQuery : 0
+17 srs:  532 dst: 539 : contract_initializer_13_Cdw1_30_0 isQuery : 0
+18 srs:  dst: 547 : implicit_constructor_entry_16_Cdw1_30_0 isQuery : 0
+19 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+20 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+21 srs:  557 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+22 srs:  557 69 dst: 578 : error_target_3_0 isQuery : 1
+index_cycle_chc : 14
+decls 
+0 left: 34 right: 10
+1 left: 69 right: 10
+2 left: 77 right: 10
+3 left: 90 right: 10
+4 left: 196 right: 10
+5 left: 231 right: 10
+6 left: 238 right: 10
+7 left: 325 right: 10
+8 left: 330 right: 10
+9 left: 339 right: 10
+10 left: 350 right: 10
+11 left: 515 right: 10
+12 left: 525 right: 10
+13 left: 532 right: 10
+14 left: 539 right: 10
+15 left: 547 right: 10
+16 left: 557 right: 10
+expr_id 
+0 first: 34 second: 1
+1 first: 69 second: 13
+2 first: 77 second: 2
+3 first: 90 second: 3
+4 first: 196 second: 7
+5 first: 231 second: 5
+6 first: 238 second: 6
+7 first: 325 second: 8
+8 first: 330 second: 11
+9 first: 339 second: 10
+10 first: 350 second: 12
+11 first: 515 second: 21
+12 first: 525 second: 15
+13 first: 532 second: 16
+14 first: 539 second: 17
+15 first: 547 second: 18
+16 first: 557 second: 20
+0 : 
+ abi_0
+ crypto_0
+ state_0
+ this_0
+ tx_0
+ error_1
+ state_2
+
+1 : 
+ abi_0
+ crypto_0
+ state_0
+ this_0
+ tx_0
+ error_1
+ x_2_0
+ x_2_2
+ state_3
+
+depth: 6; trees size : 0
+depth: 7; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling sat
+-1 2 3 4 5 6 7 10 11 12 13 22 
+FOUND: 5 # number_of_found_branches: 2
+FOUND: 7 # number_of_found_branches: 2
+ToDos: 8 9 19 20 
+MODEL : 
+[
+  (_loc6=0)
+  (_loc_2=0)
+  ((msg.value _loc_6)=0)
+  (_loc_32=0)
+  (_loc_74=0)
+  (_loc_90=0)
+  ((msg.value _loc_98)=0)
+  ((msg.sig _loc_98)=3017696395)
+  (_loc_152=14)
+  (_loc_173=10)
+  (_loc_195=1)
+  (_loc_17=0)
+  (_loc_218=10)
+  (_loc_240=1)
+  (_loc_244=100)
+  (_loc_264=0)
+  (_FH_96'=5)
+  (_FH_97'=abi_type)
+  (_FH_98'=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_bnd0=5)
+  (_bnd1=abi_type)
+  (_bnd2=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc4=abi_type)
+  (_loc5=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc9=5)
+  (_loc11=8)
+  (_loc12=10)
+  (_loc_0=abi_type)
+  (_loc_1=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_5=5)
+  ((block.basefee _loc_6)=0)
+  ((block.chainid _loc_6)=0)
+  ((block.coinbase _loc_6)=0)
+  ((block.difficulty _loc_6)=0)
+  ((block.gaslimit _loc_6)=0)
+  ((block.number _loc_6)=0)
+  ((block.timestamp _loc_6)=0)
+  ((msg.sender _loc_6)=0)
+  ((tx.origin _loc_6)=0)
+  ((tx.gasprice _loc_6)=0)
+  (_tg_7=0)
+  (_tg_8=5)
+  (_tg_9=abi_type)
+  (_tg_10=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_14=abi_type)
+  (_loc_15=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_16=0)
+  (_loc_21=5)
+  (_tg_23=0)
+  (_tg_24=5)
+  (_tg_25=abi_type)
+  (_tg_26=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_30=abi_type)
+  (_loc_31=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_35=5)
+  ((balances _loc_34)=const-array(INT, 7719))
+  ((msg.value _loc_36)=0)
+  (_tg_37=0)
+  (_tg_38=5)
+  (_tg_39=abi_type)
+  (_tg_40=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_44=abi_type)
+  (_loc_45=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_46=0)
+  (_loc_49=5)
+  (_tg_51=0)
+  (_tg_52=5)
+  (_tg_53=abi_type)
+  (_tg_54=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_58=abi_type)
+  (_loc_59=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_60=0)
+  (_loc_63=5)
+  (_tg_65=0)
+  (_tg_66=5)
+  (_tg_67=abi_type)
+  (_tg_68=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_72=abi_type)
+  (_loc_73=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_77=5)
+  (_tg_79=0)
+  (_tg_80=5)
+  (_tg_81=abi_type)
+  (_tg_82=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_85=8)
+  (_tg_87=10)
+  (_loc_88=abi_type)
+  (_loc_89=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_91=0)
+  (_loc_92=0)
+  (_loc_97=5)
+  (_loc_99=8)
+  (_loc_100=8)
+  (_loc_101=10)
+  ((balances _loc_94)=const-array(INT, 7719))
+  ((block.basefee _loc_98)=0)
+  ((block.chainid _loc_98)=0)
+  ((block.coinbase _loc_98)=0)
+  ((block.difficulty _loc_98)=0)
+  ((block.gaslimit _loc_98)=0)
+  ((block.number _loc_98)=0)
+  ((block.timestamp _loc_98)=0)
+  ((msg.sender _loc_98)=0)
+  ((tx.origin _loc_98)=0)
+  ((tx.gasprice _loc_98)=0)
+  (bytes_tuple_accessor_array (msg.data _loc_98)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_98))=4)
+  (_tg_102=0)
+  (_tg_103=5)
+  (_tg_104=abi_type)
+  (_tg_105=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_108=8)
+  (_tg_110=8)
+  (_loc_111=abi_type)
+  (_loc_112=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_113=0)
+  (_loc_116=5)
+  (_loc_118=8)
+  (_loc_119=8)
+  (_tg_120=0)
+  (_tg_121=5)
+  (_tg_122=abi_type)
+  (_tg_123=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_126=8)
+  (_tg_128=10)
+  (_loc_129=abi_type)
+  (_loc_130=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_131=0)
+  (_loc_134=5)
+  (_loc_136=8)
+  (_loc_137=10)
+  (_tg_138=0)
+  (_tg_139=5)
+  (_tg_140=abi_type)
+  (_tg_141=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_144=8)
+  (_tg_146=10)
+  (_loc_147=abi_type)
+  (_loc_148=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_149=0)
+  (_loc_150=0)
+  (_loc_151=10)
+  (_loc_153=true)
+  (_loc_156=5)
+  (_loc_158=8)
+  (_loc_159=10)
+  (_tg_160=0)
+  (_tg_161=5)
+  (_tg_162=abi_type)
+  (_tg_163=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_166=8)
+  (_tg_168=10)
+  (_loc_169=abi_type)
+  (_loc_170=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_171=0)
+  (_loc_172=10)
+  (_loc_174=false)
+  (_loc_177=5)
+  (_loc_179=8)
+  (_loc_180=10)
+  (_tg_181=0)
+  (_tg_182=5)
+  (_tg_183=abi_type)
+  (_tg_184=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_187=8)
+  (_tg_189=10)
+  (_loc_190=abi_type)
+  (_loc_191=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_192=0)
+  (_loc_193=9)
+  (_loc_194=9)
+  (_loc_196=10)
+  (_loc_197=10)
+  (_loc_203=9)
+  (_loc_222=5)
+  (_loc_224=8)
+  (_loc_225=9)
+  (_tg_226=0)
+  (_tg_227=5)
+  (_tg_228=abi_type)
+  (_tg_229=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_232=8)
+  (_tg_234=9)
+  (_loc_235=abi_type)
+  (_loc_236=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_237=0)
+  (_loc_242=9)
+  (_loc_243=8)
+  ((balances _FH_99')=const-array(INT, 7719))
+  ((balances _bnd3)=const-array(INT, 7719))
+  ((balances _loc7)=const-array(INT, 7719))
+  ((balances _loc8)=const-array(INT, 7719))
+  ((msg.value _loc10)=0)
+  ((block.basefee _loc10)=0)
+  ((block.chainid _loc10)=0)
+  ((block.coinbase _loc10)=0)
+  ((block.difficulty _loc10)=0)
+  ((block.gaslimit _loc10)=0)
+  ((block.number _loc10)=0)
+  ((block.timestamp _loc10)=0)
+  ((msg.sender _loc10)=0)
+  ((tx.origin _loc10)=0)
+  ((tx.gasprice _loc10)=0)
+  ((msg.sig _loc10)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc10)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc10))=4)
+  ((balances _loc_3)=const-array(INT, 7719))
+  ((balances _loc_4)=const-array(INT, 7719))
+  ((msg.sig _loc_6)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_6)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_6))=4)
+  ((msg.value _tg_11)=0)
+  ((block.basefee _tg_11)=0)
+  ((block.chainid _tg_11)=0)
+  ((block.coinbase _tg_11)=0)
+  ((block.difficulty _tg_11)=0)
+  ((block.gaslimit _tg_11)=0)
+  ((block.number _tg_11)=0)
+  ((block.timestamp _tg_11)=0)
+  ((msg.sender _tg_11)=0)
+  ((tx.origin _tg_11)=0)
+  ((tx.gasprice _tg_11)=0)
+  ((msg.sig _tg_11)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_11)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_11))=4)
+  ((balances _tg_12)=const-array(INT, 7719))
+  ((balances _tg_13)=const-array(INT, 7719))
+  ((balances _loc_18)=const-array(INT, 7719))
+  ((balances _loc_19)=const-array(INT, 7719))
+  ((balances _loc_20)=const-array(INT, 7719))
+  ((msg.value _loc_22)=0)
+  ((block.basefee _loc_22)=0)
+  ((block.chainid _loc_22)=0)
+  ((block.coinbase _loc_22)=0)
+  ((block.difficulty _loc_22)=0)
+  ((block.gaslimit _loc_22)=0)
+  ((block.number _loc_22)=0)
+  ((block.timestamp _loc_22)=0)
+  ((msg.sender _loc_22)=0)
+  ((tx.origin _loc_22)=0)
+  ((tx.gasprice _loc_22)=0)
+  ((msg.sig _loc_22)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_22)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_22))=4)
+  ((msg.value _tg_27)=0)
+  ((block.basefee _tg_27)=0)
+  ((block.chainid _tg_27)=0)
+  ((block.coinbase _tg_27)=0)
+  ((block.difficulty _tg_27)=0)
+  ((block.gaslimit _tg_27)=0)
+  ((block.number _tg_27)=0)
+  ((block.timestamp _tg_27)=0)
+  ((msg.sender _tg_27)=0)
+  ((tx.origin _tg_27)=0)
+  ((tx.gasprice _tg_27)=0)
+  ((msg.sig _tg_27)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_27)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_27))=4)
+  ((balances _tg_28)=const-array(INT, 7719))
+  ((balances _tg_29)=const-array(INT, 7719))
+  ((balances _loc_33)=const-array(INT, 7719))
+  ((block.basefee _loc_36)=0)
+  ((block.chainid _loc_36)=0)
+  ((block.coinbase _loc_36)=0)
+  ((block.difficulty _loc_36)=0)
+  ((block.gaslimit _loc_36)=0)
+  ((block.number _loc_36)=0)
+  ((block.timestamp _loc_36)=0)
+  ((msg.sender _loc_36)=0)
+  ((tx.origin _loc_36)=0)
+  ((tx.gasprice _loc_36)=0)
+  ((msg.sig _loc_36)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_36)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_36))=4)
+  ((msg.value _tg_41)=0)
+  ((block.basefee _tg_41)=0)
+  ((block.chainid _tg_41)=0)
+  ((block.coinbase _tg_41)=0)
+  ((block.difficulty _tg_41)=0)
+  ((block.gaslimit _tg_41)=0)
+  ((block.number _tg_41)=0)
+  ((block.timestamp _tg_41)=0)
+  ((msg.sender _tg_41)=0)
+  ((tx.origin _tg_41)=0)
+  ((tx.gasprice _tg_41)=0)
+  ((msg.sig _tg_41)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_41)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_41))=4)
+  ((balances _tg_42)=const-array(INT, 7719))
+  ((balances _tg_43)=const-array(INT, 7719))
+  ((balances _loc_47)=const-array(INT, 7719))
+  ((balances _loc_48)=const-array(INT, 7719))
+  ((msg.value _loc_50)=0)
+  ((block.basefee _loc_50)=0)
+  ((block.chainid _loc_50)=0)
+  ((block.coinbase _loc_50)=0)
+  ((block.difficulty _loc_50)=0)
+  ((block.gaslimit _loc_50)=0)
+  ((block.number _loc_50)=0)
+  ((block.timestamp _loc_50)=0)
+  ((msg.sender _loc_50)=0)
+  ((tx.origin _loc_50)=0)
+  ((tx.gasprice _loc_50)=0)
+  ((msg.sig _loc_50)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_50)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_50))=4)
+  ((msg.value _tg_55)=0)
+  ((block.basefee _tg_55)=0)
+  ((block.chainid _tg_55)=0)
+  ((block.coinbase _tg_55)=0)
+  ((block.difficulty _tg_55)=0)
+  ((block.gaslimit _tg_55)=0)
+  ((block.number _tg_55)=0)
+  ((block.timestamp _tg_55)=0)
+  ((msg.sender _tg_55)=0)
+  ((tx.origin _tg_55)=0)
+  ((tx.gasprice _tg_55)=0)
+  ((msg.sig _tg_55)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_55)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_55))=4)
+  ((balances _tg_56)=const-array(INT, 7719))
+  ((balances _tg_57)=const-array(INT, 7719))
+  ((balances _loc_61)=const-array(INT, 7719))
+  ((balances _loc_62)=const-array(INT, 7719))
+  ((msg.value _loc_64)=0)
+  ((block.basefee _loc_64)=0)
+  ((block.chainid _loc_64)=0)
+  ((block.coinbase _loc_64)=0)
+  ((block.difficulty _loc_64)=0)
+  ((block.gaslimit _loc_64)=0)
+  ((block.number _loc_64)=0)
+  ((block.timestamp _loc_64)=0)
+  ((msg.sender _loc_64)=0)
+  ((tx.origin _loc_64)=0)
+  ((tx.gasprice _loc_64)=0)
+  ((msg.sig _loc_64)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_64)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_64))=4)
+  ((msg.value _tg_69)=0)
+  ((block.basefee _tg_69)=0)
+  ((block.chainid _tg_69)=0)
+  ((block.coinbase _tg_69)=0)
+  ((block.difficulty _tg_69)=0)
+  ((block.gaslimit _tg_69)=0)
+  ((block.number _tg_69)=0)
+  ((block.timestamp _tg_69)=0)
+  ((msg.sender _tg_69)=0)
+  ((tx.origin _tg_69)=0)
+  ((tx.gasprice _tg_69)=0)
+  ((msg.sig _tg_69)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_69)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_69))=4)
+  ((balances _tg_70)=const-array(INT, 7719))
+  ((balances _tg_71)=const-array(INT, 7719))
+  ((balances _loc_75)=const-array(INT, 7719))
+  ((balances _loc_76)=const-array(INT, 7719))
+  ((msg.value _loc_78)=0)
+  ((block.basefee _loc_78)=0)
+  ((block.chainid _loc_78)=0)
+  ((block.coinbase _loc_78)=0)
+  ((block.difficulty _loc_78)=0)
+  ((block.gaslimit _loc_78)=0)
+  ((block.number _loc_78)=0)
+  ((block.timestamp _loc_78)=0)
+  ((msg.sender _loc_78)=0)
+  ((tx.origin _loc_78)=0)
+  ((tx.gasprice _loc_78)=0)
+  ((msg.sig _loc_78)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_78)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_78))=4)
+  ((msg.value _tg_83)=0)
+  ((block.basefee _tg_83)=0)
+  ((block.chainid _tg_83)=0)
+  ((block.coinbase _tg_83)=0)
+  ((block.difficulty _tg_83)=0)
+  ((block.gaslimit _tg_83)=0)
+  ((block.number _tg_83)=0)
+  ((block.timestamp _tg_83)=0)
+  ((msg.sender _tg_83)=0)
+  ((tx.origin _tg_83)=0)
+  ((tx.gasprice _tg_83)=0)
+  ((msg.sig _tg_83)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_83)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_83))=4)
+  ((balances _tg_84)=const-array(INT, 7719))
+  ((balances _tg_86)=const-array(INT, 7719))
+  ((balances _loc_93)=const-array(INT, 7719))
+  ((balances _loc_95)=const-array(INT, 7719))
+  ((balances _loc_96)=const-array(INT, 7719))
+  ((msg.value _tg_106)=0)
+  ((block.basefee _tg_106)=0)
+  ((block.chainid _tg_106)=0)
+  ((block.coinbase _tg_106)=0)
+  ((block.difficulty _tg_106)=0)
+  ((block.gaslimit _tg_106)=0)
+  ((block.number _tg_106)=0)
+  ((block.timestamp _tg_106)=0)
+  ((msg.sender _tg_106)=0)
+  ((tx.origin _tg_106)=0)
+  ((tx.gasprice _tg_106)=0)
+  ((msg.sig _tg_106)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_106)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_106))=4)
+  ((balances _tg_107)=const-array(INT, 7719))
+  ((balances _tg_109)=const-array(INT, 7719))
+  ((balances _loc_114)=const-array(INT, 7719))
+  ((balances _loc_115)=const-array(INT, 7719))
+  ((msg.value _loc_117)=0)
+  ((block.basefee _loc_117)=0)
+  ((block.chainid _loc_117)=0)
+  ((block.coinbase _loc_117)=0)
+  ((block.difficulty _loc_117)=0)
+  ((block.gaslimit _loc_117)=0)
+  ((block.number _loc_117)=0)
+  ((block.timestamp _loc_117)=0)
+  ((msg.sender _loc_117)=0)
+  ((tx.origin _loc_117)=0)
+  ((tx.gasprice _loc_117)=0)
+  ((msg.sig _loc_117)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_117)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_117))=4)
+  ((msg.value _tg_124)=0)
+  ((block.basefee _tg_124)=0)
+  ((block.chainid _tg_124)=0)
+  ((block.coinbase _tg_124)=0)
+  ((block.difficulty _tg_124)=0)
+  ((block.gaslimit _tg_124)=0)
+  ((block.number _tg_124)=0)
+  ((block.timestamp _tg_124)=0)
+  ((msg.sender _tg_124)=0)
+  ((tx.origin _tg_124)=0)
+  ((tx.gasprice _tg_124)=0)
+  ((msg.sig _tg_124)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_124)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_124))=4)
+  ((balances _tg_125)=const-array(INT, 7719))
+  ((balances _tg_127)=const-array(INT, 7719))
+  ((balances _loc_132)=const-array(INT, 7719))
+  ((balances _loc_133)=const-array(INT, 7719))
+  ((msg.value _loc_135)=0)
+  ((block.basefee _loc_135)=0)
+  ((block.chainid _loc_135)=0)
+  ((block.coinbase _loc_135)=0)
+  ((block.difficulty _loc_135)=0)
+  ((block.gaslimit _loc_135)=0)
+  ((block.number _loc_135)=0)
+  ((block.timestamp _loc_135)=0)
+  ((msg.sender _loc_135)=0)
+  ((tx.origin _loc_135)=0)
+  ((tx.gasprice _loc_135)=0)
+  ((msg.sig _loc_135)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_135)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_135))=4)
+  ((msg.value _tg_142)=0)
+  ((block.basefee _tg_142)=0)
+  ((block.chainid _tg_142)=0)
+  ((block.coinbase _tg_142)=0)
+  ((block.difficulty _tg_142)=0)
+  ((block.gaslimit _tg_142)=0)
+  ((block.number _tg_142)=0)
+  ((block.timestamp _tg_142)=0)
+  ((msg.sender _tg_142)=0)
+  ((tx.origin _tg_142)=0)
+  ((tx.gasprice _tg_142)=0)
+  ((msg.sig _tg_142)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_142)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_142))=4)
+  ((balances _tg_143)=const-array(INT, 7719))
+  ((balances _tg_145)=const-array(INT, 7719))
+  ((balances _loc_154)=const-array(INT, 7719))
+  ((balances _loc_155)=const-array(INT, 7719))
+  ((msg.value _loc_157)=0)
+  ((block.basefee _loc_157)=0)
+  ((block.chainid _loc_157)=0)
+  ((block.coinbase _loc_157)=0)
+  ((block.difficulty _loc_157)=0)
+  ((block.gaslimit _loc_157)=0)
+  ((block.number _loc_157)=0)
+  ((block.timestamp _loc_157)=0)
+  ((msg.sender _loc_157)=0)
+  ((tx.origin _loc_157)=0)
+  ((tx.gasprice _loc_157)=0)
+  ((msg.sig _loc_157)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_157)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_157))=4)
+  ((msg.value _tg_164)=0)
+  ((block.basefee _tg_164)=0)
+  ((block.chainid _tg_164)=0)
+  ((block.coinbase _tg_164)=0)
+  ((block.difficulty _tg_164)=0)
+  ((block.gaslimit _tg_164)=0)
+  ((block.number _tg_164)=0)
+  ((block.timestamp _tg_164)=0)
+  ((msg.sender _tg_164)=0)
+  ((tx.origin _tg_164)=0)
+  ((tx.gasprice _tg_164)=0)
+  ((msg.sig _tg_164)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_164)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_164))=4)
+  ((balances _tg_165)=const-array(INT, 7719))
+  ((balances _tg_167)=const-array(INT, 7719))
+  ((balances _loc_175)=const-array(INT, 7719))
+  ((balances _loc_176)=const-array(INT, 7719))
+  ((msg.value _loc_178)=0)
+  ((block.basefee _loc_178)=0)
+  ((block.chainid _loc_178)=0)
+  ((block.coinbase _loc_178)=0)
+  ((block.difficulty _loc_178)=0)
+  ((block.gaslimit _loc_178)=0)
+  ((block.number _loc_178)=0)
+  ((block.timestamp _loc_178)=0)
+  ((msg.sender _loc_178)=0)
+  ((tx.origin _loc_178)=0)
+  ((tx.gasprice _loc_178)=0)
+  ((msg.sig _loc_178)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_178)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_178))=4)
+  ((msg.value _tg_185)=0)
+  ((block.basefee _tg_185)=0)
+  ((block.chainid _tg_185)=0)
+  ((block.coinbase _tg_185)=0)
+  ((block.difficulty _tg_185)=0)
+  ((block.gaslimit _tg_185)=0)
+  ((block.number _tg_185)=0)
+  ((block.timestamp _tg_185)=0)
+  ((msg.sender _tg_185)=0)
+  ((tx.origin _tg_185)=0)
+  ((tx.gasprice _tg_185)=0)
+  ((msg.sig _tg_185)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_185)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_185))=4)
+  ((balances _tg_186)=const-array(INT, 7719))
+  ((balances _tg_188)=const-array(INT, 7719))
+  ((balances _loc_220)=const-array(INT, 7719))
+  ((balances _loc_221)=const-array(INT, 7719))
+  ((msg.value _loc_223)=0)
+  ((block.basefee _loc_223)=0)
+  ((block.chainid _loc_223)=0)
+  ((block.coinbase _loc_223)=0)
+  ((block.difficulty _loc_223)=0)
+  ((block.gaslimit _loc_223)=0)
+  ((block.number _loc_223)=0)
+  ((block.timestamp _loc_223)=0)
+  ((msg.sender _loc_223)=0)
+  ((tx.origin _loc_223)=0)
+  ((tx.gasprice _loc_223)=0)
+  ((msg.sig _loc_223)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_223)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_223))=4)
+  ((msg.value _tg_230)=0)
+  ((block.basefee _tg_230)=0)
+  ((block.chainid _tg_230)=0)
+  ((block.coinbase _tg_230)=0)
+  ((block.difficulty _tg_230)=0)
+  ((block.gaslimit _tg_230)=0)
+  ((block.number _tg_230)=0)
+  ((block.timestamp _tg_230)=0)
+  ((msg.sender _tg_230)=0)
+  ((tx.origin _tg_230)=0)
+  ((tx.gasprice _tg_230)=0)
+  ((msg.sig _tg_230)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_230)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_230))=4)
+  ((balances _tg_231)=const-array(INT, 7719))
+  ((balances _tg_233)=const-array(INT, 7719))
+  (_loc_200=5)
+  (_loc_202=8)
+  (_loc_204=10)
+  (_tg_205=0)
+  (_tg_206=5)
+  (_tg_207=abi_type)
+  (_tg_208=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_211=8)
+  (_tg_213=9)
+  (_loc_214=abi_type)
+  (_loc_215=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_216=0)
+  (_loc_217=9)
+  (_loc_219=true)
+  (_loc_238=8)
+  (_loc_239=8)
+  (_loc_241=9)
+  (_loc_245=true)
+  (_loc_248=5)
+  (_loc_250=8)
+  (_loc_251=8)
+  (_loc_252=9)
+  (_tg_253=0)
+  (_tg_254=5)
+  (_tg_255=abi_type)
+  (_tg_256=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_259=8)
+  (_tg_261=8)
+  (_loc_262=abi_type)
+  (_loc_263=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_267=5)
+  (_loc_269=8)
+  (_loc_270=8)
+  (_tg_271=0)
+  (_tg_272=5)
+  (_tg_273=abi_type)
+  (_tg_274=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_tg_277=8)
+  (_tg_279=8)
+  (_loc_280=abi_type)
+  (_loc_281=(crypto_type const-array(ecrecover_input_type, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0) const-array(bytes_tuple, 0)))
+  (_loc_282=0)
+  (_loc_285=5)
+  (_loc_287=8)
+  (_loc_288=8)
+  ((balances _loc_198)=const-array(INT, 7719))
+  ((balances _loc_199)=const-array(INT, 7719))
+  ((msg.value _loc_201)=0)
+  ((block.basefee _loc_201)=0)
+  ((block.chainid _loc_201)=0)
+  ((block.coinbase _loc_201)=0)
+  ((block.difficulty _loc_201)=0)
+  ((block.gaslimit _loc_201)=0)
+  ((block.number _loc_201)=0)
+  ((block.timestamp _loc_201)=0)
+  ((msg.sender _loc_201)=0)
+  ((tx.origin _loc_201)=0)
+  ((tx.gasprice _loc_201)=0)
+  ((msg.sig _loc_201)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_201)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_201))=4)
+  ((msg.value _tg_209)=0)
+  ((block.basefee _tg_209)=0)
+  ((block.chainid _tg_209)=0)
+  ((block.coinbase _tg_209)=0)
+  ((block.difficulty _tg_209)=0)
+  ((block.gaslimit _tg_209)=0)
+  ((block.number _tg_209)=0)
+  ((block.timestamp _tg_209)=0)
+  ((msg.sender _tg_209)=0)
+  ((tx.origin _tg_209)=0)
+  ((tx.gasprice _tg_209)=0)
+  ((msg.sig _tg_209)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_209)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_209))=4)
+  ((balances _tg_210)=const-array(INT, 7719))
+  ((balances _tg_212)=const-array(INT, 7719))
+  ((balances _loc_246)=const-array(INT, 7719))
+  ((balances _loc_247)=const-array(INT, 7719))
+  ((msg.value _loc_249)=0)
+  ((block.basefee _loc_249)=0)
+  ((block.chainid _loc_249)=0)
+  ((block.coinbase _loc_249)=0)
+  ((block.difficulty _loc_249)=0)
+  ((block.gaslimit _loc_249)=0)
+  ((block.number _loc_249)=0)
+  ((block.timestamp _loc_249)=0)
+  ((msg.sender _loc_249)=0)
+  ((tx.origin _loc_249)=0)
+  ((tx.gasprice _loc_249)=0)
+  ((msg.sig _loc_249)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_249)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_249))=4)
+  ((msg.value _tg_257)=0)
+  ((block.basefee _tg_257)=0)
+  ((block.chainid _tg_257)=0)
+  ((block.coinbase _tg_257)=0)
+  ((block.difficulty _tg_257)=0)
+  ((block.gaslimit _tg_257)=0)
+  ((block.number _tg_257)=0)
+  ((block.timestamp _tg_257)=0)
+  ((msg.sender _tg_257)=0)
+  ((tx.origin _tg_257)=0)
+  ((tx.gasprice _tg_257)=0)
+  ((msg.sig _tg_257)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_257)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_257))=4)
+  ((balances _tg_258)=const-array(INT, 7719))
+  ((balances _tg_260)=const-array(INT, 7719))
+  ((balances _loc_265)=const-array(INT, 7719))
+  ((balances _loc_266)=const-array(INT, 7719))
+  ((msg.value _loc_268)=0)
+  ((block.basefee _loc_268)=0)
+  ((block.chainid _loc_268)=0)
+  ((block.coinbase _loc_268)=0)
+  ((block.difficulty _loc_268)=0)
+  ((block.gaslimit _loc_268)=0)
+  ((block.number _loc_268)=0)
+  ((block.timestamp _loc_268)=0)
+  ((msg.sender _loc_268)=0)
+  ((tx.origin _loc_268)=0)
+  ((tx.gasprice _loc_268)=0)
+  ((msg.sig _loc_268)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_268)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_268))=4)
+  ((msg.value _tg_275)=0)
+  ((block.basefee _tg_275)=0)
+  ((block.chainid _tg_275)=0)
+  ((block.coinbase _tg_275)=0)
+  ((block.difficulty _tg_275)=0)
+  ((block.gaslimit _tg_275)=0)
+  ((block.number _tg_275)=0)
+  ((block.timestamp _tg_275)=0)
+  ((msg.sender _tg_275)=0)
+  ((tx.origin _tg_275)=0)
+  ((tx.gasprice _tg_275)=0)
+  ((msg.sig _tg_275)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _tg_275)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _tg_275))=4)
+  ((balances _tg_276)=const-array(INT, 7719))
+  ((balances _tg_278)=const-array(INT, 7719))
+  ((balances _loc_283)=const-array(INT, 7719))
+  ((balances _loc_284)=const-array(INT, 7719))
+  ((msg.value _loc_286)=0)
+  ((block.basefee _loc_286)=0)
+  ((block.chainid _loc_286)=0)
+  ((block.coinbase _loc_286)=0)
+  ((block.difficulty _loc_286)=0)
+  ((block.gaslimit _loc_286)=0)
+  ((block.number _loc_286)=0)
+  ((block.timestamp _loc_286)=0)
+  ((msg.sender _loc_286)=0)
+  ((tx.origin _loc_286)=0)
+  ((tx.gasprice _loc_286)=0)
+  ((msg.sig _loc_286)=3017696395)
+  (bytes_tuple_accessor_array (msg.data _loc_286)) = 
+    store(
+      store(
+        store(
+          const-array(INT, 222)
+          3
+          139
+        )
+        0
+        179
+      )
+      2
+      100
+    )
+  ((bytes_tuple_accessor_length (msg.data _loc_286))=4)
+
+]
+chcs 
+0 srs:  dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+1 srs:  34 69 dst: 34 : nondet_interface_1_Cdw1_30_0 isQuery : 0
+2 srs:  dst: 77 : block_5_function_f__29_30_0 isQuery : 0
+3 srs:  77 dst: 90 : block_6_f_28_30_0 isQuery : 0
+4 srs:  90 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+5 srs:  196 dst: 231 : block_9_do_while_body_f_17_30_0 isQuery : 0
+6 srs:  196 dst: 238 : block_10_f_28_30_0 isQuery : 0
+7 srs:  231 dst: 196 : block_8_do_while_header_f_21_30_0 isQuery : 0
+8 srs:  238 dst: 325 : block_11_function_f__29_30_0 isQuery : 0
+9 srs:  325 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+10 srs:  238 dst: 339 : block_7_return_function_f__29_30_0 isQuery : 0
+11 srs:  339 dst: 330 : summary_3_function_f__29_30_0 isQuery : 0
+12 srs:  dst: 350 : block_12_function_f__29_30_0 isQuery : 0
+13 srs:  350 330 dst: 69 : summary_4_function_f__29_30_0 isQuery : 0
+14 srs:  515 69 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+15 srs:  dst: 525 : contract_initializer_entry_14_Cdw1_30_0 isQuery : 0
+16 srs:  525 dst: 532 : contract_initializer_after_init_15_Cdw1_30_0 isQuery : 0
+17 srs:  532 dst: 539 : contract_initializer_13_Cdw1_30_0 isQuery : 0
+18 srs:  dst: 547 : implicit_constructor_entry_16_Cdw1_30_0 isQuery : 0
+19 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+20 srs:  547 539 dst: 557 : summary_constructor_2_Cdw1_30_0 isQuery : 0
+21 srs:  557 dst: 515 : interface_0_Cdw1_30_0 isQuery : 0
+22 srs:  557 69 dst: 578 : error_target_3_0 isQuery : 1
+index_cycle_chc : 14
+decls 
+0 left: 34 right: 10
+1 left: 69 right: 10
+2 left: 77 right: 10
+3 left: 90 right: 10
+4 left: 196 right: 10
+5 left: 231 right: 10
+6 left: 238 right: 10
+7 left: 325 right: 10
+8 left: 330 right: 10
+9 left: 339 right: 10
+10 left: 350 right: 10
+11 left: 515 right: 10
+12 left: 525 right: 10
+13 left: 532 right: 10
+14 left: 539 right: 10
+15 left: 547 right: 10
+16 left: 557 right: 10
+expr_id 
+0 first: 34 second: 1
+1 first: 69 second: 13
+2 first: 77 second: 2
+3 first: 90 second: 3
+4 first: 196 second: 7
+5 first: 231 second: 5
+6 first: 238 second: 6
+7 first: 325 second: 8
+8 first: 330 second: 11
+9 first: 339 second: 10
+10 first: 350 second: 12
+11 first: 515 second: 21
+12 first: 525 second: 15
+13 first: 532 second: 16
+14 first: 539 second: 17
+15 first: 547 second: 18
+16 first: 557 second: 20
+0 : 
+ abi_0
+ crypto_0
+ state_0
+ this_0
+ tx_0
+ error_1
+ state_2
+
+1 : 
+ abi_0
+ crypto_0
+ state_0
+ this_0
+ tx_0
+ error_1
+ x_2_0
+ x_2_2
+ state_3
+
+depth: 8; trees size : 0
+depth: 9; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+depth: 10; trees size : 0
+depth: 11; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+depth: 12; trees size : 0
+depth: 13; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+depth: 14; trees size : 0
+depth: 15; trees size : 4
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:56 2026
+
+unrolling unsat
+depth: 16; trees size : 0
+depth: 17; trees size : 4
+rq_t : Thu Nov 19 09:17:57 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:17:57 2026
+
+unrolling unsat
+depth: 18; trees size : 0
+depth: 19; trees size : 4
+rq_t : Thu Nov 19 09:18:00 2026
+
+unrolling unsat
+rq_t : Thu Nov 19 09:18:00 2026
+
+unrolling uns[09:19:56:273544]
+/Users/denisavci/SolTG/.venv/deps/tgnonlin --query-timeout 10000 --keys contract_Cdw1_30:state,msg.value,msg.sender^f__29:state,msg.value,msg.sender,x /Users/denisavci/soltg-eval-runs/qt10/contract//sandbox/do_while_1_fail_updated.smt2
+-9
+None
+b''
+
+[09:19:56:273834]
+TGNONLIN_TIME seconds=120.307 limit=120.0 hit_limit=True wall_seconds=120.307
+[09:19:56:274327]
+Multiple Calls Test
+[09:19:56:274396]
+contract_Cdw1_30("address(this).balance=7719", 0, 0) f__29("address(this).balance=7719", 0, 0, 9)
+contract_Cdw1_30("address(this).balance=7719", 0, 0) f__29("address(this).balance=7719", 0, 0, 8)
+[09:19:56:274450]
+# TESTS: 2
+[09:19:56:289363]
+new signature[[['Cdw1', 'contract', 30, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender'], ['f', 29, 'state_type', 'state', 'uint', 'msg.value', 'address', 'msg.sender', 'uint', 'x']]]
+[09:19:56:289434]
+forge clean
+[09:19:56:337323]
+forge clean
+0
+None
+b''
+
+[09:19:56:337523]
+forge test --match-contract do_while_1_fail
+[09:19:57:044738]
+forge test --match-contract do_while_1_fail
+0
+None
+b''
+
+[09:19:57:044953]
+forge coverage --match-contract do_while_1_fail --report lcov
+[09:19:57:422058]
+forge coverage --match-contract do_while_1_fail --report lcov
+0
+None
+b'Warning: optimizer settings and `viaIR` have been disabled for accurate coverage reports.
+If you encounter "stack too deep" errors, consider using `--ir-minimum` which enables `viaIR` with minimum optimization resolving most of the errors.
+See more: https://book.getfoundry.sh/guides/best-practices/stack-too-deep
+'
+
+[09:19:57:422264]
+forge coverage --match-contract do_while_1_fail --report summary
+[09:19:57:469903]
+forge coverage --match-contract do_while_1_fail --report summary
+0
+None
+b'Warning: optimizer settings and `viaIR` have been disabled for accurate coverage reports.
+If you encounter "stack too deep" errors, consider using `--ir-minimum` which enables `viaIR` with minimum optimization resolving most of the errors.
+See more: https://book.getfoundry.sh/guides/best-practices/stack-too-deep
+'
+
+[09:19:57:470184]
+genhtml --branch-coverage --ignore-errors category,inconsistent,source --output-directory /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/generated-coverage /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/lcov.info
+Reading tracefile /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/lcov.info.
+Found 1 entries.
+Found common filename prefix "/Users/denisavci/soltg-eval-runs/qt10/contract/src/regression"
+Generating output.
+Processing file src/regression/loops/do_while_1_fail.sol (0.000s)
+  lines=5 hit=5 functions=1 hit=1 branches=2 hit=1
+Overall coverage rate:
+  source files: 1
+  lines.......: 100.0% (5 of 5 lines)
+  functions...: 100.0% (1 of 1 function)
+  branches....: 50.0% (1 of 2 branches)
+Message summary:
+  no messages were reported
+[09:19:57:614971]
+genhtml --branch-coverage --ignore-errors category,inconsistent,source --output-directory /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/generated-coverage /Users/denisavci/soltg-eval-runs/qt10/contract/sandbox/lcov.info
+0
+None
+b''
+
+[09:19:57:757402]
+total time: 126.34298086166382 seconds

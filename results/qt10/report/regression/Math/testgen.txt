@@ -1,0 +1,24 @@
+NEW TEST 1
+contract_Math_132("address(this).balance=0", 0, 0)
+ceilDiv__131("address(this).balance=0", 0, 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_Math_132("address(this).balance=7719", 0, 0)
+average__107("address(this).balance=7719", 0, 0, 0, 0)
+END TEST 4
+NEW TEST 5
+contract_Math_132("address(this).balance=7719", 0, 0)
+min__64("address(this).balance=7719", 0, 0, 0, 1)
+END TEST 6
+NEW TEST 7
+contract_Math_132("address(this).balance=7719", 0, 0)
+min__64("address(this).balance=7719", 0, 0, 0, 0)
+END TEST 8
+NEW TEST 9
+contract_Math_132("address(this).balance=7719", 0, 0)
+max__32("address(this).balance=7719", 0, 0, 0, 0)
+END TEST 10
+NEW TEST 11
+contract_Math_132("address(this).balance=7719", 0, 0)
+max__32("address(this).balance=7719", 0, 0, 0, 1)
+END TEST 12

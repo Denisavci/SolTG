@@ -1,0 +1,77 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 318.46ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/simple_if_struct.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if_struct.t.sol
+
+
+Ran 1 test for test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 6.11ms (1.23ms CPU time)
+
+Ran 1 test suite in 10.97ms (6.11ms CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 334.11ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/simple_if_struct.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if_struct.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 572.33µs (48.62µs CPU time)
+
+Ran 1 test suite in 4.09ms (572.33µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 361.79µs (47.42µs CPU time)
+
+Ran 1 test suite in 4.14ms (361.79µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+╭-----------------------------------------------------------------------+--------------+--------------+--------------+---------------╮
+| File                                                                  | % Lines      | % Statements | % Branches   | % Funcs       |
++====================================================================================================================================+
+| src/regression/control_flow/branches_with_return/simple_if_struct.sol | 77.78% (7/9) | 71.43% (5/7) | 66.67% (2/3) | 100.00% (2/2) |
+|-----------------------------------------------------------------------+--------------+--------------+--------------+---------------|
+| Total                                                                 | 77.78% (7/9) | 71.43% (5/7) | 66.67% (2/3) | 100.00% (2/2) |
+╰-----------------------------------------------------------------------+--------------+--------------+--------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_struct.t.sol:simple_if_struct_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_struct_0() (gas: 31839)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

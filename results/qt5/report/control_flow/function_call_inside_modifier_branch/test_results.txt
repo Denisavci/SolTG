@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.73ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_modifier_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_modifier_branch.t.sol
+
+
+Ran 2 tests for test/function_call_inside_modifier_branch.t.sol:function_call_inside_modifier_branch_Test
+[PASS] test_function_call_inside_modifier_branch_0() (gas: 8864)
+[PASS] test_function_call_inside_modifier_branch_1() (gas: 8968)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 5.91ms (1.44ms CPU time)
+
+Ran 1 test suite in 10.80ms (5.91ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 332.11ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/function_call_inside_modifier_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/function_call_inside_modifier_branch.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/function_call_inside_modifier_branch.t.sol:function_call_inside_modifier_branch_Test
+[PASS] test_function_call_inside_modifier_branch_0() (gas: 8864)
+[PASS] test_function_call_inside_modifier_branch_1() (gas: 8968)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 585.71µs (156.21µs CPU time)
+
+Ran 1 test suite in 4.04ms (585.71µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/function_call_inside_modifier_branch.t.sol:function_call_inside_modifier_branch_Test
+[PASS] test_function_call_inside_modifier_branch_0() (gas: 8864)
+[PASS] test_function_call_inside_modifier_branch_1() (gas: 8968)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 406.33µs (164.62µs CPU time)
+
+Ran 1 test suite in 4.00ms (406.33µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭----------------------------------------------------------------------+---------------+---------------+---------------+---------------╮
+| File                                                                 | % Lines       | % Statements  | % Branches    | % Funcs       |
++======================================================================================================================================+
+| src/regression/control_flow/function_call_inside_modifier_branch.sol | 100.00% (9/9) | 100.00% (5/5) | 100.00% (1/1) | 100.00% (3/3) |
+|----------------------------------------------------------------------+---------------+---------------+---------------+---------------|
+| Total                                                                | 100.00% (9/9) | 100.00% (5/5) | 100.00% (1/1) | 100.00% (3/3) |
+╰----------------------------------------------------------------------+---------------+---------------+---------------+---------------╯

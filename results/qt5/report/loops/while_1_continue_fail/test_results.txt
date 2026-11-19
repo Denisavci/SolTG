@@ -1,0 +1,98 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 320.59ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_continue_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_continue_fail.t.sol
+
+Warning (5740): Unreachable code.
+ --> src/regression/loops/while_1_continue_fail.sol:9:5:
+  |
+9 | 				x = 200;
+  | 				^^^^^^^
+
+
+Ran 3 tests for test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+[PASS] test_while_1_continue_fail_2() (gas: 9267)
+Suite result: FAILED. 1 passed; 2 failed; 0 skipped; finished in 6.35ms (2.99ms CPU time)
+
+Ran 1 test suite in 10.66ms (6.35ms CPU time): 1 tests passed, 2 failed, 0 skipped (3 total tests)
+
+Failing tests:
+Encountered 2 failing tests in test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+
+Encountered a total of 2 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 317.74ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_continue_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_continue_fail.t.sol
+
+Warning (5740): Unreachable code.
+ --> src/regression/loops/while_1_continue_fail.sol:9:5:
+  |
+9 | 				x = 200;
+  | 				^^^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+[PASS] test_while_1_continue_fail_2() (gas: 9267)
+Suite result: FAILED. 1 passed; 2 failed; 0 skipped; finished in 682.75µs (231.96µs CPU time)
+
+Ran 1 test suite in 4.19ms (682.75µs CPU time): 1 tests passed, 2 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 2 failing tests in test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+
+Encountered a total of 2 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+[PASS] test_while_1_continue_fail_2() (gas: 9267)
+Suite result: FAILED. 1 passed; 2 failed; 0 skipped; finished in 410.42µs (215.08µs CPU time)
+
+Ran 1 test suite in 4.09ms (410.42µs CPU time): 1 tests passed, 2 failed, 0 skipped (3 total tests)
+
+╭------------------------------------------------+--------------+--------------+--------------+---------------╮
+| File                                           | % Lines      | % Statements | % Branches   | % Funcs       |
++=============================================================================================================+
+| src/regression/loops/while_1_continue_fail.sol | 88.89% (8/9) | 85.71% (6/7) | 66.67% (2/3) | 100.00% (1/1) |
+|------------------------------------------------+--------------+--------------+--------------+---------------|
+| Total                                          | 88.89% (8/9) | 85.71% (6/7) | 66.67% (2/3) | 100.00% (1/1) |
+╰------------------------------------------------+--------------+--------------+--------------+---------------╯
+
+Failing tests:
+Encountered 2 failing tests in test/while_1_continue_fail.t.sol:while_1_continue_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_0() (gas: 9320)
+[FAIL: panic: assertion failed (0x01)] test_while_1_continue_fail_1() (gas: 9334)
+
+Encountered a total of 2 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 2 failed tests
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

@@ -1,0 +1,47 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 312.43ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/store.t.sol
+
+
+Ran 2 tests for test/store.t.sol:store_Test
+[PASS] test_store_0() (gas: 31944)
+[PASS] test_store_1() (gas: 8723)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 303.25µs (127.08µs CPU time)
+
+Ran 1 test suite in 4.74ms (303.25µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 319.59ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/store.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/store.t.sol:store_Test
+[PASS] test_store_0() (gas: 31944)
+[PASS] test_store_1() (gas: 8723)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 411.58µs (174.04µs CPU time)
+
+Ran 1 test suite in 4.02ms (411.58µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/store.t.sol:store_Test
+[PASS] test_store_0() (gas: 31944)
+[PASS] test_store_1() (gas: 8723)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 403.08µs (168.75µs CPU time)
+
+Ran 1 test suite in 4.06ms (403.08µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭--------------------------+--------------+--------------+--------------+---------------╮
+| File                     | % Lines      | % Statements | % Branches   | % Funcs       |
++=======================================================================================+
+| src/regression/store.sol | 75.00% (6/8) | 66.67% (4/6) | 50.00% (1/2) | 100.00% (2/2) |
+|--------------------------+--------------+--------------+--------------+---------------|
+| Total                    | 75.00% (6/8) | 66.67% (4/6) | 50.00% (1/2) | 100.00% (2/2) |
+╰--------------------------+--------------+--------------+--------------+---------------╯

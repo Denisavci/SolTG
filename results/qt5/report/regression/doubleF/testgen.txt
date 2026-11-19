@@ -1,0 +1,15 @@
+NEW TEST 1
+contract_doubleF_30("address(this).balance=7719", 0, 0)
+g__29("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_doubleF_30("address(this).balance=7719", 0, 0)
+f__10("address(this).balance=7719", 0, 0)
+END TEST 4
+NEW TEST 5
+contract_doubleF_30("address(this).balance=7719", 0, 0)
+f__10("address(this).balance=7719", 0, 0)
+f__10("address(this).balance=21238", 0, 0)
+f__10("address(this).balance=2437", 0, 0)
+g__29("address(this).balance=8855", 0, 0)
+END TEST 6

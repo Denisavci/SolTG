@@ -1,0 +1,10 @@
+# default behaviour: old vs new tgnonlin, no --query-timeout, 30s cap
+# old: /Users/denisavci/SolTG/SolTG-backend/build/tools/nonlin/tgnonlin  sha256 ff4cda8a9025df72
+# new: /Users/denisavci/SolTG-backend/build/tools/nonlin/tgnonlin  sha256 c8f9dc37c5193e32
+regression/bytes: testgen.txt IDENTICAL (tests old=2 new=2); new printed: query timeout (ms): 10000
+regression/doubleF: testgen.txt IDENTICAL (tests old=3 new=3); new printed: query timeout (ms): 10000
+regression/exampl: testgen.txt IDENTICAL (tests old=3 new=3); new printed: query timeout (ms): 10000
+constructors/constructor_1: testgen.txt IDENTICAL (tests old=4 new=4); new printed: query timeout (ms): 10000
+sanity/simple_if: testgen.txt IDENTICAL (tests old=2 new=2); new printed: query timeout (ms): 10000
+loops/for_1_break: testgen.txt IDENTICAL (tests old=2 new=2); new printed: query timeout (ms): 10000
+regression/Math: testgen.txt IDENTICAL (tests old=6 new=6); new printed: query timeout (ms): 10000

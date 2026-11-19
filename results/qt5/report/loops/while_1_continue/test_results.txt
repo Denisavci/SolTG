@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 321.10ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_continue.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_continue.t.sol
+
+
+Ran 2 tests for test/while_1_continue.t.sol:while_1_continue_Test
+[PASS] test_while_1_continue_0() (gas: 9317)
+[PASS] test_while_1_continue_1() (gas: 9390)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 6.08ms (1.59ms CPU time)
+
+Ran 1 test suite in 10.82ms (6.08ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 316.49ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_continue.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_continue.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1_continue.t.sol:while_1_continue_Test
+[PASS] test_while_1_continue_0() (gas: 9317)
+[PASS] test_while_1_continue_1() (gas: 9390)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 654.71µs (155.58µs CPU time)
+
+Ran 1 test suite in 3.95ms (654.71µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1_continue.t.sol:while_1_continue_Test
+[PASS] test_while_1_continue_0() (gas: 9317)
+[PASS] test_while_1_continue_1() (gas: 9390)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 388.17µs (162.83µs CPU time)
+
+Ran 1 test suite in 3.98ms (388.17µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭-------------------------------------------+---------------+---------------+--------------+---------------╮
+| File                                      | % Lines       | % Statements  | % Branches   | % Funcs       |
++==========================================================================================================+
+| src/regression/loops/while_1_continue.sol | 100.00% (8/8) | 100.00% (6/6) | 66.67% (2/3) | 100.00% (1/1) |
+|-------------------------------------------+---------------+---------------+--------------+---------------|
+| Total                                     | 100.00% (8/8) | 100.00% (6/6) | 66.67% (2/3) | 100.00% (1/1) |
+╰-------------------------------------------+---------------+---------------+--------------+---------------╯

@@ -1,0 +1,50 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 331.73ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/doubleF.t.sol
+
+
+Ran 3 tests for test/doubleF.t.sol:doubleF_Test
+[PASS] test_doubleF_0() (gas: 10900)
+[PASS] test_doubleF_1() (gas: 51673)
+[PASS] test_doubleF_2() (gas: 109934)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 7.31ms (3.10ms CPU time)
+
+Ran 1 test suite in 12.47ms (7.31ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 331.04ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/doubleF.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/doubleF.t.sol:doubleF_Test
+[PASS] test_doubleF_0() (gas: 10900)
+[PASS] test_doubleF_1() (gas: 51673)
+[PASS] test_doubleF_2() (gas: 109934)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 731.58µs (323.25µs CPU time)
+
+Ran 1 test suite in 4.20ms (731.58µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/doubleF.t.sol:doubleF_Test
+[PASS] test_doubleF_0() (gas: 10900)
+[PASS] test_doubleF_1() (gas: 51673)
+[PASS] test_doubleF_2() (gas: 109934)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 504.17µs (306.42µs CPU time)
+
+Ran 1 test suite in 4.20ms (504.17µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭----------------------------+---------------+---------------+---------------+---------------╮
+| File                       | % Lines       | % Statements  | % Branches    | % Funcs       |
++============================================================================================+
+| src/regression/doubleF.sol | 100.00% (7/7) | 100.00% (5/5) | 100.00% (1/1) | 100.00% (2/2) |
+|----------------------------+---------------+---------------+---------------+---------------|
+| Total                      | 100.00% (7/7) | 100.00% (5/5) | 100.00% (1/1) | 100.00% (2/2) |
+╰----------------------------+---------------+---------------+---------------+---------------╯

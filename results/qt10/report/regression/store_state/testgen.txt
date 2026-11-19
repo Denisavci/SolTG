@@ -1,0 +1,12 @@
+NEW TEST 1
+contract_Storage_50("address(this).balance=7719", 0, 0)
+set_state_var__49("address(this).balance=7719", 0, 2437, 0)
+END TEST 2
+NEW TEST 3
+contract_Storage_50("address(this).balance=7719", 0, 0)
+balanceCheck__31("address(this).balance=7719", 0, 21238)
+END TEST 4
+NEW TEST 5
+contract_Storage_50("address(this).balance=7719", 0, 0)
+balanceCheck__31("address(this).balance=7719", 0, 2437)
+END TEST 6

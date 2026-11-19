@@ -1,0 +1,83 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 323.40ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/return_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/return_1.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/control_flow/return_1.sol:17:3:
+   |
+17 | 		uint x = add(199,199);
+   | 		^^^^^^
+
+Warning (2018): Function state mutability can be restricted to pure
+ --> src/regression/control_flow/return_1.sol:2:2:
+  |
+2 | 	function add(uint x, uint y) public returns (uint) {
+  | 	^ (Relevant source part starts here and spans across multiple lines).
+
+
+Ran 4 tests for test/return_1.t.sol:return_1_Test
+[PASS] test_return_1_0() (gas: 30999)
+[PASS] test_return_1_1() (gas: 31182)
+[PASS] test_return_1_2() (gas: 31237)
+[PASS] test_return_1_3() (gas: 31204)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 6.99ms (6.72ms CPU time)
+
+Ran 1 test suite in 11.98ms (6.99ms CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 332.49ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/return_1.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/return_1.t.sol
+
+Warning (2072): Unused local variable.
+  --> src/regression/control_flow/return_1.sol:17:3:
+   |
+17 | 		uint x = add(199,199);
+   | 		^^^^^^
+
+Warning (2018): Function state mutability can be restricted to pure
+ --> src/regression/control_flow/return_1.sol:2:2:
+  |
+2 | 	function add(uint x, uint y) public returns (uint) {
+  | 	^ (Relevant source part starts here and spans across multiple lines).
+
+Analysing contracts...
+Running tests...
+
+Ran 4 tests for test/return_1.t.sol:return_1_Test
+[PASS] test_return_1_0() (gas: 30999)
+[PASS] test_return_1_1() (gas: 31182)
+[PASS] test_return_1_2() (gas: 31237)
+[PASS] test_return_1_3() (gas: 31204)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 742.33µs (506.92µs CPU time)
+
+Ran 1 test suite in 4.39ms (742.33µs CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 4 tests for test/return_1.t.sol:return_1_Test
+[PASS] test_return_1_0() (gas: 30999)
+[PASS] test_return_1_1() (gas: 31182)
+[PASS] test_return_1_2() (gas: 31237)
+[PASS] test_return_1_3() (gas: 31204)
+Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 542.50µs (653.13µs CPU time)
+
+Ran 1 test suite in 4.04ms (542.50µs CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+
+╭------------------------------------------+---------------+----------------+---------------+--------------╮
+| File                                     | % Lines       | % Statements   | % Branches    | % Funcs      |
++==========================================================================================================+
+| src/regression/control_flow/return_1.sol | 57.14% (8/14) | 62.50% (10/16) | 100.00% (3/3) | 50.00% (1/2) |
+|------------------------------------------+---------------+----------------+---------------+--------------|
+| Total                                    | 57.14% (8/14) | 62.50% (10/16) | 100.00% (3/3) | 50.00% (1/2) |
+╰------------------------------------------+---------------+----------------+---------------+--------------╯

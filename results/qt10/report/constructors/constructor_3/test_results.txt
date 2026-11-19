@@ -1,0 +1,62 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.40ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_3.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_3.t.sol
+
+
+Ran 5 tests for test/constructor_3.t.sol:constructor_3_Test
+[PASS] test_constructor_3_0() (gas: 52440)
+[PASS] test_constructor_3_1() (gas: 52104)
+[PASS] test_constructor_3_2() (gas: 52374)
+[PASS] test_constructor_3_3() (gas: 35736)
+[PASS] test_constructor_3_4() (gas: 36091)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 6.73ms (5.72ms CPU time)
+
+Ran 1 test suite in 11.48ms (6.73ms CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.91ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_3.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_3.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/constructor_3.t.sol:constructor_3_Test
+[PASS] test_constructor_3_0() (gas: 52440)
+[PASS] test_constructor_3_1() (gas: 52104)
+[PASS] test_constructor_3_2() (gas: 52374)
+[PASS] test_constructor_3_3() (gas: 35736)
+[PASS] test_constructor_3_4() (gas: 36091)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 868.71µs (937.38µs CPU time)
+
+Ran 1 test suite in 4.18ms (868.71µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/constructor_3.t.sol:constructor_3_Test
+[PASS] test_constructor_3_0() (gas: 52440)
+[PASS] test_constructor_3_1() (gas: 52104)
+[PASS] test_constructor_3_2() (gas: 52374)
+[PASS] test_constructor_3_3() (gas: 35736)
+[PASS] test_constructor_3_4() (gas: 36091)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 608.33µs (825.88µs CPU time)
+
+Ran 1 test suite in 4.21ms (608.33µs CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+
+╭-----------------------------------------------+----------------+----------------+---------------+--------------╮
+| File                                          | % Lines        | % Statements   | % Branches    | % Funcs      |
++================================================================================================================+
+| src/regression/constructors/constructor_3.sol | 81.25% (13/16) | 83.33% (10/12) | 100.00% (2/2) | 80.00% (4/5) |
+|-----------------------------------------------+----------------+----------------+---------------+--------------|
+| Total                                         | 81.25% (13/16) | 83.33% (10/12) | 100.00% (2/2) | 80.00% (4/5) |
+╰-----------------------------------------------+----------------+----------------+---------------+--------------╯

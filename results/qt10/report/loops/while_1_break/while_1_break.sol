@@ -1,0 +1,20 @@
+// src/regression/loops/while_1_break.sol
+contract Cwb2
+{
+	function f(uint x, bool b) public pure {
+		require(x < 10);
+		while (x < 10) {
+			if (b)
+				++x;
+			else {
+				x = 20;
+				break;
+			}
+		}
+		assert(x >= 10);
+	}
+}
+// ====
+// SMTEngine: all
+// SMTSolvers: z3
+// ----

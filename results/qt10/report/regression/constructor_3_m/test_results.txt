@@ -1,0 +1,56 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 338.60ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructor_3_m.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_3_m.t.sol
+
+
+Ran 3 tests for test/constructor_3_m.t.sol:constructor_3_m_Test
+[PASS] test_constructor_3_m_0() (gas: 52612)
+[PASS] test_constructor_3_m_1() (gas: 35792)
+[PASS] test_constructor_3_m_2() (gas: 36211)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 6.70ms (3.21ms CPU time)
+
+Ran 1 test suite in 10.60ms (6.70ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 330.92ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructor_3_m.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_3_m.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/constructor_3_m.t.sol:constructor_3_m_Test
+[PASS] test_constructor_3_m_0() (gas: 52612)
+[PASS] test_constructor_3_m_1() (gas: 35792)
+[PASS] test_constructor_3_m_2() (gas: 36211)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 722.75µs (341.62µs CPU time)
+
+Ran 1 test suite in 4.11ms (722.75µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/constructor_3_m.t.sol:constructor_3_m_Test
+[PASS] test_constructor_3_m_0() (gas: 52612)
+[PASS] test_constructor_3_m_1() (gas: 35792)
+[PASS] test_constructor_3_m_2() (gas: 36211)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 457.00µs (255.04µs CPU time)
+
+Ran 1 test suite in 4.15ms (457.00µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭------------------------------------+---------------+---------------+---------------+---------------╮
+| File                               | % Lines       | % Statements  | % Branches    | % Funcs       |
++====================================================================================================+
+| src/regression/constructor_3_m.sol | 100.00% (9/9) | 100.00% (8/8) | 100.00% (2/2) | 100.00% (2/2) |
+|------------------------------------+---------------+---------------+---------------+---------------|
+| Total                              | 100.00% (9/9) | 100.00% (8/8) | 100.00% (2/2) | 100.00% (2/2) |
+╰------------------------------------+---------------+---------------+---------------+---------------╯

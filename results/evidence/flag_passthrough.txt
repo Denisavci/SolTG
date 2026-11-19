@@ -1,0 +1,13 @@
+# solTg -qt passes the timeout to tgnonlin (one contract, -t 20)
+== solTg   (no -qt)
+tgnonlin --keys ...
+query timeout (ms): 10000
+query_log: 18 queries, 0 timeouts
+== solTg -qt 5
+tgnonlin --query-timeout 5000 --keys ...
+query timeout (ms): 5000
+query_log: 18 queries, 0 timeouts
+== solTg -qt 0.001
+tgnonlin --query-timeout 1 --keys ...
+query timeout (ms): 1
+query_log: 6 queries, 2 timeouts

@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_A9_23("address(this).balance=7719", 0, 0)
+inc9__22("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 1
+contract_B9_54("address(this).balance=7719", 0, 0)
+f__53("address(this).balance=21238", 0, 0)
+END TEST 2

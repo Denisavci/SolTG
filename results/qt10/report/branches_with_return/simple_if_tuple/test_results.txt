@@ -1,0 +1,77 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 321.57ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/simple_if_tuple.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if_tuple.t.sol
+
+
+Ran 1 test for test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 6.34ms (1.18ms CPU time)
+
+Ran 1 test suite in 11.13ms (6.34ms CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 322.91ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_with_return/simple_if_tuple.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if_tuple.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 494.29µs (49.29µs CPU time)
+
+Ran 1 test suite in 4.20ms (494.29µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 301.21µs (47.17µs CPU time)
+
+Ran 1 test suite in 3.97ms (301.21µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+╭----------------------------------------------------------------------+---------------+---------------+--------------+---------------╮
+| File                                                                 | % Lines       | % Statements  | % Branches   | % Funcs       |
++=====================================================================================================================================+
+| src/regression/control_flow/branches_with_return/simple_if_tuple.sol | 75.00% (9/12) | 70.00% (7/10) | 60.00% (3/5) | 100.00% (2/2) |
+|----------------------------------------------------------------------+---------------+---------------+--------------+---------------|
+| Total                                                                | 75.00% (9/12) | 70.00% (7/10) | 60.00% (3/5) | 100.00% (2/2) |
+╰----------------------------------------------------------------------+---------------+---------------+--------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/simple_if_tuple.t.sol:simple_if_tuple_Test
+[FAIL: panic: assertion failed (0x01)] test_simple_if_tuple_0() (gas: 74037)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
