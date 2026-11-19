@@ -1,0 +1,18 @@
+NEW TEST 1
+contract_Ci2_88("address(this).balance=7719", 0, 0)
+set__87("address(this).balance=7719", 0, 0, 0)
+END TEST 2
+NEW TEST 3
+contract_Ci2_88("address(this).balance=8855", 0, 0)
+f__73("address(this).balance=8855", 0, 0)
+END TEST 4
+NEW TEST 5
+contract_Ci2_88("address(this).balance=11797", 0, 0)
+set__87("address(this).balance=11797", 0, 0, 8)
+f__73("address(this).balance=8365", 0, 0)
+END TEST 6
+NEW TEST 7
+contract_Ci2_88("address(this).balance=11797", 0, 0)
+set__87("address(this).balance=11797", 0, 0, 10)
+f__73("address(this).balance=8365", 0, 0)
+END TEST 8

@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_Cc1_40("address(this).balance=7719", 0, 0)
+g__39("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_Cc1_40("address(this).balance=7719", 0, 0)
+f__21("address(this).balance=7719", 0, 0)
+END TEST 4

@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 322.00ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/simple_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if.t.sol
+
+
+Ran 2 tests for test/simple_if.t.sol:simple_if_Test
+[PASS] test_simple_if_0() (gas: 9476)
+[PASS] test_simple_if_1() (gas: 9273)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 5.92ms (1.50ms CPU time)
+
+Ran 1 test suite in 10.90ms (5.92ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.65ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/sanity/simple_if.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/simple_if.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/simple_if.t.sol:simple_if_Test
+[PASS] test_simple_if_0() (gas: 9476)
+[PASS] test_simple_if_1() (gas: 9273)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 625.21µs (182.67µs CPU time)
+
+Ran 1 test suite in 3.60ms (625.21µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/simple_if.t.sol:simple_if_Test
+[PASS] test_simple_if_0() (gas: 9476)
+[PASS] test_simple_if_1() (gas: 9273)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 397.75µs (155.54µs CPU time)
+
+Ran 1 test suite in 3.88ms (397.75µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭-------------------------------------+---------------+---------------+---------------+---------------╮
+| File                                | % Lines       | % Statements  | % Branches    | % Funcs       |
++=====================================================================================================+
+| src/regression/sanity/simple_if.sol | 100.00% (6/6) | 100.00% (5/5) | 100.00% (2/2) | 100.00% (1/1) |
+|-------------------------------------+---------------+---------------+---------------+---------------|
+| Total                               | 100.00% (6/6) | 100.00% (5/5) | 100.00% (2/2) | 100.00% (1/1) |
+╰-------------------------------------+---------------+---------------+---------------+---------------╯

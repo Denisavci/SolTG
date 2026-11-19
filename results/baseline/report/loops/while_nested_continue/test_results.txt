@@ -1,0 +1,56 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 317.83ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_continue.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_continue.t.sol
+
+
+Ran 3 tests for test/while_nested_continue.t.sol:while_nested_continue_Test
+[PASS] test_while_nested_continue_0() (gas: 9974)
+[PASS] test_while_nested_continue_1() (gas: 10049)
+[PASS] test_while_nested_continue_2() (gas: 10066)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 6.58ms (4.89ms CPU time)
+
+Ran 1 test suite in 11.35ms (6.58ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 335.72ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_continue.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_continue.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_continue.t.sol:while_nested_continue_Test
+[PASS] test_while_nested_continue_0() (gas: 9974)
+[PASS] test_while_nested_continue_1() (gas: 10049)
+[PASS] test_while_nested_continue_2() (gas: 10066)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 615.92µs (266.58µs CPU time)
+
+Ran 1 test suite in 3.89ms (615.92µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_continue.t.sol:while_nested_continue_Test
+[PASS] test_while_nested_continue_0() (gas: 9974)
+[PASS] test_while_nested_continue_1() (gas: 10049)
+[PASS] test_while_nested_continue_2() (gas: 10066)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 431.38µs (261.92µs CPU time)
+
+Ran 1 test suite in 4.07ms (431.38µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭------------------------------------------------+----------------+----------------+--------------+---------------╮
+| File                                           | % Lines        | % Statements   | % Branches   | % Funcs       |
++=================================================================================================================+
+| src/regression/loops/while_nested_continue.sol | 93.75% (15/16) | 92.31% (12/13) | 71.43% (5/7) | 100.00% (1/1) |
+|------------------------------------------------+----------------+----------------+--------------+---------------|
+| Total                                          | 93.75% (15/16) | 92.31% (12/13) | 71.43% (5/7) | 100.00% (1/1) |
+╰------------------------------------------------+----------------+----------------+--------------+---------------╯

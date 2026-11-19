@@ -1,0 +1,62 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.82ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/weth.t.sol
+
+
+Ran 7 tests for test/weth.t.sol:weth_Test
+[PASS] test_weth_0() (gas: 42205)
+[PASS] test_weth_1() (gas: 38484)
+[PASS] test_weth_2() (gas: 35349)
+[PASS] test_weth_3() (gas: 8708)
+[PASS] test_weth_4() (gas: 34653)
+[PASS] test_weth_5() (gas: 31057)
+[PASS] test_weth_6() (gas: 60916)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 6.98ms (10.98ms CPU time)
+
+Ran 1 test suite in 11.78ms (6.98ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 328.59ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/weth.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 7 tests for test/weth.t.sol:weth_Test
+[PASS] test_weth_0() (gas: 42205)
+[PASS] test_weth_1() (gas: 38484)
+[PASS] test_weth_2() (gas: 35349)
+[PASS] test_weth_3() (gas: 8708)
+[PASS] test_weth_4() (gas: 34653)
+[PASS] test_weth_5() (gas: 31057)
+[PASS] test_weth_6() (gas: 60916)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 1.57ms (2.09ms CPU time)
+
+Ran 1 test suite in 4.20ms (1.57ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 7 tests for test/weth.t.sol:weth_Test
+[PASS] test_weth_0() (gas: 42205)
+[PASS] test_weth_1() (gas: 38484)
+[PASS] test_weth_2() (gas: 35349)
+[PASS] test_weth_3() (gas: 8708)
+[PASS] test_weth_4() (gas: 34653)
+[PASS] test_weth_5() (gas: 31057)
+[PASS] test_weth_6() (gas: 60916)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 1.01ms (1.52ms CPU time)
+
+Ran 1 test suite in 4.32ms (1.01ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+
+╭-------------------------+-----------------+-----------------+--------------+---------------╮
+| File                    | % Lines         | % Statements    | % Branches   | % Funcs       |
++============================================================================================+
+| src/regression/weth.sol | 100.00% (28/28) | 100.00% (25/25) | 62.50% (5/8) | 100.00% (6/6) |
+|-------------------------+-----------------+-----------------+--------------+---------------|
+| Total                   | 100.00% (28/28) | 100.00% (25/25) | 62.50% (5/8) | 100.00% (6/6) |
+╰-------------------------+-----------------+-----------------+--------------+---------------╯

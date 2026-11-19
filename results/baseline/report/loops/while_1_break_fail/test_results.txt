@@ -1,0 +1,80 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.65ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_break_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_break_fail.t.sol
+
+
+Ran 2 tests for test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+[PASS] test_while_1_break_fail_1() (gas: 9403)
+Suite result: FAILED. 1 passed; 1 failed; 0 skipped; finished in 5.97ms (1.98ms CPU time)
+
+Ran 1 test suite in 10.84ms (5.97ms CPU time): 1 tests passed, 1 failed, 0 skipped (2 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+
+Encountered a total of 1 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.19ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_1_break_fail.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_1_break_fail.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+[PASS] test_while_1_break_fail_1() (gas: 9403)
+Suite result: FAILED. 1 passed; 1 failed; 0 skipped; finished in 940.83µs (195.42µs CPU time)
+
+Ran 1 test suite in 4.22ms (940.83µs CPU time): 1 tests passed, 1 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+
+Encountered a total of 1 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+[PASS] test_while_1_break_fail_1() (gas: 9403)
+Suite result: FAILED. 1 passed; 1 failed; 0 skipped; finished in 379.00µs (153.17µs CPU time)
+
+Ran 1 test suite in 4.17ms (379.00µs CPU time): 1 tests passed, 1 failed, 0 skipped (2 total tests)
+
+╭---------------------------------------------+---------------+---------------+--------------+---------------╮
+| File                                        | % Lines       | % Statements  | % Branches   | % Funcs       |
++============================================================================================================+
+| src/regression/loops/while_1_break_fail.sol | 100.00% (7/7) | 100.00% (5/5) | 75.00% (3/4) | 100.00% (1/1) |
+|---------------------------------------------+---------------+---------------+--------------+---------------|
+| Total                                       | 100.00% (7/7) | 100.00% (5/5) | 75.00% (3/4) | 100.00% (1/1) |
+╰---------------------------------------------+---------------+---------------+--------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/while_1_break_fail.t.sol:while_1_break_fail_Test
+[FAIL: panic: assertion failed (0x01)] test_while_1_break_fail_0() (gas: 9306)
+
+Encountered a total of 1 failing tests, 1 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

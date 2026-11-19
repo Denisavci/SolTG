@@ -1,0 +1,20 @@
+NEW TEST 1
+contract_C2_89("address(this).balance=12700", 0, 0, 0, 1)
+f2__55("address(this).balance=12700", 0, 0, 100)
+END TEST 2
+NEW TEST 3
+contract_C2_89("address(this).balance=8855", 0, 0, 0, 1)
+f2__55("address(this).balance=8855", 0, 0, 0)
+END TEST 4
+NEW TEST 5
+contract_C2_89("address(this).balance=7719", 0, 0, 0, 1)
+f2__55("address(this).balance=7719", 0, 0, 101)
+END TEST 6
+NEW TEST 7
+contract_C2_89("address(this).balance=11797", 0, 0, 1, 2)
+f2__55("address(this).balance=11797", 0, 0, 0)
+END TEST 8
+NEW TEST 9
+contract_C2_89("address(this).balance=7719", 0, 0, 0, 3)
+f2__55("address(this).balance=7719", 0, 0, 0)
+END TEST 10

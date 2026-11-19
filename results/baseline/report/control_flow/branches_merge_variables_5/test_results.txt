@@ -1,0 +1,53 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 328.60ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_merge_variables_5.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/branches_merge_variables_5.t.sol
+
+
+Ran 2 tests for test/branches_merge_variables_5.t.sol:branches_merge_variables_5_Test
+[PASS] test_branches_merge_variables_5_0() (gas: 9018)
+[PASS] test_branches_merge_variables_5_1() (gas: 8956)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 6.82ms (3.43ms CPU time)
+
+Ran 1 test suite in 11.11ms (6.82ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 348.62ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/branches_merge_variables_5.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/branches_merge_variables_5.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/branches_merge_variables_5.t.sol:branches_merge_variables_5_Test
+[PASS] test_branches_merge_variables_5_0() (gas: 9018)
+[PASS] test_branches_merge_variables_5_1() (gas: 8956)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 638.42µs (177.17µs CPU time)
+
+Ran 1 test suite in 4.23ms (638.42µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/branches_merge_variables_5.t.sol:branches_merge_variables_5_Test
+[PASS] test_branches_merge_variables_5_0() (gas: 9018)
+[PASS] test_branches_merge_variables_5_1() (gas: 8956)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 428.42µs (197.75µs CPU time)
+
+Ran 1 test suite in 4.20ms (428.42µs CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+
+╭------------------------------------------------------------+---------------+---------------+---------------+---------------╮
+| File                                                       | % Lines       | % Statements  | % Branches    | % Funcs       |
++============================================================================================================================+
+| src/regression/control_flow/branches_merge_variables_5.sol | 100.00% (6/6) | 100.00% (5/5) | 100.00% (2/2) | 100.00% (1/1) |
+|------------------------------------------------------------+---------------+---------------+---------------+---------------|
+| Total                                                      | 100.00% (6/6) | 100.00% (5/5) | 100.00% (2/2) | 100.00% (1/1) |
+╰------------------------------------------------------------+---------------+---------------+---------------+---------------╯

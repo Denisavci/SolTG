@@ -1,0 +1,12 @@
+NEW TEST 1
+contract_Cwb9_78("address(this).balance=7719", 0, 0)
+f__77("address(this).balance=7719", 0, 0, 9, 0, true, false)
+END TEST 2
+NEW TEST 3
+contract_Cwb9_78("address(this).balance=7719", 0, 0)
+f__77("address(this).balance=7719", 0, 0, 0, 0, false, false)
+END TEST 4
+NEW TEST 5
+contract_Cwb9_78("address(this).balance=7719", 0, 0)
+f__77("address(this).balance=7719", 0, 0, 0, 9, false, true)
+END TEST 6

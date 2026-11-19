@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Ownable_75("address(this).balance=21238", 0, 0, 1)
+owner__60("address(this).balance=21238", 0, 0)
+END TEST 2

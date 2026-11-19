@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Cfc1_55("address(this).balance=7719", 0, 0)
+f__54("address(this).balance=7719", 0, 0)
+END TEST 2

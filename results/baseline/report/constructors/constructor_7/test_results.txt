@@ -1,0 +1,80 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 328.92ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_7.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_7.t.sol
+
+Warning (5667): Unused function parameter. Remove or comment out the variable name to silence this warning.
+  --> src/regression/constructors/constructor_7.sol:21:14:
+   |
+21 | 	function f7(uint _y) public returns (uint) {
+   | 	            ^^^^^^^
+
+
+Ran 7 tests for test/constructor_7.t.sol:constructor_7_Test
+[PASS] test_constructor_7_0() (gas: 52371)
+[PASS] test_constructor_7_1() (gas: 80392)
+[PASS] test_constructor_7_2() (gas: 52083)
+[PASS] test_constructor_7_3() (gas: 53080)
+[PASS] test_constructor_7_4() (gas: 52370)
+[PASS] test_constructor_7_5() (gas: 81731)
+[PASS] test_constructor_7_6() (gas: 80128)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 6.85ms (12.41ms CPU time)
+
+Ran 1 test suite in 11.11ms (6.85ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 326.99ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/constructors/constructor_7.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/constructor_7.t.sol
+
+Warning (5667): Unused function parameter. Remove or comment out the variable name to silence this warning.
+  --> src/regression/constructors/constructor_7.sol:21:14:
+   |
+21 | 	function f7(uint _y) public returns (uint) {
+   | 	            ^^^^^^^
+
+Analysing contracts...
+Running tests...
+
+Ran 7 tests for test/constructor_7.t.sol:constructor_7_Test
+[PASS] test_constructor_7_0() (gas: 52371)
+[PASS] test_constructor_7_1() (gas: 80392)
+[PASS] test_constructor_7_2() (gas: 52083)
+[PASS] test_constructor_7_3() (gas: 53080)
+[PASS] test_constructor_7_4() (gas: 52370)
+[PASS] test_constructor_7_5() (gas: 81731)
+[PASS] test_constructor_7_6() (gas: 80128)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 11.04ms (2.32ms CPU time)
+
+Ran 1 test suite in 11.27ms (11.04ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 7 tests for test/constructor_7.t.sol:constructor_7_Test
+[PASS] test_constructor_7_0() (gas: 52371)
+[PASS] test_constructor_7_1() (gas: 80392)
+[PASS] test_constructor_7_2() (gas: 52083)
+[PASS] test_constructor_7_3() (gas: 53080)
+[PASS] test_constructor_7_4() (gas: 52370)
+[PASS] test_constructor_7_5() (gas: 81731)
+[PASS] test_constructor_7_6() (gas: 80128)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 769.08µs (1.77ms CPU time)
+
+Ran 1 test suite in 4.41ms (769.08µs CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
+
+╭-----------------------------------------------+-----------------+-----------------+---------------+---------------╮
+| File                                          | % Lines         | % Statements    | % Branches    | % Funcs       |
++===================================================================================================================+
+| src/regression/constructors/constructor_7.sol | 100.00% (18/18) | 100.00% (14/14) | 100.00% (4/4) | 100.00% (5/5) |
+|-----------------------------------------------+-----------------+-----------------+---------------+---------------|
+| Total                                         | 100.00% (18/18) | 100.00% (14/14) | 100.00% (4/4) | 100.00% (5/5) |
+╰-----------------------------------------------+-----------------+-----------------+---------------+---------------╯

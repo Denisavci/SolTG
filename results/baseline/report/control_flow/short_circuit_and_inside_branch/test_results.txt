@@ -1,0 +1,77 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 353.36ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/short_circuit_and_inside_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/short_circuit_and_inside_branch.t.sol
+
+
+Ran 1 test for test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 7.85ms (1.21ms CPU time)
+
+Ran 1 test suite in 13.20ms (7.85ms CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 341.28ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/control_flow/short_circuit_and_inside_branch.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/short_circuit_and_inside_branch.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 549.38µs (48.83µs CPU time)
+
+Ran 1 test suite in 4.80ms (549.38µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+Wrote LCOV report.
+
+Failing tests:
+Encountered 1 failing test in test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 1 test for test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 329.83µs (49.42µs CPU time)
+
+Ran 1 test suite in 4.63ms (329.83µs CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+╭-----------------------------------------------------------------+---------------+--------------+------------+---------------╮
+| File                                                            | % Lines       | % Statements | % Branches | % Funcs       |
++=============================================================================================================================+
+| src/regression/control_flow/short_circuit_and_inside_branch.sol | 80.00% (8/10) | 75.00% (6/8) | N/A (0/0)  | 100.00% (2/2) |
+|-----------------------------------------------------------------+---------------+--------------+------------+---------------|
+| Total                                                           | 80.00% (8/10) | 75.00% (6/8) | N/A (0/0)  | 100.00% (2/2) |
+╰-----------------------------------------------------------------+---------------+--------------+------------+---------------╯
+
+Failing tests:
+Encountered 1 failing test in test/short_circuit_and_inside_branch.t.sol:short_circuit_and_inside_branch_Test
+[FAIL: panic: assertion failed (0x01)] test_short_circuit_and_inside_branch_0() (gas: 52132)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test
+Tip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger

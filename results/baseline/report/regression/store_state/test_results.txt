@@ -1,0 +1,50 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 329.00ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/store_state.t.sol
+
+
+Ran 3 tests for test/store_state.t.sol:store_state_Test
+[PASS] test_store_state_0() (gas: 34773)
+[PASS] test_store_state_1() (gas: 10866)
+[PASS] test_store_state_2() (gas: 10887)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 6.92ms (4.76ms CPU time)
+
+Ran 1 test suite in 11.86ms (6.92ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 322.74ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/store_state.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/store_state.t.sol:store_state_Test
+[PASS] test_store_state_0() (gas: 34773)
+[PASS] test_store_state_1() (gas: 10866)
+[PASS] test_store_state_2() (gas: 10887)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 649.12µs (307.62µs CPU time)
+
+Ran 1 test suite in 4.04ms (649.12µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/store_state.t.sol:store_state_Test
+[PASS] test_store_state_0() (gas: 34773)
+[PASS] test_store_state_1() (gas: 10866)
+[PASS] test_store_state_2() (gas: 10887)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 462.92µs (257.71µs CPU time)
+
+Ran 1 test suite in 4.72ms (462.92µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭--------------------------------+--------------+--------------+--------------+---------------╮
+| File                           | % Lines      | % Statements | % Branches   | % Funcs       |
++=============================================================================================+
+| src/regression/store_state.sol | 75.00% (6/8) | 66.67% (4/6) | 50.00% (1/2) | 100.00% (2/2) |
+|--------------------------------+--------------+--------------+--------------+---------------|
+| Total                          | 75.00% (6/8) | 66.67% (4/6) | 50.00% (1/2) | 100.00% (2/2) |
+╰--------------------------------+--------------+--------------+--------------+---------------╯

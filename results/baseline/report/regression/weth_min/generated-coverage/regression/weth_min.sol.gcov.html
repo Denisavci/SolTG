@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - lcov.info - regression/weth_min.sol</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="title">LCOV - code coverage report</td></tr>
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+            <tr>
+              <td width="100%">
+                <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="10%" class="headerValue"><a href="../index.html" title="Click to go to top-level">top level</a> - <a href="index.html" title="Click to go to directory regression">regression</a> - weth_min.sol<span style="font-size: 80%;"> (source / <a href="weth_min.sol.func-c.html" title="Click to go to function table">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="5%"></td>
+            <td width="5%" class="headerCovTableHead">Coverage</td>
+            <td width="5%" class="headerCovTableHead" title="Covered + Uncovered code">Total</td>
+            <td width="5%" class="headerCovTableHead" title="Exercised code only">Hit</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">lcov.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntryLo">55.6&nbsp;%</td>
+            <td class="headerCovTableEntry">9</td>
+            <td class="headerCovTableEntry">5</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test Date:</td>
+            <td class="headerValue">2026-11-18 12:15:46</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntryHi">100.0&nbsp;%</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntry">1</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="headerItem">Branches:</td>
+            <td class="headerCovTableEntryLo">50.0&nbsp;%</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntry">1</td>
+          </tr>
+                  <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+          </table>
+
+          <table cellpadding=0 cellspacing=0 border=0>
+            <tr>
+              <td><br></td>
+            </tr>
+            <tr>
+              <td>
+<pre class="sourceHeading">             Branch data     Line data    Source code</pre>
+<pre class="source">
+<span id="L1"><span class="lineNum">       1</span>                 :             : /**</span>
+<span id="L2"><span class="lineNum">       2</span>                 :             :  *Submitted for verification at Etherscan.io on 2017-12-12</span>
+<span id="L3"><span class="lineNum">       3</span>                 :             : */</span>
+<span id="L4"><span class="lineNum">       4</span>                 :             : </span>
+<span id="L5"><span class="lineNum">       5</span>                 :             : // Copyright (C) 2015, 2016, 2017 Dapphub</span>
+<span id="L6"><span class="lineNum">       6</span>                 :             : </span>
+<span id="L7"><span class="lineNum">       7</span>                 :             : // This program is free software: you can redistribute it and/or modify</span>
+<span id="L8"><span class="lineNum">       8</span>                 :             : // it under the terms of the GNU General Public License as published by</span>
+<span id="L9"><span class="lineNum">       9</span>                 :             : // the Free Software Foundation, either version 3 of the License, or</span>
+<span id="L10"><span class="lineNum">      10</span>                 :             : // (at your option) any later version.</span>
+<span id="L11"><span class="lineNum">      11</span>                 :             : </span>
+<span id="L12"><span class="lineNum">      12</span>                 :             : // This program is distributed in the hope that it will be useful,</span>
+<span id="L13"><span class="lineNum">      13</span>                 :             : // but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span id="L14"><span class="lineNum">      14</span>                 :             : // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span id="L15"><span class="lineNum">      15</span>                 :             : // GNU General Public License for more details.</span>
+<span id="L16"><span class="lineNum">      16</span>                 :             : </span>
+<span id="L17"><span class="lineNum">      17</span>                 :             : // You should have received a copy of the GNU General Public License</span>
+<span id="L18"><span class="lineNum">      18</span>                 :             : // along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+<span id="L19"><span class="lineNum">      19</span>                 :             : </span>
+<span id="L20"><span class="lineNum">      20</span>                 :             : pragma solidity ^0.8.18;</span>
+<span id="L21"><span class="lineNum">      21</span>                 :             : </span>
+<span id="L22"><span class="lineNum">      22</span>                 :             : contract WETH9 {</span>
+<span id="L23"><span class="lineNum">      23</span>                 :             :     string public name     = &quot;Wrapped Ether&quot;;</span>
+<span id="L24"><span class="lineNum">      24</span>                 :             :     string public symbol   = &quot;WETH&quot;;</span>
+<span id="L25"><span class="lineNum">      25</span>                 :             :     uint8  public decimals = 18;</span>
+<span id="L26"><span class="lineNum">      26</span>                 :             : </span>
+<span id="L27"><span class="lineNum">      27</span>                 :             : //    event  Transfer(address indexed src, address indexed dst, uint wad);</span>
+<span id="L28"><span class="lineNum">      28</span>                 :             : </span>
+<span id="L29"><span class="lineNum">      29</span>                 :             :     mapping (address =&gt; uint)                       public  balanceOf;</span>
+<span id="L30"><span class="lineNum">      30</span>                 :             : //    mapping (address =&gt; mapping (address =&gt; uint))  public  allowance;</span>
+<span id="L31"><span class="lineNum">      31</span>                 :             : </span>
+<span id="L32"><span class="lineNum">      32</span>                 :<span class="tlaGNC">           1 :     function transferFrom(address src, address dst, uint wad)</span></span>
+<span id="L33"><span class="lineNum">      33</span>                 :             :         public</span>
+<span id="L34"><span class="lineNum">      34</span>                 :             :         returns (bool)</span>
+<span id="L35"><span class="lineNum">      35</span>                 :             :     {</span>
+<span id="L36"><span class="lineNum">      36</span>                 :<span class="tlaGNC">           1 :         uint256 MAX_INT = 115792089237316195423570985008687907853269984665640564039457584007913129639935;</span></span>
+<span id="L37"><span class="lineNum">      37</span>         [<span class="tlaUNC" title="branch 0 was not taken"> - </span><span class="tlaGBC" title="branch 1 was taken 1 time"> + </span>]:<span class="tlaGNC">           1 :         if(balanceOf[src]  &gt; 10){</span></span>
+<span id="L38"><span class="lineNum">      38</span>                 :<span class="tlaUNC">           0 :             balanceOf[src] += 10;</span></span>
+<span id="L39"><span class="lineNum">      39</span>                 :             :         } else {</span>
+<span id="L40"><span class="lineNum">      40</span>                 :<span class="tlaGNC">           1 :             balanceOf[src] += 20;</span></span>
+<span id="L41"><span class="lineNum">      41</span>                 :             :         }</span>
+<span id="L42"><span class="lineNum">      42</span>                 :             : </span>
+<span id="L43"><span class="lineNum">      43</span>                 :             : //        if (src != msg.sender &amp;&amp; allowance[src][msg.sender] != MAX_INT) {</span>
+<span id="L44"><span class="lineNum">      44</span>                 :             : //            require(allowance[src][msg.sender] &gt;= wad);</span>
+<span id="L45"><span class="lineNum">      45</span>                 :             : //            allowance[src][msg.sender] -= wad;</span>
+<span id="L46"><span class="lineNum">      46</span>                 :             : //        }</span>
+<span id="L47"><span class="lineNum">      47</span>                 :             : </span>
+<span id="L48"><span class="lineNum">      48</span>                 :<span class="tlaGNC">           1 :         balanceOf[src] -= wad;</span></span>
+<span id="L49"><span class="lineNum">      49</span>                 :<span class="tlaUNC">           0 :         balanceOf[dst] += wad;</span></span>
+<span id="L50"><span class="lineNum">      50</span>                 :<span class="tlaUNC">           0 :         assert(true);</span></span>
+<span id="L51"><span class="lineNum">      51</span>                 :             : </span>
+<span id="L52"><span class="lineNum">      52</span>                 :             : //        emit Transfer(src, dst, wad);</span>
+<span id="L53"><span class="lineNum">      53</span>                 :             : </span>
+<span id="L54"><span class="lineNum">      54</span>                 :<span class="tlaUNC">           0 :         return true;</span></span>
+<span id="L55"><span class="lineNum">      55</span>                 :             :     }</span>
+<span id="L56"><span class="lineNum">      56</span>                 :             : }</span>
+        </pre>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+            <tr><td class="versionInfo">Generated by: <a href="https://github.com/linux-test-project/lcov" target="_parent">LCOV version 2.6-0</a></td></tr>
+          </table>
+          <br>
+
+</body>
+</html>

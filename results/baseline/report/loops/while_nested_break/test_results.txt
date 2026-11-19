@@ -1,0 +1,56 @@
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 313.21ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_break.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_break.t.sol
+
+
+Ran 3 tests for test/while_nested_break.t.sol:while_nested_break_Test
+[PASS] test_while_nested_break_0() (gas: 10187)
+[PASS] test_while_nested_break_1() (gas: 10035)
+[PASS] test_while_nested_break_2() (gas: 10198)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 6.83ms (4.27ms CPU time)
+
+Ran 1 test suite in 11.72ms (6.83ms CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Compiling 21 files with Solc 0.8.38
+Solc 0.8.38 finished in 321.67ms
+Compiler run successful with warnings:
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> src/regression/loops/while_nested_break.sol
+
+Warning (3420): Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.38;"
+--> test/while_nested_break.t.sol
+
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_break.t.sol:while_nested_break_Test
+[PASS] test_while_nested_break_0() (gas: 10187)
+[PASS] test_while_nested_break_1() (gas: 10035)
+[PASS] test_while_nested_break_2() (gas: 10198)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 893.92µs (265.71µs CPU time)
+
+Ran 1 test suite in 4.09ms (893.92µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+Wrote LCOV report.
+No files changed, compilation skipped
+Analysing contracts...
+Running tests...
+
+Ran 3 tests for test/while_nested_break.t.sol:while_nested_break_Test
+[PASS] test_while_nested_break_0() (gas: 10187)
+[PASS] test_while_nested_break_1() (gas: 10035)
+[PASS] test_while_nested_break_2() (gas: 10198)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 434.33µs (202.50µs CPU time)
+
+Ran 1 test suite in 4.00ms (434.33µs CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
+
+╭---------------------------------------------+-----------------+-----------------+--------------+---------------╮
+| File                                        | % Lines         | % Statements    | % Branches   | % Funcs       |
++================================================================================================================+
+| src/regression/loops/while_nested_break.sol | 100.00% (17/17) | 100.00% (14/14) | 77.78% (7/9) | 100.00% (1/1) |
+|---------------------------------------------+-----------------+-----------------+--------------+---------------|
+| Total                                       | 100.00% (17/17) | 100.00% (14/14) | 77.78% (7/9) | 100.00% (1/1) |
+╰---------------------------------------------+-----------------+-----------------+--------------+---------------╯

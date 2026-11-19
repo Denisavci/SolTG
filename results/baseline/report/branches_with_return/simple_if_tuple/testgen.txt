@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Csi6_68("address(this).balance=8855", 0, 0)
+check__41("address(this).balance=8855", 0, 0)
+END TEST 2

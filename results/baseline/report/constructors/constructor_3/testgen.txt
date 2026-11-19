@@ -1,0 +1,20 @@
+NEW TEST 1
+contract_A3_27("address(this).balance=7719", 0, 0, 0)
+f3__26("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 1
+contract_B3_94("address(this).balance=7719", 0, 0, 0)
+g3__93("address(this).balance=7719", 0, 0)
+END TEST 2
+NEW TEST 3
+contract_B3_94("address(this).balance=7719", 0, 0, 0)
+f3__75("address(this).balance=7719", 0, 0)
+END TEST 4
+NEW TEST 5
+contract_B3_94("address(this).balance=7719", 0, 0, 4)
+f3__75("address(this).balance=7719", 0, 0)
+END TEST 6
+NEW TEST 7
+contract_B3_94("address(this).balance=7719", 0, 0, 8)
+f3__75("address(this).balance=7719", 0, 0)
+END TEST 8

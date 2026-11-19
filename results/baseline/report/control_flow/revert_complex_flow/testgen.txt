@@ -1,0 +1,4 @@
+NEW TEST 1
+contract_Cr5_40("address(this).balance=7719", 0, 0)
+f__39("address(this).balance=7719", 0, 0, false, 0)
+END TEST 2

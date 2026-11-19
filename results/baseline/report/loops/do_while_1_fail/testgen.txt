@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_Cdw1_30("address(this).balance=7719", 0, 0)
+f__29("address(this).balance=7719", 0, 0, 9)
+END TEST 2
+NEW TEST 3
+contract_Cdw1_30("address(this).balance=7719", 0, 0)
+f__29("address(this).balance=7719", 0, 0, 8)
+END TEST 4

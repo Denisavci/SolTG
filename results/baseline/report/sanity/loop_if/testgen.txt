@@ -1,0 +1,8 @@
+NEW TEST 1
+contract_Cfc2_53("address(this).balance=7719", 0, 0)
+loop_if__52("address(this).balance=7719", 0, 0, 11, 0)
+END TEST 2
+NEW TEST 3
+contract_Cfc2_53("address(this).balance=7719", 0, 0)
+loop_if__52("address(this).balance=7719", 0, 0, 0, 11)
+END TEST 4

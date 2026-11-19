@@ -1,0 +1,12 @@
+NEW TEST 1
+contract_Cwb11_73("address(this).balance=7719", 0, 0)
+f__72("address(this).balance=7719", 0, 0, 0, 0, true, false)
+END TEST 2
+NEW TEST 3
+contract_Cwb11_73("address(this).balance=7719", 0, 0)
+f__72("address(this).balance=7719", 0, 0, 0, 0, false, false)
+END TEST 4
+NEW TEST 5
+contract_Cwb11_73("address(this).balance=7719", 0, 0)
+f__72("address(this).balance=7719", 0, 0, 0, 0, false, true)
+END TEST 6
