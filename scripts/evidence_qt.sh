@@ -11,6 +11,9 @@
 #                           tgnonlin's own "query timeout (ms)" line.
 set -euo pipefail
 OLD="${1:?old tgnonlin}"; NEW="${2:?new tgnonlin}"; RUN="${3:-baseline}"
+# absolute paths: the binaries are run from temporary folders below
+abspath() { [ -x "$1" ] || { echo "not an executable: $1" >&2; exit 1; }; echo "$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"; }
+OLD="$(abspath "$OLD")"; NEW="$(abspath "$NEW")"
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 REP="$REPO/results/$RUN/report"
 EV="$REPO/results/evidence"; mkdir -p "$EV"
